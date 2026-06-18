@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application id="950ed23b-617e-4f0d-9e72-d2dae7b2a955" name="@Strings.AppName" type="watch-app" version="1.0.0" minApiLevel="6.0.2" entry="TestingApplicationApp" launcherIcon="@Drawables.LauncherIcon">
+        <iq:products>
+            <iq:product id="vivoactive6"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Ant"/>
+            <iq:uses-permission id="Background"/>
+            <iq:uses-permission id="BluetoothLowEnergy"/>
+            <iq:uses-permission id="FitContributor"/>
+            <iq:uses-permission id="Notifications"/>
+            <iq:uses-permission id="PersistedContent"/>
+            <iq:uses-permission id="Positioning"/>
+            <iq:uses-permission id="PushNotification"/>
+            <iq:uses-permission id="Sensor"/>
+            <iq:uses-permission id="SensorHistory"/>
+            <iq:uses-permission id="SensorLogging"/>
+            <iq:uses-permission id="UserProfile"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language/>
+            <iq:language>ara</iq:language>
+            <iq:language>eng</iq:language>
+            <iq:language>heb</iq:language>
+            <iq:language>zhs</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

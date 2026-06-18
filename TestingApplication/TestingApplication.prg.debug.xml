@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="D:\TestingApplication\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="1" lineNum="14" parent="globals/TestingApplicationApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="2" lineNum="12" parent="globals/TestingApplicationServiceDelegate" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="3" lineNum="48" parent="globals/TestingApplicationApp" pc="268435484" symbol="_startLogger"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="3" lineNum="50" parent="globals/TestingApplicationApp" pc="268435487" symbol="_startLogger"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="3" lineNum="54" parent="globals/TestingApplicationApp" pc="268435557" symbol="_startLogger"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="3" lineNum="55" parent="globals/TestingApplicationApp" pc="268435581" symbol="_startLogger"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="3" lineNum="56" parent="globals/TestingApplicationApp" pc="268435600" symbol="_startLogger"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="4" lineNum="22" parent="globals/TestingApplicationApp" pc="268435631" symbol="onStart"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="4" lineNum="24" parent="globals/TestingApplicationApp" pc="268435633" symbol="onStart"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="4" lineNum="28" parent="globals/TestingApplicationApp" pc="268435640" symbol="onStart"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="4" lineNum="29" parent="globals/TestingApplicationApp" pc="268435678" symbol="onStart"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="5" lineNum="44" parent="globals/TestingApplicationApp" pc="268435697" symbol="getServiceDelegate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="5" lineNum="45" parent="globals/TestingApplicationApp" pc="268435699" symbol="getServiceDelegate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="6" lineNum="37" parent="globals/TestingApplicationApp" pc="268435725" symbol="getInitialView"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="6" lineNum="38" parent="globals/TestingApplicationApp" pc="268435728" symbol="getInitialView"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="6" lineNum="39" parent="globals/TestingApplicationApp" pc="268435748" symbol="getInitialView"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="6" lineNum="40" parent="globals/TestingApplicationApp" pc="268435770" symbol="getInitialView"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="7" lineNum="18" parent="globals/TestingApplicationApp" pc="268435785" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="7" lineNum="19" parent="globals/TestingApplicationApp" pc="268435787" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="8" lineNum="32" parent="globals/TestingApplicationApp" pc="268435800" symbol="onStop"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="8" lineNum="33" parent="globals/TestingApplicationApp" pc="268435802" symbol="onStop"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="8" lineNum="34" parent="globals/TestingApplicationApp" pc="268435810" symbol="onStop"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="9" lineNum="19" parent="globals/TestingApplicationServiceDelegate" pc="268435829" symbol="onTemporalEvent"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="9" lineNum="20" parent="globals/TestingApplicationServiceDelegate" pc="268435832" symbol="onTemporalEvent"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="9" lineNum="23" parent="globals/TestingApplicationServiceDelegate" pc="268435850" symbol="onTemporalEvent"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="9" lineNum="24" parent="globals/TestingApplicationServiceDelegate" pc="268435862" symbol="onTemporalEvent"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="9" lineNum="25" parent="globals/TestingApplicationServiceDelegate" pc="268435868" symbol="onTemporalEvent"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="9" lineNum="26" parent="globals/TestingApplicationServiceDelegate" pc="268435894" symbol="onTemporalEvent"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="9" lineNum="31" parent="globals/TestingApplicationServiceDelegate" pc="268435923" symbol="onTemporalEvent"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="10" lineNum="14" parent="globals/TestingApplicationServiceDelegate" pc="268435938" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationServiceDelegate.mc" id="10" lineNum="15" parent="globals/TestingApplicationServiceDelegate" pc="268435940" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="11" lineNum="62" parent="globals" pc="268435953" symbol="getApp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="11" lineNum="63" parent="globals" pc="268435963" symbol="getApp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="12" lineNum="22" parent="globals/TestingApplicationView" pc="268435974" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="13" lineNum="9" parent="globals/TestingApplicationDelegate" pc="268435986" symbol="&lt;init&gt;"/>
+        <entry filename="d:\\TestingApplication\\gen\\006-B4625-00\\source\\Rez.mcgen" id="14" lineNum="7" parent="globals/Rez" pc="268435998" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="125" parent="globals/TestingApplicationView" pc="268436018" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="126" parent="globals/TestingApplicationView" pc="268436021" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="127" parent="globals/TestingApplicationView" pc="268436031" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="128" parent="globals/TestingApplicationView" pc="268436045" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="129" parent="globals/TestingApplicationView" pc="268436056" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="130" parent="globals/TestingApplicationView" pc="268436068" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="132" parent="globals/TestingApplicationView" pc="268436107" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="133" parent="globals/TestingApplicationView" pc="268436129" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="134" parent="globals/TestingApplicationView" pc="268436143" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="136" parent="globals/TestingApplicationView" pc="268436176" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="137" parent="globals/TestingApplicationView" pc="268436198" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="138" parent="globals/TestingApplicationView" pc="268436212" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="140" parent="globals/TestingApplicationView" pc="268436264" symbol="onPosition"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="242" parent="globals/TestingApplicationView" pc="268436276" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="243" parent="globals/TestingApplicationView" pc="268436279" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="244" parent="globals/TestingApplicationView" pc="268436296" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="245" parent="globals/TestingApplicationView" pc="268436322" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="246" parent="globals/TestingApplicationView" pc="268436338" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="248" parent="globals/TestingApplicationView" pc="268436359" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="249" parent="globals/TestingApplicationView" pc="268436375" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="250" parent="globals/TestingApplicationView" pc="268436400" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="251" parent="globals/TestingApplicationView" pc="268436417" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="252" parent="globals/TestingApplicationView" pc="268436460" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="254" parent="globals/TestingApplicationView" pc="268436483" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="255" parent="globals/TestingApplicationView" pc="268436499" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="256" parent="globals/TestingApplicationView" pc="268436525" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="257" parent="globals/TestingApplicationView" pc="268436542" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="258" parent="globals/TestingApplicationView" pc="268436585" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="260" parent="globals/TestingApplicationView" pc="268436609" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="261" parent="globals/TestingApplicationView" pc="268436625" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="263" parent="globals/TestingApplicationView" pc="268436648" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="264" parent="globals/TestingApplicationView" pc="268436665" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="265" parent="globals/TestingApplicationView" pc="268436691" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="266" parent="globals/TestingApplicationView" pc="268436708" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="268" parent="globals/TestingApplicationView" pc="268436749" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="269" parent="globals/TestingApplicationView" pc="268436765" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="271" parent="globals/TestingApplicationView" pc="268436788" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="272" parent="globals/TestingApplicationView" pc="268436837" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="16" lineNum="273" parent="globals/TestingApplicationView" pc="268436854" symbol="_drawGpsAlt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="17" lineNum="144" parent="globals/TestingApplicationView" pc="268436879" symbol="nextPage"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="17" lineNum="145" parent="globals/TestingApplicationView" pc="268436881" symbol="nextPage"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="17" lineNum="146" parent="globals/TestingApplicationView" pc="268436899" symbol="nextPage"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="17" lineNum="147" parent="globals/TestingApplicationView" pc="268436923" symbol="nextPage"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="168" parent="globals/TestingApplicationView" pc="268436935" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="169" parent="globals/TestingApplicationView" pc="268436938" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="170" parent="globals/TestingApplicationView" pc="268436955" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="171" parent="globals/TestingApplicationView" pc="268436981" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="172" parent="globals/TestingApplicationView" pc="268436997" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="174" parent="globals/TestingApplicationView" pc="268437018" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="175" parent="globals/TestingApplicationView" pc="268437048" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="176" parent="globals/TestingApplicationView" pc="268437065" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="177" parent="globals/TestingApplicationView" pc="268437088" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="178" parent="globals/TestingApplicationView" pc="268437105" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="180" parent="globals/TestingApplicationView" pc="268437131" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="181" parent="globals/TestingApplicationView" pc="268437147" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="183" parent="globals/TestingApplicationView" pc="268437170" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="184" parent="globals/TestingApplicationView" pc="268437187" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="185" parent="globals/TestingApplicationView" pc="268437214" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="186" parent="globals/TestingApplicationView" pc="268437231" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="187" parent="globals/TestingApplicationView" pc="268437266" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="18" lineNum="188" parent="globals/TestingApplicationView" pc="268437283" symbol="_drawHRTemp"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="74" parent="globals/TestingApplicationView" pc="268437310" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="75" parent="globals/TestingApplicationView" pc="268437312" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="76" parent="globals/TestingApplicationView" pc="268437334" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="77" parent="globals/TestingApplicationView" pc="268437348" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="79" parent="globals/TestingApplicationView" pc="268437381" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="80" parent="globals/TestingApplicationView" pc="268437403" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="81" parent="globals/TestingApplicationView" pc="268437417" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="83" parent="globals/TestingApplicationView" pc="268437450" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="84" parent="globals/TestingApplicationView" pc="268437472" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="85" parent="globals/TestingApplicationView" pc="268437486" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="19" lineNum="87" parent="globals/TestingApplicationView" pc="268437519" symbol="onSensor"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="192" parent="globals/TestingApplicationView" pc="268437531" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="193" parent="globals/TestingApplicationView" pc="268437533" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="194" parent="globals/TestingApplicationView" pc="268437550" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="195" parent="globals/TestingApplicationView" pc="268437576" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="196" parent="globals/TestingApplicationView" pc="268437592" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="197" parent="globals/TestingApplicationView" pc="268437617" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="198" parent="globals/TestingApplicationView" pc="268437633" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="200" parent="globals/TestingApplicationView" pc="268437654" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="201" parent="globals/TestingApplicationView" pc="268437671" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="202" parent="globals/TestingApplicationView" pc="268437694" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="203" parent="globals/TestingApplicationView" pc="268437710" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="205" parent="globals/TestingApplicationView" pc="268437743" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="206" parent="globals/TestingApplicationView" pc="268437760" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="207" parent="globals/TestingApplicationView" pc="268437784" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="208" parent="globals/TestingApplicationView" pc="268437800" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="210" parent="globals/TestingApplicationView" pc="268437834" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="211" parent="globals/TestingApplicationView" pc="268437851" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="212" parent="globals/TestingApplicationView" pc="268437875" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="20" lineNum="213" parent="globals/TestingApplicationView" pc="268437891" symbol="_drawAccel"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="277" parent="globals/TestingApplicationView" pc="268437926" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="278" parent="globals/TestingApplicationView" pc="268437929" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="279" parent="globals/TestingApplicationView" pc="268437936" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="280" parent="globals/TestingApplicationView" pc="268437940" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="281" parent="globals/TestingApplicationView" pc="268437962" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="282" parent="globals/TestingApplicationView" pc="268437973" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="283" parent="globals/TestingApplicationView" pc="268437984" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="284" parent="globals/TestingApplicationView" pc="268438001" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="286" parent="globals/TestingApplicationView" pc="268438026" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="21" lineNum="287" parent="globals/TestingApplicationView" pc="268438042" symbol="_drawDots"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="95" parent="globals/TestingApplicationView" pc="268438075" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="97" parent="globals/TestingApplicationView" pc="268438078" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="98" parent="globals/TestingApplicationView" pc="268438100" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="99" parent="globals/TestingApplicationView" pc="268438109" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="100" parent="globals/TestingApplicationView" pc="268438136" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="101" parent="globals/TestingApplicationView" pc="268438153" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="102" parent="globals/TestingApplicationView" pc="268438169" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="103" parent="globals/TestingApplicationView" pc="268438185" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="104" parent="globals/TestingApplicationView" pc="268438201" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="108" parent="globals/TestingApplicationView" pc="268438255" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="109" parent="globals/TestingApplicationView" pc="268438277" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="110" parent="globals/TestingApplicationView" pc="268438286" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="111" parent="globals/TestingApplicationView" pc="268438313" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="112" parent="globals/TestingApplicationView" pc="268438330" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="113" parent="globals/TestingApplicationView" pc="268438346" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="114" parent="globals/TestingApplicationView" pc="268438362" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="115" parent="globals/TestingApplicationView" pc="268438378" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="22" lineNum="119" parent="globals/TestingApplicationView" pc="268438432" symbol="onSensorData"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="23" lineNum="292" parent="globals/TestingApplicationView" pc="268438444" symbol="_fmt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="23" lineNum="293" parent="globals/TestingApplicationView" pc="268438446" symbol="_fmt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="23" lineNum="293" parent="globals/TestingApplicationView" pc="268438452" symbol="_fmt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="23" lineNum="294" parent="globals/TestingApplicationView" pc="268438461" symbol="_fmt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="23" lineNum="295" parent="globals/TestingApplicationView" pc="268438491" symbol="_fmt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="23" lineNum="297" parent="globals/TestingApplicationView" pc="268438510" symbol="_fmt"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="217" parent="globals/TestingApplicationView" pc="268438518" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="218" parent="globals/TestingApplicationView" pc="268438520" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="219" parent="globals/TestingApplicationView" pc="268438537" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="220" parent="globals/TestingApplicationView" pc="268438563" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="221" parent="globals/TestingApplicationView" pc="268438579" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="222" parent="globals/TestingApplicationView" pc="268438604" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="223" parent="globals/TestingApplicationView" pc="268438620" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="225" parent="globals/TestingApplicationView" pc="268438641" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="226" parent="globals/TestingApplicationView" pc="268438658" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="227" parent="globals/TestingApplicationView" pc="268438681" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="228" parent="globals/TestingApplicationView" pc="268438697" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="230" parent="globals/TestingApplicationView" pc="268438730" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="231" parent="globals/TestingApplicationView" pc="268438747" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="232" parent="globals/TestingApplicationView" pc="268438771" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="233" parent="globals/TestingApplicationView" pc="268438787" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="235" parent="globals/TestingApplicationView" pc="268438821" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="236" parent="globals/TestingApplicationView" pc="268438838" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="237" parent="globals/TestingApplicationView" pc="268438862" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="24" lineNum="238" parent="globals/TestingApplicationView" pc="268438878" symbol="_drawGyro"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="25" lineNum="47" parent="globals/TestingApplicationView" pc="268438913" symbol="onLayout"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="25" lineNum="49" parent="globals/TestingApplicationView" pc="268438916" symbol="onLayout"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="25" lineNum="53" parent="globals/TestingApplicationView" pc="268438934" symbol="onLayout"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="25" lineNum="56" parent="globals/TestingApplicationView" pc="268438960" symbol="onLayout"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="25" lineNum="61" parent="globals/TestingApplicationView" pc="268439027" symbol="onLayout"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="25" lineNum="62" parent="globals/TestingApplicationView" pc="268439055" symbol="onLayout"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="25" lineNum="65" parent="globals/TestingApplicationView" pc="268439073" symbol="onLayout"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="26" lineNum="42" parent="globals/TestingApplicationView" pc="268439102" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="26" lineNum="43" parent="globals/TestingApplicationView" pc="268439104" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="26" lineNum="44" parent="globals/TestingApplicationView" pc="268439116" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="153" parent="globals/TestingApplicationView" pc="268439135" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="154" parent="globals/TestingApplicationView" pc="268439138" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="155" parent="globals/TestingApplicationView" pc="268439147" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="156" parent="globals/TestingApplicationView" pc="268439156" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="157" parent="globals/TestingApplicationView" pc="268439168" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="159" parent="globals/TestingApplicationView" pc="268439176" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="159" parent="globals/TestingApplicationView" pc="268439186" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="160" parent="globals/TestingApplicationView" pc="268439204" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="160" parent="globals/TestingApplicationView" pc="268439215" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="161" parent="globals/TestingApplicationView" pc="268439233" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="161" parent="globals/TestingApplicationView" pc="268439244" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="162" parent="globals/TestingApplicationView" pc="268439262" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="27" lineNum="164" parent="globals/TestingApplicationView" pc="268439277" symbol="onUpdate"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="28" lineNum="23" parent="globals/TestingApplicationDelegate" pc="268439293" symbol="onBack"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="28" lineNum="24" parent="globals/TestingApplicationDelegate" pc="268439295" symbol="onBack"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="28" lineNum="25" parent="globals/TestingApplicationDelegate" pc="268439310" symbol="onBack"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="29" lineNum="13" parent="globals/TestingApplicationDelegate" pc="268439312" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="29" lineNum="14" parent="globals/TestingApplicationDelegate" pc="268439314" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="29" lineNum="15" parent="globals/TestingApplicationDelegate" pc="268439326" symbol="initialize"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="30" lineNum="18" parent="globals/TestingApplicationDelegate" pc="268439336" symbol="onTap"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="30" lineNum="19" parent="globals/TestingApplicationDelegate" pc="268439338" symbol="onTap"/>
+        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="30" lineNum="20" parent="globals/TestingApplicationDelegate" pc="268439350" symbol="onTap"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="5" object="true" symbol="TestingApplicationApp"/>
+        <entry field="true" id="27" symbol="_page"/>
+        <entry id="10" method="true" symbol="_startLogger"/>
+        <entry field="true" id="29" symbol="_speed"/>
+        <entry field="true" id="14" symbol="_altitude"/>
+        <entry id="32" method="true" symbol="onPosition"/>
+        <entry field="true" id="28" symbol="_pressure"/>
+        <entry field="true" id="26" symbol="_heartRate"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="19" method="true" symbol="_drawHRTemp"/>
+        <entry id="34" method="true" symbol="onSensorData"/>
+        <entry id="8" object="true" symbol="TestingApplicationView"/>
+        <entry field="true" id="13" symbol="_accelZ"/>
+        <entry field="true" id="12" symbol="_accelY"/>
+        <entry field="true" id="11" symbol="_accelX"/>
+        <entry field="true" id="8388962" symbol="temperature"/>
+        <entry field="true" id="37" symbol="AppName"/>
+        <entry field="true" id="8388963" symbol="altitude"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry field="true" id="8388964" symbol="pressure"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8390148" method="true" symbol="onTemporalEvent"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8390169" method="true" symbol="getServiceDelegate"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="22" symbol="_gpsLon"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="25" symbol="_gyroZ"/>
+        <entry field="true" id="24" symbol="_gyroY"/>
+        <entry field="true" id="23" symbol="_gyroX"/>
+        <entry field="true" id="8390134" symbol="sampleRate"/>
+        <entry id="8389098" method="true" symbol="onTap"/>
+        <entry id="8391852" symbol="gyroscope"/>
+        <entry id="8390648" symbol="accelerometer"/>
+        <entry field="true" id="21" symbol="_gpsLat"/>
+        <entry field="true" id="9" symbol="_logger"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="30" symbol="_temperature"/>
+        <entry id="6" object="true" symbol="TestingApplicationDelegate"/>
+        <entry field="true" id="8390077" symbol="accelerometerData"/>
+        <entry field="true" id="8390438" symbol="enabled"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="18" method="true" symbol="_drawGyro"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="33" method="true" symbol="onSensor"/>
+        <entry field="true" id="8391848" symbol="gyroscopeData"/>
+        <entry field="true" id="36" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8388643" module="true" symbol="Sensor"/>
+        <entry id="15" method="true" symbol="_drawAccel"/>
+        <entry id="8390175" module="true" symbol="SensorLogging"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="16" method="true" symbol="_drawDots"/>
+        <entry field="true" id="8388958" symbol="speed"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" symbol="Background"/>
+        <entry field="true" id="8388960" symbol="heartRate"/>
+        <entry id="20" method="true" symbol="_fmt"/>
+        <entry field="true" id="35" symbol="_view"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389808" symbol="period"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="17" method="true" symbol="_drawGpsAlt"/>
+        <entry id="7" object="true" symbol="TestingApplicationServiceDelegate"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry id="31" method="true" symbol="nextPage"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435624" name="ex" stackId="1" startPc="268435581"/>
+        <entry arg="true" endPc="268435696" name="state" stackId="1" startPc="268435631"/>
+        <entry endPc="268435784" name="view" stackId="1" startPc="268435728"/>
+        <entry endPc="268435784" name="delegate" stackId="2" startPc="268435728"/>
+        <entry arg="true" endPc="268435828" name="state" stackId="1" startPc="268435800"/>
+        <entry endPc="268435936" name="info" stackId="1" startPc="268435832"/>
+        <entry arg="true" endPc="268436275" name="info" stackId="1" startPc="268436018"/>
+        <entry endPc="268436103" name="coords" stackId="2" startPc="268436031"/>
+        <entry arg="true" endPc="268436878" name="dc" stackId="1" startPc="268436276"/>
+        <entry arg="true" endPc="268436878" name="w" stackId="2" startPc="268436276"/>
+        <entry arg="true" endPc="268436878" name="h" stackId="3" startPc="268436276"/>
+        <entry endPc="268436877" name="latStr" stackId="4" startPc="268436279"/>
+        <entry endPc="268436877" name="lonStr" stackId="5" startPc="268436279"/>
+        <entry endPc="268436877" name="speedStr" stackId="6" startPc="268436279"/>
+        <entry arg="true" endPc="268437309" name="dc" stackId="1" startPc="268436935"/>
+        <entry arg="true" endPc="268437309" name="w" stackId="2" startPc="268436935"/>
+        <entry arg="true" endPc="268437309" name="h" stackId="3" startPc="268436935"/>
+        <entry endPc="268437308" name="hrStr" stackId="4" startPc="268436938"/>
+        <entry arg="true" endPc="268437530" name="info" stackId="1" startPc="268437310"/>
+        <entry arg="true" endPc="268437925" name="dc" stackId="1" startPc="268437531"/>
+        <entry arg="true" endPc="268437925" name="w" stackId="2" startPc="268437531"/>
+        <entry arg="true" endPc="268437925" name="h" stackId="3" startPc="268437531"/>
+        <entry arg="true" endPc="268438074" name="dc" stackId="1" startPc="268437926"/>
+        <entry arg="true" endPc="268438074" name="w" stackId="2" startPc="268437926"/>
+        <entry arg="true" endPc="268438074" name="h" stackId="3" startPc="268437926"/>
+        <entry endPc="268438073" name="dotY" stackId="4" startPc="268437929"/>
+        <entry endPc="268438073" name="spacing" stackId="5" startPc="268437929"/>
+        <entry endPc="268438073" name="startX" stackId="6" startPc="268437929"/>
+        <entry endPc="268438073" name="i" stackId="7" startPc="268437973"/>
+        <entry arg="true" endPc="268438443" name="sensorData" stackId="1" startPc="268438075"/>
+        <entry endPc="268438251" name="a" stackId="2" startPc="268438100"/>
+        <entry endPc="268438248" name="i" stackId="3" startPc="268438136"/>
+        <entry endPc="268438428" name="g" stackId="4" startPc="268438277"/>
+        <entry endPc="268438425" name="i" stackId="5" startPc="268438313"/>
+        <entry arg="true" endPc="268438517" name="val" stackId="1" startPc="268438444"/>
+        <entry arg="true" endPc="268438912" name="dc" stackId="1" startPc="268438518"/>
+        <entry arg="true" endPc="268438912" name="w" stackId="2" startPc="268438518"/>
+        <entry arg="true" endPc="268438912" name="h" stackId="3" startPc="268438518"/>
+        <entry arg="true" endPc="268439101" name="dc" stackId="1" startPc="268438913"/>
+        <entry endPc="268439100" name="imuOptions" stackId="2" startPc="268438916"/>
+        <entry arg="true" endPc="268439292" name="dc" stackId="1" startPc="268439135"/>
+        <entry endPc="268439291" name="w" stackId="2" startPc="268439138"/>
+        <entry endPc="268439291" name="h" stackId="3" startPc="268439138"/>
+        <entry arg="true" endPc="268439335" name="view" stackId="1" startPc="268439312"/>
+        <entry arg="true" endPc="268439351" name="evt" stackId="1" startPc="268439336"/>
+    </localVars>
+    <deviceInfo deviceVersion="2fd6344bcda9034f64198ee92abf3f1dc774e081" partNumber="006-B4625-00"/>
+    <annotations>
+        <annotationEntry annotation="background" class="TestingApplicationApp" module="globals" symbol="getInitialView"/>
+        <annotationEntry annotation="background" class="TestingApplicationServiceDelegate" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="background" class="TestingApplicationApp" module="globals" symbol="_logger"/>
+        <annotationEntry annotation="background" class="TestingApplicationApp" module="globals" symbol="onStop"/>
+        <annotationEntry annotation="background" class="TestingApplicationServiceDelegate" module="globals" symbol="onTemporalEvent"/>
+        <annotationEntry annotation="background" class="TestingApplicationApp" module="globals" symbol="getServiceDelegate"/>
+        <annotationEntry annotation="background" class="TestingApplicationApp" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="background" class="TestingApplicationApp" module="globals" symbol="_startLogger"/>
+        <annotationEntry annotation="background" class="TestingApplicationApp" module="globals" symbol="onStart"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/TestingApplicationApp" offset="134" parentId="globals" symbolId="TestingApplicationApp" type="class"/>
+        <dataEntry label="globals/TestingApplicationServiceDelegate" offset="232" parentId="globals" symbolId="TestingApplicationServiceDelegate" type="class"/>
+        <dataEntry label="globals/TestingApplicationView" offset="526" parentId="globals" symbolId="TestingApplicationView" type="class"/>
+        <dataEntry label="globals/TestingApplicationDelegate" offset="804" parentId="globals" symbolId="TestingApplicationDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="875" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="919" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="954" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="TestingApplicationApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="TestingApplicationServiceDelegate" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435630" name="_startLogger" parent="TestingApplicationApp" startPc="268435484">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435696" name="onStart" parent="TestingApplicationApp" startPc="268435631">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435724" name="getServiceDelegate" parent="TestingApplicationApp" startPc="268435697">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435784" name="getInitialView" parent="TestingApplicationApp" startPc="268435725">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435799" name="initialize" parent="TestingApplicationApp" startPc="268435785">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435828" name="onStop" parent="TestingApplicationApp" startPc="268435800">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435937" name="onTemporalEvent" parent="TestingApplicationServiceDelegate" startPc="268435829">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435952" name="initialize" parent="TestingApplicationServiceDelegate" startPc="268435938">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435973" name="getApp" startPc="268435953">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435985" name="&lt;init&gt;" parent="TestingApplicationView" startPc="268435974">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435997" name="&lt;init&gt;" parent="TestingApplicationDelegate" startPc="268435986">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436017" name="&lt;init&gt;" parent="Rez" startPc="268435998">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436275" name="onPosition" parent="TestingApplicationView" startPc="268436018">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436878" name="_drawGpsAlt" parent="TestingApplicationView" startPc="268436276">
+            <param id="dc"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436934" name="nextPage" parent="TestingApplicationView" startPc="268436879">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437309" name="_drawHRTemp" parent="TestingApplicationView" startPc="268436935">
+            <param id="dc"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437530" name="onSensor" parent="TestingApplicationView" startPc="268437310">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437925" name="_drawAccel" parent="TestingApplicationView" startPc="268437531">
+            <param id="dc"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438074" name="_drawDots" parent="TestingApplicationView" startPc="268437926">
+            <param id="dc"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438443" name="onSensorData" parent="TestingApplicationView" startPc="268438075">
+            <param id="sensorData"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438517" name="_fmt" parent="TestingApplicationView" startPc="268438444">
+            <param id="val"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438912" name="_drawGyro" parent="TestingApplicationView" startPc="268438518">
+            <param id="dc"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439101" name="onLayout" parent="TestingApplicationView" startPc="268438913">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439134" name="initialize" parent="TestingApplicationView" startPc="268439102">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439292" name="onUpdate" parent="TestingApplicationView" startPc="268439135">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439311" name="onBack" parent="TestingApplicationDelegate" startPc="268439293">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439335" name="initialize" parent="TestingApplicationDelegate" startPc="268439312">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439351" name="onTap" parent="TestingApplicationDelegate" startPc="268439336">
+            <param id="evt"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

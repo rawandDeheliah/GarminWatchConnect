@@ -1,0 +1,4 @@
+project.manifest = manifest.xml
+
+vivoactive6.sourcePath = source
+vivoactive6.resourcePath = resources
