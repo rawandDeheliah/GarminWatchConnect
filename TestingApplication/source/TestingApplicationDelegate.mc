@@ -1,6 +1,7 @@
 // =============================================================
 // TestingApplicationDelegate.mc — Input Handler
-// Tap -> next page | Back -> exit
+// Tap  -> next page
+// Back -> exit app (final FIT save happens in onStop)
 // =============================================================
 
 import Toybox.WatchUi;
@@ -15,11 +16,13 @@ class TestingApplicationDelegate extends WatchUi.BehaviorDelegate {
         _view = view;
     }
 
+    // Tap -> next display page
     function onTap(evt) {
         _view.nextPage();
         return true;
     }
 
+    // Back -> exit app
     function onBack() {
         WatchUi.popView(WatchUi.SLIDE_RIGHT);
         return true;

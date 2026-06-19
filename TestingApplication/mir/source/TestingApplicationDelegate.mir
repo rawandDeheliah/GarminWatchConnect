@@ -1,67 +1,67 @@
-[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [WatchUi,6,14,21]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [WatchUi,7,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Lang,7,14,18]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [Lang,8,14,18]; ]
 import Toybox.Lang;
-[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 9; @symbol_classdef = [TestingApplicationDelegate,9,6,32]; @symbol_extends<0> = [WatchUi,9,41,48]; @symbol_extends<1> = [BehaviorDelegate,9,49,65]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 10; @symbol_classdef = [TestingApplicationDelegate,10,6,32]; @symbol_extends<0> = [WatchUi,10,41,48]; @symbol_extends<1> = [BehaviorDelegate,10,49,65]; ]
 class TestingApplicationDelegate extends WatchUi.BehaviorDelegate {
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 9; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 10; ]
     <init> {
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 9; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 10; ]
     static
     <init> {
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 11; @position = 8; @symbol_vardef = [_view,11,8,13]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 12; @position = 8; @symbol_vardef = [_view,12,8,13]; ]
     var _view;
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 13; @symbol_functiondef = [initialize,13,13,23]; @symbol_param<0> = [view,13,24,28]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 14; @symbol_functiondef = [initialize,14,13,23]; @symbol_param<0> = [view,14,24,28]; ]
     function initialize(view) as Void {
-D__TestingApplication_source_TestingApplicationDelegate_mc_13_30_16_4_start:
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 14 8 ]
-        symbol [ BehaviorDelegate %tmp.2 14 8 24 ];
+D__TestingApplication_source_TestingApplicationDelegate_mc_14_30_17_4_start:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 15 8 ]
+        symbol [ BehaviorDelegate %tmp.2 15 8 24 ];
         %tmp.2 = getv ? :BehaviorDelegate;
-        symbol [ initialize %tmp.3 14 25 35 ];
+        symbol [ initialize %tmp.3 15 25 35 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 15 8 ]
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 16 8 ]
         %tmp.4 = lgetv %view;
-        symbol [ view %tmp.4 15 16 20 ];
-        symbol [ _view ? 15 8 13 ];
+        symbol [ view %tmp.4 16 16 20 ];
+        symbol [ _view ? 16 8 13 ];
         putv self :_view %tmp.4;
-D__TestingApplication_source_TestingApplicationDelegate_mc_13_30_16_4_stop:
+D__TestingApplication_source_TestingApplicationDelegate_mc_14_30_17_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 18; @symbol_functiondef = [onTap,18,13,18]; @symbol_param<0> = [evt,18,19,22]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 20; @symbol_functiondef = [onTap,20,13,18]; @symbol_param<0> = [evt,20,19,22]; ]
     function onTap(evt) {
-D__TestingApplication_source_TestingApplicationDelegate_mc_18_24_21_4_start:
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 19 8 ]
-        symbol [ _view %tmp.2 19 8 13 ];
+D__TestingApplication_source_TestingApplicationDelegate_mc_20_24_23_4_start:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 21 8 ]
+        symbol [ _view %tmp.2 21 8 13 ];
         %tmp.2 = getv ? :_view;
-        symbol [ nextPage %tmp.3 19 14 22 ];
+        symbol [ nextPage %tmp.3 21 14 22 ];
         %tmp.3 = getv function %tmp.2 :nextPage;
         invoke %tmp.2 %tmp.3();
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 20 8 ]
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 22 8 ]
         %tmp.4 = true;
         ret %tmp.4;
-D__TestingApplication_source_TestingApplicationDelegate_mc_18_24_21_4_stop:
+D__TestingApplication_source_TestingApplicationDelegate_mc_20_24_23_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 23; @symbol_functiondef = [onBack,23,13,19]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 26; @symbol_functiondef = [onBack,26,13,19]; ]
     function onBack() {
-D__TestingApplication_source_TestingApplicationDelegate_mc_23_22_26_4_start:
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 24 8 ]
-        symbol [ WatchUi %tmp.1 24 8 15 ];
+D__TestingApplication_source_TestingApplicationDelegate_mc_26_22_29_4_start:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 27 8 ]
+        symbol [ WatchUi %tmp.1 27 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.2 24 16 23 ];
+        symbol [ popView %tmp.2 27 16 23 ];
         %tmp.2 = getv function %tmp.1 :popView;
-        symbol [ WatchUi %tmp.3 24 24 31 ];
+        symbol [ WatchUi %tmp.3 27 24 31 ];
         %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_RIGHT %tmp.4 24 32 43 ];
+        symbol [ SLIDE_RIGHT %tmp.4 27 32 43 ];
         %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
         invoke %tmp.1 %tmp.2(%tmp.4);
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 25 8 ]
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 28 8 ]
         %tmp.5 = true;
         ret %tmp.5;
-D__TestingApplication_source_TestingApplicationDelegate_mc_23_22_26_4_stop:
+D__TestingApplication_source_TestingApplicationDelegate_mc_26_22_29_4_stop:
     }
 }
-[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 6; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 7; ]
 <init> {
 }

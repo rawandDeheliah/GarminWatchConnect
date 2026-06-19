@@ -12,6 +12,7 @@
             <iq:uses-permission id="Notifications"/>
             <iq:uses-permission id="PersistedContent"/>
             <iq:uses-permission id="Positioning"/>
+            <iq:uses-permission id="Fit"/>
             <iq:uses-permission id="PushNotification"/>
             <iq:uses-permission id="Sensor"/>
             <iq:uses-permission id="SensorHistory"/>

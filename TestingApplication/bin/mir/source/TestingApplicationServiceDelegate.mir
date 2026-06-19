@@ -1,100 +1,538 @@
-[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Background,6,14,24]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Background,7,14,24]; ]
 import Toybox.Background;
-[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [SensorLogging,7,14,27]; ]
-import Toybox.SensorLogging;
-[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [System,8,14,20]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [Sensor,8,14,20]; ]
+import Toybox.Sensor;
+[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 9; @symbol_importdef<0> = [Toybox,9,7,13]; @symbol_importdef<1> = [Communications,9,14,28]; ]
+import Toybox.Communications;
+[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 10; @symbol_importdef<0> = [Toybox,10,7,13]; @symbol_importdef<1> = [Application,10,14,25]; @symbol_importdef<2> = [Storage,10,26,33]; ]
+import Toybox.Application.Storage;
+[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 11; @symbol_importdef<0> = [Toybox,11,7,13]; @symbol_importdef<1> = [System,11,14,20]; ]
 import Toybox.System;
-[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 9; @symbol_importdef<0> = [Toybox,9,7,13]; @symbol_importdef<1> = [Lang,9,14,18]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 12; @symbol_importdef<0> = [Toybox,12,7,13]; @symbol_importdef<1> = [Lang,12,14,18]; ]
 import Toybox.Lang;
-[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 11; @symbol_classdef = [TestingApplicationServiceDelegate,11,6,39]; @symbol_extends<0> = [System,11,48,54]; @symbol_extends<1> = [ServiceDelegate,11,55,70]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 13; @symbol_importdef<0> = [Toybox,13,7,13]; @symbol_importdef<1> = [Time,13,14,18]; ]
+import Toybox.Time;
+[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 15; @symbol_classdef = [TestingApplicationServiceDelegate,15,6,39]; @symbol_extends<0> = [System,15,48,54]; @symbol_extends<1> = [ServiceDelegate,15,55,70]; ]
 class TestingApplicationServiceDelegate extends System.ServiceDelegate {
-    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 11; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 15; ]
     <init> {
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 11; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 15; ]
     static
     <init> {
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 13; @symbol_functiondef = [initialize,13,13,23]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 18; @position = 10; @symbol_constdef = [SERVER_URL,18,10,20]; ]
+    const SERVER_URL = "https://your-server.com/api/sensor-data";
+    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 20; @symbol_functiondef = [initialize,20,13,23]; ]
     function initialize() as Void {
-D__TestingApplication_source_TestingApplicationServiceDelegate_mc_13_26_15_4_start:
-[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 14 8 ]
-        symbol [ ServiceDelegate %tmp.2 14 8 23 ];
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_20_26_22_4_start:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 21 8 ]
+        symbol [ ServiceDelegate %tmp.2 21 8 23 ];
         %tmp.2 = getv ? :ServiceDelegate;
-        symbol [ initialize %tmp.3 14 24 34 ];
+        symbol [ initialize %tmp.3 21 24 34 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-D__TestingApplication_source_TestingApplicationServiceDelegate_mc_13_26_15_4_stop:
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_20_26_22_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 18; @symbol_functiondef = [onTemporalEvent,18,13,28]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 24; @symbol_functiondef = [onTemporalEvent,24,13,28]; ]
     function onTemporalEvent() as Void {
-D__TestingApplication_source_TestingApplicationServiceDelegate_mc_18_39_31_4_start:
-[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 19 8 ]
-        symbol [ System %tmp.1 19 8 14 ];
-        %tmp.1 = getm $.Toybox.System;
-        symbol [ println %tmp.2 19 15 22 ];
-        %tmp.2 = getv function %tmp.1 :println;
-        %tmp.3 = "[BG] Background event fired — logger still running";
-        invoke %tmp.1 %tmp.2(%tmp.3);
-[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 22 8 ]
-        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_18_39_31_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_18_39_31_4_stop" ]
-        %info.1 = local;
-        symbol [ info %info.1 22 12 16 ];
-        symbol [ Sensor %tmp.5 22 19 25 ];
-        %tmp.5 = getv ? :Sensor;
-        symbol [ getInfo %tmp.6 22 26 33 ];
-        %tmp.6 = getv function %tmp.5 :getInfo;
-        %tmp.7 = invoke %tmp.5 %tmp.6();
-        lputv %info.1 %tmp.7;
-        symbol [ info %info.1 22 12 16 ];
-[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 23 8 ]
-D__TestingApplication_source_TestingApplicationServiceDelegate_mc_23_8_26_8_if_stmt:
-        %tmp.8 = lgetv %info.1;
-        symbol [ info %tmp.8 23 12 16 ];
-        %tmp.9 = null;
-        %tmp.10 = ne %tmp.8 %tmp.9;
-        bf %tmp.10 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_23_8_26_8_if_end;
-D__TestingApplication_source_TestingApplicationServiceDelegate_mc_23_8_26_8_if_true:
-D__TestingApplication_source_TestingApplicationServiceDelegate_mc_23_26_26_8_start:
-[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 24 12 ]
-        symbol [ System %tmp.11 24 12 18 ];
-        %tmp.11 = getm $.Toybox.System;
-        symbol [ println %tmp.12 24 19 26 ];
-        %tmp.12 = getv function %tmp.11 :println;
-        %tmp.13 = "[BG] HR: ";
-        %tmp.14 = lgetv %info.1;
-        symbol [ info %tmp.14 24 41 45 ];
-        %tmp.15 = as %tmp.14 { (!Null) };
-        symbol [ heartRate %tmp.16 24 46 55 ];
-        %tmp.16 = getv %tmp.15 :heartRate;
-        %tmp.17 = add %tmp.13 %tmp.16;
-        invoke %tmp.11 %tmp.12(%tmp.17);
-[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 25 12 ]
-        symbol [ System %tmp.18 25 12 18 ];
-        %tmp.18 = getm $.Toybox.System;
-        symbol [ println %tmp.19 25 19 26 ];
-        %tmp.19 = getv function %tmp.18 :println;
-        %tmp.20 = "[BG] Temp: ";
-        %tmp.21 = lgetv %info.1;
-        symbol [ info %tmp.21 25 43 47 ];
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 25 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %timestamp.1 = local;
+        symbol [ timestamp %timestamp.1 25 12 21 ];
+        symbol [ Time %tmp.1 25 24 28 ];
+        %tmp.1 = getm $.Toybox.Time;
+        symbol [ now %tmp.2 25 29 32 ];
+        %tmp.2 = getv function %tmp.1 :now;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ value %tmp.4 25 35 40 ];
+        %tmp.4 = getv function %tmp.3 :value;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %timestamp.1 %tmp.5;
+        symbol [ timestamp %timestamp.1 25 12 21 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 26 8 ]
+        symbol [ System %tmp.6 26 8 14 ];
+        %tmp.6 = getm $.Toybox.System;
+        symbol [ println %tmp.7 26 15 22 ];
+        %tmp.7 = getv function %tmp.6 :println;
+        %tmp.8 = "[BG] === Background event @ ";
+        %tmp.9 = lgetv %timestamp.1;
+        symbol [ timestamp %tmp.9 26 56 65 ];
+        %tmp.10 = add %tmp.8 %tmp.9;
+        %tmp.11 = " ===";
+        %tmp.12 = add %tmp.10 %tmp.11;
+        invoke %tmp.6 %tmp.7(%tmp.12);
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 34 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %info.2 = local;
+        symbol [ info %info.2 34 12 16 ];
+        symbol [ Sensor %tmp.13 34 22 28 ];
+        %tmp.13 = getm $.Toybox.Sensor;
+        symbol [ getInfo %tmp.14 34 29 36 ];
+        %tmp.14 = getv function %tmp.13 :getInfo;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        lputv %info.2 %tmp.15;
+        symbol [ info %info.2 34 12 16 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 35 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %hr.3 = local;
+        symbol [ hr %hr.3 35 12 14 ];
+        %tmp.16 = null;
+        lputv %hr.3 %tmp.16;
+        symbol [ hr %hr.3 35 12 14 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 36 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %temp.4 = local;
+        symbol [ temp %temp.4 36 12 16 ];
+        %tmp.17 = null;
+        lputv %temp.4 %tmp.17;
+        symbol [ temp %temp.4 36 12 16 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 37 8 ]
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_37_8_40_8_if_stmt:
+        %tmp.18 = lgetv %info.2;
+        symbol [ info %tmp.18 37 12 16 ];
+        %tmp.19 = null;
+        %tmp.20 = ne %tmp.18 %tmp.19;
+        bf %tmp.20 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_37_8_40_8_if_end;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_37_8_40_8_if_true:
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_37_26_40_8_start:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 38 12 ]
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_begin:
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_20_38_65_begin:
+        %tmp.21 = lgetv %info.2;
+        symbol [ info %tmp.21 38 20 24 ];
         %tmp.22 = as %tmp.21 { (!Null) };
-        symbol [ temperature %tmp.23 25 48 59 ];
-        %tmp.23 = getv %tmp.22 :temperature;
-        %tmp.24 = add %tmp.20 %tmp.23;
-        invoke %tmp.18 %tmp.19(%tmp.24);
-D__TestingApplication_source_TestingApplicationServiceDelegate_mc_23_26_26_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_23_8_26_8_if_end;
-D__TestingApplication_source_TestingApplicationServiceDelegate_mc_23_8_26_8_if_end:
-[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 30 8 ]
-        symbol [ Background %tmp.25 30 8 18 ];
-        %tmp.25 = getm $.Toybox.Background;
-        symbol [ exit %tmp.26 30 19 23 ];
-        %tmp.26 = getv function %tmp.25 :exit;
-        %tmp.27 = null;
-        invoke %tmp.25 %tmp.26(%tmp.27);
-D__TestingApplication_source_TestingApplicationServiceDelegate_mc_18_39_31_4_stop:
+        %tmp.24 = const :heartRate;
+        symbol [ heartRate %tmp.24 38 30 39 const ];
+        %tmp.25 = canhazplz %tmp.22 %tmp.24;
+        bf %tmp.25 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_else_false;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_45_38_65_true:
+        %tmp.26 = lgetv %info.2;
+        symbol [ info %tmp.26 38 45 49 ];
+        %tmp.27 = as %tmp.26 { (interface { var heartRate; }) && (!Null) };
+        symbol [ heartRate %tmp.28 38 50 59 ];
+        %tmp.28 = getv %tmp.27 :heartRate;
+        %tmp.29 = null;
+        %tmp.30 = ne %tmp.28 %tmp.29;
+        push %tmp.30;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_45_38_65_end:
+        %tmp.31 = phi [%tmp.25 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_20_38_65_begin] [%tmp.30 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_45_38_65_true] [%tmp.31 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_45_38_65_end];
+        bf %tmp.31 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_else_false;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_true:
+        %tmp.32 = lgetv %info.2;
+        symbol [ info %tmp.32 38 73 77 ];
+        %tmp.33 = as %tmp.32 { (interface { var heartRate; }) && (!Null) };
+        symbol [ heartRate %tmp.34 38 78 87 ];
+        %tmp.34 = getv %tmp.33 :heartRate;
+        push %tmp.34;
+        goto @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_end;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_else_false:
+        %tmp.35 = null;
+        push %tmp.35;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_end:
+        %tmp.36 = phi [%tmp.31 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_begin] [%tmp.34 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_true] [%tmp.35 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_else_false] [%tmp.36 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_38_19_38_92_end];
+        lputv %hr.3 %tmp.36;
+        symbol [ hr %hr.3 38 12 14 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 39 12 ]
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_begin:
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_20_39_65_begin:
+        %tmp.37 = lgetv %info.2;
+        symbol [ info %tmp.37 39 20 24 ];
+        %tmp.38 = as %tmp.37 { (!Null) };
+        %tmp.40 = const :temperature;
+        symbol [ temperature %tmp.40 39 30 41 const ];
+        %tmp.41 = canhazplz %tmp.38 %tmp.40;
+        bf %tmp.41 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_else_false;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_45_39_65_true:
+        %tmp.42 = lgetv %info.2;
+        symbol [ info %tmp.42 39 45 49 ];
+        %tmp.43 = as %tmp.42 { (interface { var temperature; }) && (!Null) };
+        symbol [ temperature %tmp.44 39 50 61 ];
+        %tmp.44 = getv %tmp.43 :temperature;
+        %tmp.45 = null;
+        %tmp.46 = ne %tmp.44 %tmp.45;
+        push %tmp.46;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_45_39_65_end:
+        %tmp.47 = phi [%tmp.41 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_20_39_65_begin] [%tmp.46 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_45_39_65_true] [%tmp.47 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_45_39_65_end];
+        bf %tmp.47 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_else_false;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_true:
+        %tmp.48 = lgetv %info.2;
+        symbol [ info %tmp.48 39 73 77 ];
+        %tmp.49 = as %tmp.48 { (interface { var temperature; }) && (!Null) };
+        symbol [ temperature %tmp.50 39 78 89 ];
+        %tmp.50 = getv %tmp.49 :temperature;
+        push %tmp.50;
+        goto @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_end;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_else_false:
+        %tmp.51 = null;
+        push %tmp.51;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_end:
+        %tmp.52 = phi [%tmp.47 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_begin] [%tmp.50 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_true] [%tmp.51 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_else_false] [%tmp.52 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_39_19_39_92_end];
+        lputv %temp.4 %tmp.52;
+        symbol [ temp %temp.4 39 12 16 ];
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_37_26_40_8_stop:
+        goto @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_37_8_40_8_if_end;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_37_8_40_8_if_end:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 43 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %count.5 = local;
+        symbol [ count %count.5 43 12 17 ];
+        symbol [ Storage %tmp.53 43 20 27 ];
+        %tmp.53 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.54 43 28 36 ];
+        %tmp.54 = getv function %tmp.53 :getValue;
+        %tmp.55 = "bg_count";
+        %tmp.56 = invoke %tmp.53 %tmp.54(%tmp.55);
+        lputv %count.5 %tmp.56;
+        symbol [ count %count.5 43 12 17 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 44 8 ]
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_44_8_44_40_if_stmt:
+        %tmp.57 = lgetv %count.5;
+        symbol [ count %tmp.57 44 12 17 ];
+        %tmp.58 = null;
+        %tmp.59 = eq %tmp.57 %tmp.58;
+        bf %tmp.59 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_44_8_44_40_if_end;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_44_8_44_40_if_true:
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_44_27_44_40_start:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 44 29 ]
+        %tmp.60 = 0;
+        lputv %count.5 %tmp.60;
+        symbol [ count %count.5 44 29 34 ];
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_44_27_44_40_stop:
+        goto @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_44_8_44_40_if_end;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_44_8_44_40_if_end:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 45 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %idx.6 = local;
+        symbol [ idx %idx.6 45 12 15 ];
+        %tmp.61 = lgetv %count.5;
+        symbol [ count %tmp.61 45 18 23 ];
+        %tmp.62 = 1440;
+        %tmp.63 = mod %tmp.61 %tmp.62;
+        lputv %idx.6 %tmp.63;
+        symbol [ idx %idx.6 45 12 15 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 46 8 ]
+        symbol [ Storage %tmp.64 46 8 15 ];
+        %tmp.64 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.65 46 16 24 ];
+        %tmp.65 = getv function %tmp.64 :setValue;
+        %tmp.66 = "bg_";
+        %tmp.67 = lgetv %idx.6;
+        symbol [ idx %tmp.67 46 33 36 ];
+        %tmp.68 = add %tmp.66 %tmp.67;
+        %tmp.69 = "_ts";
+        %tmp.70 = add %tmp.68 %tmp.69;
+        %tmp.71 = lgetv %timestamp.1;
+        symbol [ timestamp %tmp.71 46 48 57 ];
+        invoke %tmp.64 %tmp.65(%tmp.70, %tmp.71);
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 47 8 ]
+        symbol [ Storage %tmp.72 47 8 15 ];
+        %tmp.72 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.73 47 16 24 ];
+        %tmp.73 = getv function %tmp.72 :setValue;
+        %tmp.74 = "bg_";
+        %tmp.75 = lgetv %idx.6;
+        symbol [ idx %tmp.75 47 33 36 ];
+        %tmp.76 = add %tmp.74 %tmp.75;
+        %tmp.77 = "_hr";
+        %tmp.78 = add %tmp.76 %tmp.77;
+        %tmp.79 = lgetv %hr.3;
+        symbol [ hr %tmp.79 47 48 50 ];
+        invoke %tmp.72 %tmp.73(%tmp.78, %tmp.79);
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 48 8 ]
+        symbol [ Storage %tmp.80 48 8 15 ];
+        %tmp.80 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.81 48 16 24 ];
+        %tmp.81 = getv function %tmp.80 :setValue;
+        %tmp.82 = "bg_";
+        %tmp.83 = lgetv %idx.6;
+        symbol [ idx %tmp.83 48 33 36 ];
+        %tmp.84 = add %tmp.82 %tmp.83;
+        %tmp.85 = "_temp";
+        %tmp.86 = add %tmp.84 %tmp.85;
+        %tmp.87 = lgetv %temp.4;
+        symbol [ temp %tmp.87 48 48 52 ];
+        invoke %tmp.80 %tmp.81(%tmp.86, %tmp.87);
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 49 8 ]
+        %tmp.90 = lgetv %count.5;
+        symbol [ count %tmp.90 49 8 13 ];
+        %tmp.91 = add %tmp.90 1;
+        lputv %count.5 %tmp.91;
+        symbol [ count %count.5 49 8 13 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 50 8 ]
+        symbol [ Storage %tmp.92 50 8 15 ];
+        %tmp.92 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.93 50 16 24 ];
+        %tmp.93 = getv function %tmp.92 :setValue;
+        %tmp.94 = "bg_count";
+        %tmp.95 = lgetv %count.5;
+        symbol [ count %tmp.95 50 37 42 ];
+        invoke %tmp.92 %tmp.93(%tmp.94, %tmp.95);
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 51 8 ]
+        symbol [ System %tmp.96 51 8 14 ];
+        %tmp.96 = getm $.Toybox.System;
+        symbol [ println %tmp.97 51 15 22 ];
+        %tmp.97 = getv function %tmp.96 :println;
+        %tmp.98 = "[BG] HR=";
+        %tmp.99 = lgetv %hr.3;
+        symbol [ hr %tmp.99 51 36 38 ];
+        %tmp.100 = add %tmp.98 %tmp.99;
+        %tmp.101 = " Temp=";
+        %tmp.102 = add %tmp.100 %tmp.101;
+        %tmp.103 = lgetv %temp.4;
+        symbol [ temp %tmp.103 51 52 56 ];
+        %tmp.104 = add %tmp.102 %tmp.103;
+        invoke %tmp.96 %tmp.97(%tmp.104);
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 54 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %ax.7 = local;
+        symbol [ ax %ax.7 54 12 14 ];
+        symbol [ Storage %tmp.105 54 17 24 ];
+        %tmp.105 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.106 54 25 33 ];
+        %tmp.106 = getv function %tmp.105 :getValue;
+        %tmp.107 = "current_accel_x";
+        %tmp.108 = invoke %tmp.105 %tmp.106(%tmp.107);
+        lputv %ax.7 %tmp.108;
+        symbol [ ax %ax.7 54 12 14 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 55 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %ay.8 = local;
+        symbol [ ay %ay.8 55 12 14 ];
+        symbol [ Storage %tmp.109 55 17 24 ];
+        %tmp.109 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.110 55 25 33 ];
+        %tmp.110 = getv function %tmp.109 :getValue;
+        %tmp.111 = "current_accel_y";
+        %tmp.112 = invoke %tmp.109 %tmp.110(%tmp.111);
+        lputv %ay.8 %tmp.112;
+        symbol [ ay %ay.8 55 12 14 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 56 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %az.9 = local;
+        symbol [ az %az.9 56 12 14 ];
+        symbol [ Storage %tmp.113 56 17 24 ];
+        %tmp.113 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.114 56 25 33 ];
+        %tmp.114 = getv function %tmp.113 :getValue;
+        %tmp.115 = "current_accel_z";
+        %tmp.116 = invoke %tmp.113 %tmp.114(%tmp.115);
+        lputv %az.9 %tmp.116;
+        symbol [ az %az.9 56 12 14 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 57 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %gx.10 = local;
+        symbol [ gx %gx.10 57 12 14 ];
+        symbol [ Storage %tmp.117 57 17 24 ];
+        %tmp.117 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.118 57 25 33 ];
+        %tmp.118 = getv function %tmp.117 :getValue;
+        %tmp.119 = "current_gyro_x";
+        %tmp.120 = invoke %tmp.117 %tmp.118(%tmp.119);
+        lputv %gx.10 %tmp.120;
+        symbol [ gx %gx.10 57 12 14 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 58 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %gy.11 = local;
+        symbol [ gy %gy.11 58 12 14 ];
+        symbol [ Storage %tmp.121 58 17 24 ];
+        %tmp.121 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.122 58 25 33 ];
+        %tmp.122 = getv function %tmp.121 :getValue;
+        %tmp.123 = "current_gyro_y";
+        %tmp.124 = invoke %tmp.121 %tmp.122(%tmp.123);
+        lputv %gy.11 %tmp.124;
+        symbol [ gy %gy.11 58 12 14 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 59 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop" ]
+        %gz.12 = local;
+        symbol [ gz %gz.12 59 12 14 ];
+        symbol [ Storage %tmp.125 59 17 24 ];
+        %tmp.125 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.126 59 25 33 ];
+        %tmp.126 = getv function %tmp.125 :getValue;
+        %tmp.127 = "current_gyro_z";
+        %tmp.128 = invoke %tmp.125 %tmp.126(%tmp.127);
+        lputv %gz.12 %tmp.128;
+        symbol [ gz %gz.12 59 12 14 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 62 8 ]
+        %tmp.129 = self;
+        symbol [ _sendToServer %tmp.130 62 8 21 ];
+        %tmp.130 = getv function %tmp.129 :_sendToServer;
+        %tmp.131 = lgetv %timestamp.1;
+        symbol [ timestamp %tmp.131 62 22 31 ];
+        %tmp.132 = lgetv %hr.3;
+        symbol [ hr %tmp.132 62 33 35 ];
+        %tmp.133 = lgetv %temp.4;
+        symbol [ temp %tmp.133 62 37 41 ];
+        %tmp.134 = lgetv %ax.7;
+        symbol [ ax %tmp.134 62 43 45 ];
+        %tmp.135 = lgetv %ay.8;
+        symbol [ ay %tmp.135 62 47 49 ];
+        %tmp.136 = lgetv %az.9;
+        symbol [ az %tmp.136 62 51 53 ];
+        %tmp.137 = lgetv %gx.10;
+        symbol [ gx %tmp.137 62 55 57 ];
+        %tmp.138 = lgetv %gy.11;
+        symbol [ gy %tmp.138 62 59 61 ];
+        %tmp.139 = lgetv %gz.12;
+        symbol [ gz %tmp.139 62 63 65 ];
+        invoke %tmp.129 %tmp.130(%tmp.131, %tmp.132, %tmp.133, %tmp.134, %tmp.135, %tmp.136, %tmp.137, %tmp.138, %tmp.139);
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_24_39_63_4_stop:
+    }
+    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 68; @symbol_functiondef = [_sendToServer,68,13,26]; @symbol_param<0> = [ts,68,27,29]; @symbol_param<1> = [hr,68,31,33]; @symbol_param<2> = [temp,68,35,39]; @symbol_param<3> = [ax,68,41,43]; @symbol_param<4> = [ay,68,45,47]; @symbol_param<5> = [az,68,49,51]; @symbol_param<6> = [gx,68,53,55]; @symbol_param<7> = [gy,68,57,59]; @symbol_param<8> = [gz,68,61,63]; ]
+    function _sendToServer(ts, hr, temp, ax, ay, az, gx, gy, gz) as Void {
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_68_73_83_4_start:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 69 8 ]
+        [ "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_68_73_83_4_start" "D__TestingApplication_source_TestingApplicationServiceDelegate_mc_68_73_83_4_stop" ]
+        %payload.1 = local;
+        symbol [ payload %payload.1 69 12 19 ];
+        %tmp.1 = newd 10;
+        %tmp.2 = "timestamp";
+        %tmp.3 = lgetv %ts;
+        symbol [ ts %tmp.3 70 29 31 ];
+        %tmp.4 = dup %tmp.1;
+        %tmp.5 = aputv %tmp.4 %tmp.2 %tmp.3;
+        %tmp.6 = "heart_rate";
+        %tmp.7 = lgetv %hr;
+        symbol [ hr %tmp.7 71 29 31 ];
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        %tmp.10 = "temperature";
+        %tmp.11 = lgetv %temp;
+        symbol [ temp %tmp.11 72 29 33 ];
+        %tmp.12 = dup %tmp.9;
+        %tmp.13 = aputv %tmp.12 %tmp.10 %tmp.11;
+        %tmp.14 = "accel_x";
+        %tmp.15 = lgetv %ax;
+        symbol [ ax %tmp.15 73 29 31 ];
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
+        %tmp.18 = "accel_y";
+        %tmp.19 = lgetv %ay;
+        symbol [ ay %tmp.19 74 29 31 ];
+        %tmp.20 = dup %tmp.17;
+        %tmp.21 = aputv %tmp.20 %tmp.18 %tmp.19;
+        %tmp.22 = "accel_z";
+        %tmp.23 = lgetv %az;
+        symbol [ az %tmp.23 75 29 31 ];
+        %tmp.24 = dup %tmp.21;
+        %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+        %tmp.26 = "gyro_x";
+        %tmp.27 = lgetv %gx;
+        symbol [ gx %tmp.27 76 29 31 ];
+        %tmp.28 = dup %tmp.25;
+        %tmp.29 = aputv %tmp.28 %tmp.26 %tmp.27;
+        %tmp.30 = "gyro_y";
+        %tmp.31 = lgetv %gy;
+        symbol [ gy %tmp.31 77 29 31 ];
+        %tmp.32 = dup %tmp.29;
+        %tmp.33 = aputv %tmp.32 %tmp.30 %tmp.31;
+        %tmp.34 = "gyro_z";
+        %tmp.35 = lgetv %gz;
+        symbol [ gz %tmp.35 78 29 31 ];
+        %tmp.36 = dup %tmp.33;
+        %tmp.37 = aputv %tmp.36 %tmp.34 %tmp.35;
+        %tmp.38 = "device";
+        %tmp.39 = "vivoactive6";
+        %tmp.40 = dup %tmp.37;
+        %tmp.41 = aputv %tmp.40 %tmp.38 %tmp.39;
+        lputv %payload.1 %tmp.41;
+        symbol [ payload %payload.1 69 12 19 ];
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 82 8 ]
+        symbol [ System %tmp.42 82 8 14 ];
+        %tmp.42 = getm $.Toybox.System;
+        symbol [ println %tmp.43 82 15 22 ];
+        %tmp.43 = getv function %tmp.42 :println;
+        %tmp.44 = "[API] Sending data to server...";
+        invoke %tmp.42 %tmp.43(%tmp.44);
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_68_73_83_4_stop:
+    }
+    [ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 88; @symbol_functiondef = [onServerResponse,88,13,29]; @symbol_param<0> = [responseCode,88,30,42]; @symbol_param<1> = [data,88,44,48]; ]
+    function onServerResponse(responseCode, data) as Void {
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_88_58_99_4_start:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 89 8 ]
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_8_95_8_if_stmt:
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_12_89_51_begin:
+        %tmp.1 = lgetv %responseCode;
+        symbol [ responseCode %tmp.1 89 12 24 ];
+        %tmp.2 = 200;
+        %tmp.3 = eq %tmp.1 %tmp.2;
+        bt %tmp.3 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_8_95_8_if_true;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_35_89_51_false:
+        %tmp.4 = lgetv %responseCode;
+        symbol [ responseCode %tmp.4 89 35 47 ];
+        %tmp.5 = 201;
+        %tmp.6 = eq %tmp.4 %tmp.5;
+        push %tmp.6;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_35_89_51_end:
+        %tmp.7 = phi [%tmp.3 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_12_89_51_begin] [%tmp.6 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_35_89_51_false] [%tmp.7 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_35_89_51_end];
+        bf %tmp.7 @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_8_95_8_if_else_false;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_8_95_8_if_true:
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_56_92_8_start:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 90 12 ]
+        symbol [ System %tmp.8 90 12 18 ];
+        %tmp.8 = getm $.Toybox.System;
+        symbol [ println %tmp.9 90 19 26 ];
+        %tmp.9 = getv function %tmp.8 :println;
+        %tmp.10 = "[API] Server responded OK (";
+        %tmp.11 = lgetv %responseCode;
+        symbol [ responseCode %tmp.11 90 59 71 ];
+        %tmp.12 = add %tmp.10 %tmp.11;
+        %tmp.13 = ")";
+        %tmp.14 = add %tmp.12 %tmp.13;
+        invoke %tmp.8 %tmp.9(%tmp.14);
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 91 12 ]
+        symbol [ Storage %tmp.15 91 12 19 ];
+        %tmp.15 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.16 91 20 28 ];
+        %tmp.16 = getv function %tmp.15 :setValue;
+        %tmp.17 = "last_api_success";
+        symbol [ Time %tmp.18 91 49 53 ];
+        %tmp.18 = getm $.Toybox.Time;
+        symbol [ now %tmp.19 91 54 57 ];
+        %tmp.19 = getv function %tmp.18 :now;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        symbol [ value %tmp.21 91 60 65 ];
+        %tmp.21 = getv function %tmp.20 :value;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.22);
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_56_92_8_stop:
+        goto @D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_8_95_8_if_end;
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_8_95_8_if_else_false:
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_92_15_95_8_start:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 93 12 ]
+        symbol [ System %tmp.23 93 12 18 ];
+        %tmp.23 = getm $.Toybox.System;
+        symbol [ println %tmp.24 93 19 26 ];
+        %tmp.24 = getv function %tmp.23 :println;
+        %tmp.25 = "[API] Server error: ";
+        %tmp.26 = lgetv %responseCode;
+        symbol [ responseCode %tmp.26 93 52 64 ];
+        %tmp.27 = add %tmp.25 %tmp.26;
+        invoke %tmp.23 %tmp.24(%tmp.27);
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 94 12 ]
+        symbol [ Storage %tmp.28 94 12 19 ];
+        %tmp.28 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.29 94 20 28 ];
+        %tmp.29 = getv function %tmp.28 :setValue;
+        %tmp.30 = "last_api_error";
+        %tmp.31 = lgetv %responseCode;
+        symbol [ responseCode %tmp.31 94 47 59 ];
+        invoke %tmp.28 %tmp.29(%tmp.30, %tmp.31);
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_92_15_95_8_stop:
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_89_8_95_8_if_end:
+[ "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc" 98 8 ]
+        symbol [ Background %tmp.32 98 8 18 ];
+        %tmp.32 = getm $.Toybox.Background;
+        symbol [ exit %tmp.33 98 19 23 ];
+        %tmp.33 = getv function %tmp.32 :exit;
+        %tmp.34 = null;
+        invoke %tmp.32 %tmp.33(%tmp.34);
+D__TestingApplication_source_TestingApplicationServiceDelegate_mc_88_58_99_4_stop:
     }
 }
-[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 6; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationServiceDelegate.mc"; @line = 7; ]
 <init> {
 }
