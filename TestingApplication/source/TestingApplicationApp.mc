@@ -38,10 +38,13 @@ class TestingApplicationApp extends Application.AppBase {
     function onStart(state as Dictionary?) as Void {
         _startSensorLogger();
         _startFitSession();
-        Background.registerForTemporalEvent(new Time.Duration(5 * 60));
 
         // Auto-save timer — saves current FIT and starts a new session
-        // every 5 minutes so data is never lost
+        // every 5 minutes so data is never lost. This runs in the
+        // foreground app context which owns the session.
+        // NOTE: We do NOT use a background temporal event — that runs in
+        // a separate context that would conflict with our session and
+        // cause "Cannot create a new session" errors.
         _saveTimer = new Timer.Timer();
         _saveTimer.start(method(:onSaveTimer), 5 * 60 * 1000, true); // 5 min, repeating
 
@@ -106,6 +109,12 @@ class TestingApplicationApp extends Application.AppBase {
         System.println("[APP] Stopped");
     }
 
+    // Called when user confirms exit (back 3x) — save then close app
+    function saveAndExit() as Void {
+        onStop(null);
+        System.exit();
+    }
+
     function _startFitSession() as Void {
         if (!(Toybox has :ActivityRecording)) {
             System.println("[SESSION] ActivityRecording not supported");
@@ -146,10 +155,6 @@ class TestingApplicationApp extends Application.AppBase {
         var view     = new TestingApplicationView();
         var delegate = new TestingApplicationDelegate(view);
         return [ view, delegate ];
-    }
-
-    function getServiceDelegate() {
-        return [ new TestingApplicationServiceDelegate() ];
     }
 
     function _startSensorLogger() as Void {

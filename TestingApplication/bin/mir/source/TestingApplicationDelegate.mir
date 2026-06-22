@@ -1,67 +1,154 @@
-[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [WatchUi,7,14,21]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 12; @symbol_importdef<0> = [Toybox,12,7,13]; @symbol_importdef<1> = [WatchUi,12,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [Lang,8,14,18]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 13; @symbol_importdef<0> = [Toybox,13,7,13]; @symbol_importdef<1> = [Lang,13,14,18]; ]
 import Toybox.Lang;
-[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 10; @symbol_classdef = [TestingApplicationDelegate,10,6,32]; @symbol_extends<0> = [WatchUi,10,41,48]; @symbol_extends<1> = [BehaviorDelegate,10,49,65]; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 14; @symbol_importdef<0> = [Toybox,14,7,13]; @symbol_importdef<1> = [Timer,14,14,19]; ]
+import Toybox.Timer;
+[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 16; @symbol_classdef = [TestingApplicationDelegate,16,6,32]; @symbol_extends<0> = [WatchUi,16,41,48]; @symbol_extends<1> = [BehaviorDelegate,16,49,65]; ]
 class TestingApplicationDelegate extends WatchUi.BehaviorDelegate {
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 10; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 16; ]
     <init> {
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 10; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 16; ]
     static
     <init> {
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 12; @position = 8; @symbol_vardef = [_view,12,8,13]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 18; @position = 8; @symbol_vardef = [_view,18,8,13]; ]
     var _view;
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 14; @symbol_functiondef = [initialize,14,13,23]; @symbol_param<0> = [view,14,24,28]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 19; @position = 8; @symbol_vardef = [_backCount,19,8,18]; ]
+    var _backCount = 0;
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 20; @position = 8; @symbol_vardef = [_backTimer,20,8,18]; ]
+    var _backTimer = null;
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 22; @symbol_functiondef = [initialize,22,13,23]; @symbol_param<0> = [view,22,24,28]; ]
     function initialize(view) as Void {
-D__TestingApplication_source_TestingApplicationDelegate_mc_14_30_17_4_start:
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 15 8 ]
-        symbol [ BehaviorDelegate %tmp.2 15 8 24 ];
+D__TestingApplication_source_TestingApplicationDelegate_mc_22_30_25_4_start:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 23 8 ]
+        symbol [ BehaviorDelegate %tmp.2 23 8 24 ];
         %tmp.2 = getv ? :BehaviorDelegate;
-        symbol [ initialize %tmp.3 15 25 35 ];
+        symbol [ initialize %tmp.3 23 25 35 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 16 8 ]
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 24 8 ]
         %tmp.4 = lgetv %view;
-        symbol [ view %tmp.4 16 16 20 ];
-        symbol [ _view ? 16 8 13 ];
+        symbol [ view %tmp.4 24 16 20 ];
+        symbol [ _view ? 24 8 13 ];
         putv self :_view %tmp.4;
-D__TestingApplication_source_TestingApplicationDelegate_mc_14_30_17_4_stop:
+D__TestingApplication_source_TestingApplicationDelegate_mc_22_30_25_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 20; @symbol_functiondef = [onTap,20,13,18]; @symbol_param<0> = [evt,20,19,22]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 28; @symbol_functiondef = [onTap,28,13,18]; @symbol_param<0> = [evt,28,19,22]; ]
     function onTap(evt) {
-D__TestingApplication_source_TestingApplicationDelegate_mc_20_24_23_4_start:
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 21 8 ]
-        symbol [ _view %tmp.2 21 8 13 ];
+D__TestingApplication_source_TestingApplicationDelegate_mc_28_24_31_4_start:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 29 8 ]
+        symbol [ _view %tmp.2 29 8 13 ];
         %tmp.2 = getv ? :_view;
-        symbol [ nextPage %tmp.3 21 14 22 ];
+        symbol [ nextPage %tmp.3 29 14 22 ];
         %tmp.3 = getv function %tmp.2 :nextPage;
         invoke %tmp.2 %tmp.3();
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 22 8 ]
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 30 8 ]
         %tmp.4 = true;
         ret %tmp.4;
-D__TestingApplication_source_TestingApplicationDelegate_mc_20_24_23_4_stop:
+D__TestingApplication_source_TestingApplicationDelegate_mc_28_24_31_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 26; @symbol_functiondef = [onBack,26,13,19]; ]
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 35; @symbol_functiondef = [onBack,35,13,19]; ]
     function onBack() {
-D__TestingApplication_source_TestingApplicationDelegate_mc_26_22_29_4_start:
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 27 8 ]
-        symbol [ WatchUi %tmp.1 27 8 15 ];
-        %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.2 27 16 23 ];
-        %tmp.2 = getv function %tmp.1 :popView;
-        symbol [ WatchUi %tmp.3 27 24 31 ];
-        %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_RIGHT %tmp.4 27 32 43 ];
-        %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
-        invoke %tmp.1 %tmp.2(%tmp.4);
-[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 28 8 ]
-        %tmp.5 = true;
-        ret %tmp.5;
-D__TestingApplication_source_TestingApplicationDelegate_mc_26_22_29_4_stop:
+D__TestingApplication_source_TestingApplicationDelegate_mc_35_22_53_4_start:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 36 8 ]
+        symbol [ _backCount %tmp.3 36 8 18 ];
+        %tmp.3 = getv ? :_backCount;
+        %tmp.4 = add %tmp.3 1;
+        symbol [ _backCount ? 36 8 18 ];
+        putv self :_backCount dup %tmp.4;
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 38 8 ]
+D__TestingApplication_source_TestingApplicationDelegate_mc_38_8_40_8_if_stmt:
+        symbol [ _backTimer %tmp.6 38 12 22 ];
+        %tmp.6 = getv ? :_backTimer;
+        %tmp.7 = null;
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        bf %tmp.8 @D__TestingApplication_source_TestingApplicationDelegate_mc_38_8_40_8_if_end;
+D__TestingApplication_source_TestingApplicationDelegate_mc_38_8_40_8_if_true:
+D__TestingApplication_source_TestingApplicationDelegate_mc_38_32_40_8_start:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 39 12 ]
+        symbol [ Timer %tmp.11 39 29 34 ];
+        %tmp.11 = getm $.Toybox.Timer;
+        symbol [ Timer %tmp.12 39 35 40 ];
+        %tmp.12 = getv function ? %tmp.11 :Timer;
+        %tmp.9 = newc %tmp.12 ();
+        symbol [ _backTimer ? 39 12 22 ];
+        putv self :_backTimer %tmp.9;
+D__TestingApplication_source_TestingApplicationDelegate_mc_38_32_40_8_stop:
+        goto @D__TestingApplication_source_TestingApplicationDelegate_mc_38_8_40_8_if_end;
+D__TestingApplication_source_TestingApplicationDelegate_mc_38_8_40_8_if_end:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 41 8 ]
+        symbol [ _backTimer %tmp.14 41 8 18 ];
+        %tmp.14 = getv ? :_backTimer;
+        symbol [ stop %tmp.15 41 19 23 ];
+        %tmp.15 = getv function %tmp.14 :stop;
+        invoke %tmp.14 %tmp.15();
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 42 8 ]
+        symbol [ _backTimer %tmp.17 42 8 18 ];
+        %tmp.17 = getv ? :_backTimer;
+        symbol [ start %tmp.18 42 19 24 ];
+        %tmp.18 = getv function %tmp.17 :start;
+        %tmp.19 = self;
+        symbol [ method %tmp.20 42 25 31 ];
+        %tmp.20 = getv function %tmp.19 :method;
+        %tmp.22 = const :resetBackCount;
+        symbol [ resetBackCount %tmp.22 42 33 47 const ];
+        %tmp.23 = invoke %tmp.19 %tmp.20(%tmp.22);
+        %tmp.24 = 3000;
+        %tmp.25 = false;
+        invoke %tmp.17 %tmp.18(%tmp.23, %tmp.24, %tmp.25);
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 44 8 ]
+D__TestingApplication_source_TestingApplicationDelegate_mc_44_8_48_8_if_stmt:
+        symbol [ _backCount %tmp.27 44 12 22 ];
+        %tmp.27 = getv ? :_backCount;
+        %tmp.28 = 3;
+        %tmp.29 = gte %tmp.27 %tmp.28;
+        bf %tmp.29 @D__TestingApplication_source_TestingApplicationDelegate_mc_44_8_48_8_if_end;
+D__TestingApplication_source_TestingApplicationDelegate_mc_44_8_48_8_if_true:
+D__TestingApplication_source_TestingApplicationDelegate_mc_44_29_48_8_start:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 46 12 ]
+        symbol [ _view %tmp.31 46 12 17 ];
+        %tmp.31 = getv ? :_view;
+        symbol [ confirmExit %tmp.32 46 18 29 ];
+        %tmp.32 = getv function %tmp.31 :confirmExit;
+        invoke %tmp.31 %tmp.32();
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 47 12 ]
+        %tmp.33 = false;
+        ret %tmp.33;
+D__TestingApplication_source_TestingApplicationDelegate_mc_44_29_48_8_stop:
+        goto @D__TestingApplication_source_TestingApplicationDelegate_mc_44_8_48_8_if_end;
+D__TestingApplication_source_TestingApplicationDelegate_mc_44_8_48_8_if_end:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 51 8 ]
+        symbol [ _view %tmp.35 51 8 13 ];
+        %tmp.35 = getv ? :_view;
+        symbol [ showBackHint %tmp.36 51 14 26 ];
+        %tmp.36 = getv function %tmp.35 :showBackHint;
+        symbol [ _backCount %tmp.38 51 27 37 ];
+        %tmp.38 = getv ? :_backCount;
+        invoke %tmp.35 %tmp.36(%tmp.38);
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 52 8 ]
+        %tmp.39 = true;
+        ret %tmp.39;
+D__TestingApplication_source_TestingApplicationDelegate_mc_35_22_53_4_stop:
+    }
+    [ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 55; @symbol_functiondef = [resetBackCount,55,13,27]; ]
+    function resetBackCount() as Void {
+D__TestingApplication_source_TestingApplicationDelegate_mc_55_38_58_4_start:
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 56 8 ]
+        %tmp.1 = 0;
+        symbol [ _backCount ? 56 8 18 ];
+        putv self :_backCount %tmp.1;
+[ "D:\TestingApplication\source\TestingApplicationDelegate.mc" 57 8 ]
+        symbol [ _view %tmp.3 57 8 13 ];
+        %tmp.3 = getv ? :_view;
+        symbol [ showBackHint %tmp.4 57 14 26 ];
+        %tmp.4 = getv function %tmp.3 :showBackHint;
+        %tmp.5 = 0;
+        invoke %tmp.3 %tmp.4(%tmp.5);
+D__TestingApplication_source_TestingApplicationDelegate_mc_55_38_58_4_stop:
     }
 }
-[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 7; ]
+[ @file = "D:\TestingApplication\source\TestingApplicationDelegate.mc"; @line = 12; ]
 <init> {
 }

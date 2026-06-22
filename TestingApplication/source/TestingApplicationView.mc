@@ -15,6 +15,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.Application.Storage;
 import Toybox.Time;
+import Toybox.Attention;
 
 class TestingApplicationView extends WatchUi.View {
 
@@ -35,6 +36,7 @@ class TestingApplicationView extends WatchUi.View {
 
     // Storage sample counter
     var _sampleCount = 0;
+    var _backHint    = 0;
 
     // Pages: 0=Status | 1=HR+Temp | 2=Accel | 3=Gyro | 4=GPS
     var _page = 0;
@@ -51,28 +53,53 @@ class TestingApplicationView extends WatchUi.View {
         Storage.setValue("sample_count", 0);
     }
 
+    var _listenerActive = false;
+
     function onLayout(dc as Graphics.Dc) as Void {
-        // Live display listener @ 100Hz
+        _registerDisplayListener();
+    }
+
+    // Called every time the view becomes visible (screen wakes)
+    function onShow() as Void {
+        _registerDisplayListener();
+        System.println("[VIEW] onShow");
+    }
+
+    // Called when view is hidden (screen off / app backgrounded)
+    // The FIT session + SensorLogger KEEP RECORDING at firmware level.
+    function onHide() as Void {
+        // Unregister display listener so it can be cleanly re-registered
+        Sensor.unregisterSensorDataListener();
+        _listenerActive = false;
+        System.println("[VIEW] onHide — screen off, FIT still recording");
+    }
+
+    function _registerDisplayListener() as Void {
+        // Avoid double-registration which throws
+        // "More than one instance of data listener not allowed"
+        if (_listenerActive) {
+            return;
+        }
+
         var imuOptions = {
             :period        => 1,
             :accelerometer => { :enabled => true, :sampleRate => 100 },
             :gyroscope     => { :enabled => true, :sampleRate => 100 }
         };
         Sensor.registerSensorDataListener(method(:onSensorData), imuOptions);
-        System.println("[VIEW] Display listener @ 100Hz registered");
+        _listenerActive = true;
 
-        // HR + Temp
         Sensor.setEnabledSensors([
             Sensor.SENSOR_HEARTRATE,
             Sensor.SENSOR_TEMPERATURE
         ]);
         Sensor.enableSensorEvents(method(:onSensor));
 
-        // GPS
         Position.enableLocationEvents(
             Position.LOCATION_CONTINUOUS,
             method(:onPosition)
         );
+        System.println("[VIEW] Display listeners registered @ 100Hz");
     }
 
     // ----------------------------------------------------------
@@ -181,6 +208,18 @@ class TestingApplicationView extends WatchUi.View {
         WatchUi.requestUpdate();
     }
 
+    // Called by delegate when user holds back 3x — save and exit
+    function confirmExit() as Void {
+        var app = getApp();
+        app.saveAndExit();
+    }
+
+    // Show "press back Nx to stop" hint on screen
+    function showBackHint(count) as Void {
+        _backHint = count;
+        WatchUi.requestUpdate();
+    }
+
     // ----------------------------------------------------------
     // Draw
     // ----------------------------------------------------------
@@ -202,7 +241,7 @@ class TestingApplicationView extends WatchUi.View {
     // Page 0: Session Status
     function _drawStatus(dc as Graphics.Dc, w as Number, h as Number) as Void {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(w/2, 20, Graphics.FONT_SMALL, "SESSION STATUS", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(w/2, 20, Graphics.FONT_SMALL, "", Graphics.TEXT_JUSTIFY_CENTER);
 
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawLine(20, 55, w - 20, 55);
