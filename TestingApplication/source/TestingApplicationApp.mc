@@ -58,11 +58,15 @@ class TestingApplicationApp extends Application.AppBase {
         _rotateSession();
     }
 
-    // Save current FIT file and immediately start a fresh session
+    // Save current FIT file, then start a fresh session after a short
+    // delay. The delay is critical: save() of a large (~860KB) file does
+    // not release the recording slot instantly. If we call createSession
+    // too soon, it throws "Cannot create a new session while recording is
+    // active", the new session fails to start, and we get a ~5-min GAP
+    // until the next timer tick. The delay lets save() fully complete.
     function _rotateSession() as Void {
         _saveLoggerStats();
 
-        // Save current session (writes the FIT file)
         if (_session != null) {
             try {
                 if (_session.isRecording()) {
@@ -78,9 +82,35 @@ class TestingApplicationApp extends Application.AppBase {
             _session = null;
         }
 
-        // Restart logger + session for the next 5-min chunk
+        // Wait 3 seconds for save() to fully release the session slot,
+        // THEN start the next session. This closes the gap.
+        var restartTimer = new Timer.Timer();
+        restartTimer.start(method(:onRestartSession), 3000, false);
+    }
+
+    // Called 3 seconds after save() — starts the next recording session.
+    // If the session slot is still busy (save not fully done), retry a few
+    // times rather than giving up (which would cause a 5-min gap).
+    var _restartAttempts = 0;
+    function onRestartSession() as Void {
         _startSensorLogger();
+
+        // Try to start the session; verify it actually began recording
         _startFitSession();
+
+        if (_session != null && _session.isRecording()) {
+            _restartAttempts = 0;
+            System.println("[SESSION] Next session started after save");
+        } else if (_restartAttempts < 5) {
+            // Slot still busy — wait another 2s and retry
+            _restartAttempts++;
+            System.println("[SESSION] Slot busy, retry " + _restartAttempts);
+            var retry = new Timer.Timer();
+            retry.start(method(:onRestartSession), 2000, false);
+        } else {
+            _restartAttempts = 0;
+            System.println("[SESSION] Could not restart after retries");
+        }
     }
 
     function onStop(state as Dictionary?) as Void {
@@ -143,11 +173,12 @@ class TestingApplicationApp extends Application.AppBase {
             }
             Storage.setValue("session_status", "recording");
         } catch (ex) {
-            // Bare catch — System Errors are NOT Lang.Exception subclasses
-            // A session is already recording at the OS level (e.g. leftover
-            // simulator state). We can't get a reference, so just mark status.
-            System.println("[SESSION] Session already active at OS level");
-            Storage.setValue("session_status", "recording");
+            // Slot still busy (previous save() not fully released) or a
+            // leftover session exists. Null our reference so the retry
+            // logic in onRestartSession knows the start did NOT succeed.
+            _session = null;
+            System.println("[SESSION] createSession failed — slot busy, will retry");
+            Storage.setValue("session_status", "retrying");
         }
     }
 
