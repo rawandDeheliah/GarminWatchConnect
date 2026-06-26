@@ -294,7 +294,7 @@ D__TestingApplication_source_TestingApplicationView_mc_88_41_91_4_stop:
     }
     [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 96; @symbol_functiondef = [onUpdate,96,13,21]; @symbol_param<0> = [dc,96,22,24]; @symbol_param<0>_type<0> = [Graphics,96,28,36]; @symbol_param<0>_type<1> = [Dc,96,37,39]; ]
     function onUpdate(dc as Graphics.Dc) as Void {
-D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start:
+D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start:
 [ "D:\TestingApplication\source\TestingApplicationView.mc" 97 8 ]
         %tmp.1 = lgetv %dc;
         symbol [ dc %tmp.1 97 8 10 ];
@@ -316,7 +316,7 @@ D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start:
         %tmp.8 = getv function %tmp.7 :clear;
         invoke %tmp.7 %tmp.8();
 [ "D:\TestingApplication\source\TestingApplicationView.mc" 100 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_stop" ]
+        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
         %w.1 = local;
         symbol [ w %w.1 100 12 13 ];
         %tmp.9 = lgetv %dc;
@@ -327,7 +327,7 @@ D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start:
         lputv %w.1 %tmp.11;
         symbol [ w %w.1 100 12 13 ];
 [ "D:\TestingApplication\source\TestingApplicationView.mc" 101 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_stop" ]
+        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
         %h.2 = local;
         symbol [ h %h.2 101 12 13 ];
         %tmp.12 = lgetv %dc;
@@ -399,7 +399,7 @@ D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start:
         %tmp.45 = 60;
         invoke %tmp.38 %tmp.39(%tmp.40, %tmp.41, %tmp.44, %tmp.45);
 [ "D:\TestingApplication\source\TestingApplicationView.mc" 111 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_stop" ]
+        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
         %status.3 = local;
         symbol [ status %status.3 111 12 18 ];
         symbol [ Storage %tmp.46 111 21 28 ];
@@ -411,7 +411,7 @@ D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start:
         lputv %status.3 %tmp.49;
         symbol [ status %status.3 111 12 18 ];
 [ "D:\TestingApplication\source\TestingApplicationView.mc" 112 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_stop" ]
+        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
         %statusColor.4 = local;
         symbol [ statusColor %statusColor.4 112 12 23 ];
         symbol [ Graphics %tmp.50 112 26 34 ];
@@ -421,7 +421,7 @@ D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start:
         lputv %statusColor.4 %tmp.51;
         symbol [ statusColor %statusColor.4 112 12 23 ];
 [ "D:\TestingApplication\source\TestingApplicationView.mc" 113 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_stop" ]
+        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
         %statusText.5 = local;
         symbol [ statusText %statusText.5 113 12 22 ];
         %tmp.52 = "not recording";
@@ -534,7 +534,7 @@ D__TestingApplication_source_TestingApplicationView_mc_114_8_120_8_if_end:
         %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.82 %tmp.83(%tmp.86, %tmp.87, %tmp.89, %tmp.90, %tmp.92);
 [ "D:\TestingApplication\source\TestingApplicationView.mc" 125 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_stop" ]
+        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
         %files.6 = local;
         symbol [ files %files.6 125 12 17 ];
         symbol [ Storage %tmp.93 125 20 27 ];
@@ -634,7 +634,7 @@ D__TestingApplication_source_TestingApplicationView_mc_126_8_126_40_if_end:
         %tmp.136 = getv %tmp.135 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.124 %tmp.125(%tmp.128, %tmp.129, %tmp.131, %tmp.134, %tmp.136);
 [ "D:\TestingApplication\source\TestingApplicationView.mc" 133 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_stop" ]
+        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
         %hrStr.7 = local;
         symbol [ hrStr %hrStr.7 133 12 17 ];
 D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_begin:
@@ -731,110 +731,254 @@ D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_end:
         %tmp.183 = getv %tmp.182 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.173 %tmp.174(%tmp.177, %tmp.178, %tmp.180, %tmp.181, %tmp.183);
 [ "D:\TestingApplication\source\TestingApplicationView.mc" 141 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_141_8_150_8_if_stmt:
-        symbol [ _backHint %tmp.185 141 12 21 ];
-        %tmp.185 = getv ? :_backHint;
-        %tmp.186 = 0;
-        %tmp.187 = gt %tmp.185 %tmp.186;
-        bf %tmp.187 @D__TestingApplication_source_TestingApplicationView_mc_141_8_150_8_if_else_false;
-D__TestingApplication_source_TestingApplicationView_mc_141_8_150_8_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_141_27_146_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 142 12 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_141_27_146_8_start" "D__TestingApplication_source_TestingApplicationView_mc_141_27_146_8_stop" ]
-        %remaining.8 = local;
-        symbol [ remaining %remaining.8 142 16 25 ];
-        %tmp.188 = 3;
-        symbol [ _backHint %tmp.190 142 32 41 ];
-        %tmp.190 = getv ? :_backHint;
-        %tmp.191 = sub %tmp.188 %tmp.190;
-        lputv %remaining.8 %tmp.191;
-        symbol [ remaining %remaining.8 142 16 25 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 143 12 ]
-        %tmp.192 = lgetv %dc;
-        symbol [ dc %tmp.192 143 12 14 ];
-        symbol [ setColor %tmp.193 143 15 23 ];
-        %tmp.193 = getv function %tmp.192 :setColor;
-        symbol [ Graphics %tmp.194 143 24 32 ];
-        %tmp.194 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.195 143 33 45 ];
-        %tmp.195 = getv %tmp.194 :COLOR_YELLOW;
-        symbol [ Graphics %tmp.196 143 47 55 ];
-        %tmp.196 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.197 143 56 73 ];
-        %tmp.197 = getv %tmp.196 :COLOR_TRANSPARENT;
-        invoke %tmp.192 %tmp.193(%tmp.195, %tmp.197);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 144 12 ]
-        %tmp.198 = lgetv %dc;
-        symbol [ dc %tmp.198 144 12 14 ];
-        symbol [ drawText %tmp.199 144 15 23 ];
-        %tmp.199 = getv function %tmp.198 :drawText;
-        %tmp.200 = lgetv %w.1;
-        symbol [ w %tmp.200 144 24 25 ];
-        %tmp.201 = 2;
-        %tmp.202 = div %tmp.200 %tmp.201;
-        %tmp.203 = lgetv %h.2;
-        symbol [ h %tmp.203 144 29 30 ];
-        %tmp.204 = 60;
-        %tmp.205 = sub %tmp.203 %tmp.204;
-        symbol [ Graphics %tmp.206 144 37 45 ];
+        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
+        %connOk.8 = local;
+        symbol [ connOk %connOk.8 141 12 18 ];
+        symbol [ Storage %tmp.184 141 21 28 ];
+        %tmp.184 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.185 141 29 37 ];
+        %tmp.185 = getv function %tmp.184 :getValue;
+        %tmp.186 = "connection_ok";
+        %tmp.187 = invoke %tmp.184 %tmp.185(%tmp.186);
+        lputv %connOk.8 %tmp.187;
+        symbol [ connOk %connOk.8 141 12 18 ];
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 142 8 ]
+        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
+        %pings.9 = local;
+        symbol [ pings %pings.9 142 12 17 ];
+        symbol [ Storage %tmp.188 142 21 28 ];
+        %tmp.188 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.189 142 29 37 ];
+        %tmp.189 = getv function %tmp.188 :getValue;
+        %tmp.190 = "ping_count";
+        %tmp.191 = invoke %tmp.188 %tmp.189(%tmp.190);
+        lputv %pings.9 %tmp.191;
+        symbol [ pings %pings.9 142 12 17 ];
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 143 8 ]
+D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_stmt:
+        %tmp.192 = lgetv %pings.9;
+        symbol [ pings %tmp.192 143 12 17 ];
+        %tmp.193 = null;
+        %tmp.194 = eq %tmp.192 %tmp.193;
+        bf %tmp.194 @D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_end;
+D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_true:
+D__TestingApplication_source_TestingApplicationView_mc_143_27_143_40_start:
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 143 29 ]
+        %tmp.195 = 0;
+        lputv %pings.9 %tmp.195;
+        symbol [ pings %pings.9 143 29 34 ];
+D__TestingApplication_source_TestingApplicationView_mc_143_27_143_40_stop:
+        goto @D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_end;
+D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_end:
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 144 8 ]
+D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_stmt:
+D__TestingApplication_source_TestingApplicationView_mc_144_12_144_40_begin:
+        %tmp.196 = lgetv %connOk.8;
+        symbol [ connOk %tmp.196 144 12 18 ];
+        %tmp.197 = null;
+        %tmp.198 = ne %tmp.196 %tmp.197;
+        bf %tmp.198 @D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_else_false;
+D__TestingApplication_source_TestingApplicationView_mc_144_30_144_40_true:
+        %tmp.199 = lgetv %connOk.8;
+        symbol [ connOk %tmp.199 144 30 36 ];
+        %tmp.200 = as %tmp.199 { (!Null) };
+        %tmp.201 = true;
+        %tmp.202 = eq %tmp.200 %tmp.201;
+        push %tmp.202;
+D__TestingApplication_source_TestingApplicationView_mc_144_30_144_40_end:
+        %tmp.203 = phi [%tmp.198 @D__TestingApplication_source_TestingApplicationView_mc_144_12_144_40_begin] [%tmp.202 @D__TestingApplication_source_TestingApplicationView_mc_144_30_144_40_true] [%tmp.203 @D__TestingApplication_source_TestingApplicationView_mc_144_30_144_40_end];
+        bf %tmp.203 @D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_else_false;
+D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_true:
+D__TestingApplication_source_TestingApplicationView_mc_144_46_148_8_start:
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 145 12 ]
+        %tmp.204 = lgetv %dc;
+        symbol [ dc %tmp.204 145 12 14 ];
+        symbol [ setColor %tmp.205 145 15 23 ];
+        %tmp.205 = getv function %tmp.204 :setColor;
+        symbol [ Graphics %tmp.206 145 24 32 ];
         %tmp.206 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.207 144 46 56 ];
-        %tmp.207 = getv %tmp.206 :FONT_XTINY;
-        %tmp.208 = "press back ";
-        %tmp.209 = lgetv %remaining.8;
-        symbol [ remaining %tmp.209 145 32 41 ];
-        %tmp.210 = add %tmp.208 %tmp.209;
-        %tmp.211 = "x to stop";
-        %tmp.212 = add %tmp.210 %tmp.211;
-        symbol [ Graphics %tmp.213 145 57 65 ];
-        %tmp.213 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.214 145 66 85 ];
-        %tmp.214 = getv %tmp.213 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.198 %tmp.199(%tmp.202, %tmp.205, %tmp.207, %tmp.212, %tmp.214);
-D__TestingApplication_source_TestingApplicationView_mc_141_27_146_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_141_8_150_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_141_8_150_8_if_else_false:
-D__TestingApplication_source_TestingApplicationView_mc_146_15_150_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 147 12 ]
-        %tmp.215 = lgetv %dc;
-        symbol [ dc %tmp.215 147 12 14 ];
-        symbol [ setColor %tmp.216 147 15 23 ];
-        %tmp.216 = getv function %tmp.215 :setColor;
-        symbol [ Graphics %tmp.217 147 24 32 ];
-        %tmp.217 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.218 147 33 46 ];
-        %tmp.218 = getv %tmp.217 :COLOR_DK_GRAY;
-        symbol [ Graphics %tmp.219 147 48 56 ];
-        %tmp.219 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.220 147 57 74 ];
-        %tmp.220 = getv %tmp.219 :COLOR_TRANSPARENT;
-        invoke %tmp.215 %tmp.216(%tmp.218, %tmp.220);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 148 12 ]
-        %tmp.221 = lgetv %dc;
-        symbol [ dc %tmp.221 148 12 14 ];
-        symbol [ drawText %tmp.222 148 15 23 ];
-        %tmp.222 = getv function %tmp.221 :drawText;
-        %tmp.223 = lgetv %w.1;
-        symbol [ w %tmp.223 148 24 25 ];
-        %tmp.224 = 2;
-        %tmp.225 = div %tmp.223 %tmp.224;
-        %tmp.226 = lgetv %h.2;
-        symbol [ h %tmp.226 148 29 30 ];
-        %tmp.227 = 60;
-        %tmp.228 = sub %tmp.226 %tmp.227;
-        symbol [ Graphics %tmp.229 148 37 45 ];
+        symbol [ COLOR_GREEN %tmp.207 145 33 44 ];
+        %tmp.207 = getv %tmp.206 :COLOR_GREEN;
+        symbol [ Graphics %tmp.208 145 46 54 ];
+        %tmp.208 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.209 145 55 72 ];
+        %tmp.209 = getv %tmp.208 :COLOR_TRANSPARENT;
+        invoke %tmp.204 %tmp.205(%tmp.207, %tmp.209);
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 146 12 ]
+        %tmp.210 = lgetv %dc;
+        symbol [ dc %tmp.210 146 12 14 ];
+        symbol [ drawText %tmp.211 146 15 23 ];
+        %tmp.211 = getv function %tmp.210 :drawText;
+        %tmp.212 = lgetv %w.1;
+        symbol [ w %tmp.212 146 24 25 ];
+        %tmp.213 = 2;
+        %tmp.214 = div %tmp.212 %tmp.213;
+        %tmp.215 = 315;
+        symbol [ Graphics %tmp.216 146 34 42 ];
+        %tmp.216 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.217 146 43 53 ];
+        %tmp.217 = getv %tmp.216 :FONT_XTINY;
+        %tmp.218 = "connection OK (";
+        %tmp.219 = lgetv %pings.9;
+        symbol [ pings %tmp.219 147 36 41 ];
+        %tmp.220 = add %tmp.218 %tmp.219;
+        %tmp.221 = ")";
+        %tmp.222 = add %tmp.220 %tmp.221;
+        symbol [ Graphics %tmp.223 147 49 57 ];
+        %tmp.223 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.224 147 58 77 ];
+        %tmp.224 = getv %tmp.223 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.210 %tmp.211(%tmp.214, %tmp.215, %tmp.217, %tmp.222, %tmp.224);
+D__TestingApplication_source_TestingApplicationView_mc_144_46_148_8_stop:
+        goto @D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_end;
+D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_else_false:
+D__TestingApplication_source_TestingApplicationView_mc_148_15_152_8_start:
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 149 12 ]
+        %tmp.225 = lgetv %dc;
+        symbol [ dc %tmp.225 149 12 14 ];
+        symbol [ setColor %tmp.226 149 15 23 ];
+        %tmp.226 = getv function %tmp.225 :setColor;
+        symbol [ Graphics %tmp.227 149 24 32 ];
+        %tmp.227 = getm $.Toybox.Graphics;
+        symbol [ COLOR_ORANGE %tmp.228 149 33 45 ];
+        %tmp.228 = getv %tmp.227 :COLOR_ORANGE;
+        symbol [ Graphics %tmp.229 149 47 55 ];
         %tmp.229 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.230 148 46 56 ];
-        %tmp.230 = getv %tmp.229 :FONT_XTINY;
-        %tmp.231 = "back 3x = stop & save";
-        symbol [ Graphics %tmp.232 149 41 49 ];
-        %tmp.232 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.233 149 50 69 ];
-        %tmp.233 = getv %tmp.232 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.221 %tmp.222(%tmp.225, %tmp.228, %tmp.230, %tmp.231, %tmp.233);
-D__TestingApplication_source_TestingApplicationView_mc_146_15_150_8_stop:
-D__TestingApplication_source_TestingApplicationView_mc_141_8_150_8_if_end:
-D__TestingApplication_source_TestingApplicationView_mc_96_49_151_4_stop:
+        symbol [ COLOR_TRANSPARENT %tmp.230 149 56 73 ];
+        %tmp.230 = getv %tmp.229 :COLOR_TRANSPARENT;
+        invoke %tmp.225 %tmp.226(%tmp.228, %tmp.230);
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 150 12 ]
+        %tmp.231 = lgetv %dc;
+        symbol [ dc %tmp.231 150 12 14 ];
+        symbol [ drawText %tmp.232 150 15 23 ];
+        %tmp.232 = getv function %tmp.231 :drawText;
+        %tmp.233 = lgetv %w.1;
+        symbol [ w %tmp.233 150 24 25 ];
+        %tmp.234 = 2;
+        %tmp.235 = div %tmp.233 %tmp.234;
+        %tmp.236 = 315;
+        symbol [ Graphics %tmp.237 150 34 42 ];
+        %tmp.237 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.238 150 43 53 ];
+        %tmp.238 = getv %tmp.237 :FONT_XTINY;
+        %tmp.239 = "no connection (";
+        %tmp.240 = lgetv %pings.9;
+        symbol [ pings %tmp.240 151 36 41 ];
+        %tmp.241 = add %tmp.239 %tmp.240;
+        %tmp.242 = ")";
+        %tmp.243 = add %tmp.241 %tmp.242;
+        symbol [ Graphics %tmp.244 151 49 57 ];
+        %tmp.244 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.245 151 58 77 ];
+        %tmp.245 = getv %tmp.244 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.231 %tmp.232(%tmp.235, %tmp.236, %tmp.238, %tmp.243, %tmp.245);
+D__TestingApplication_source_TestingApplicationView_mc_148_15_152_8_stop:
+D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_end:
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 155 8 ]
+D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_stmt:
+        symbol [ _backHint %tmp.247 155 12 21 ];
+        %tmp.247 = getv ? :_backHint;
+        %tmp.248 = 0;
+        %tmp.249 = gt %tmp.247 %tmp.248;
+        bf %tmp.249 @D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_else_false;
+D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_true:
+D__TestingApplication_source_TestingApplicationView_mc_155_27_160_8_start:
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 156 12 ]
+        [ "D__TestingApplication_source_TestingApplicationView_mc_155_27_160_8_start" "D__TestingApplication_source_TestingApplicationView_mc_155_27_160_8_stop" ]
+        %remaining.10 = local;
+        symbol [ remaining %remaining.10 156 16 25 ];
+        %tmp.250 = 3;
+        symbol [ _backHint %tmp.252 156 32 41 ];
+        %tmp.252 = getv ? :_backHint;
+        %tmp.253 = sub %tmp.250 %tmp.252;
+        lputv %remaining.10 %tmp.253;
+        symbol [ remaining %remaining.10 156 16 25 ];
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 157 12 ]
+        %tmp.254 = lgetv %dc;
+        symbol [ dc %tmp.254 157 12 14 ];
+        symbol [ setColor %tmp.255 157 15 23 ];
+        %tmp.255 = getv function %tmp.254 :setColor;
+        symbol [ Graphics %tmp.256 157 24 32 ];
+        %tmp.256 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.257 157 33 45 ];
+        %tmp.257 = getv %tmp.256 :COLOR_YELLOW;
+        symbol [ Graphics %tmp.258 157 47 55 ];
+        %tmp.258 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.259 157 56 73 ];
+        %tmp.259 = getv %tmp.258 :COLOR_TRANSPARENT;
+        invoke %tmp.254 %tmp.255(%tmp.257, %tmp.259);
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 158 12 ]
+        %tmp.260 = lgetv %dc;
+        symbol [ dc %tmp.260 158 12 14 ];
+        symbol [ drawText %tmp.261 158 15 23 ];
+        %tmp.261 = getv function %tmp.260 :drawText;
+        %tmp.262 = lgetv %w.1;
+        symbol [ w %tmp.262 158 24 25 ];
+        %tmp.263 = 2;
+        %tmp.264 = div %tmp.262 %tmp.263;
+        %tmp.265 = lgetv %h.2;
+        symbol [ h %tmp.265 158 29 30 ];
+        %tmp.266 = 60;
+        %tmp.267 = sub %tmp.265 %tmp.266;
+        symbol [ Graphics %tmp.268 158 37 45 ];
+        %tmp.268 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.269 158 46 56 ];
+        %tmp.269 = getv %tmp.268 :FONT_XTINY;
+        %tmp.270 = "press back ";
+        %tmp.271 = lgetv %remaining.10;
+        symbol [ remaining %tmp.271 159 32 41 ];
+        %tmp.272 = add %tmp.270 %tmp.271;
+        %tmp.273 = "x to stop";
+        %tmp.274 = add %tmp.272 %tmp.273;
+        symbol [ Graphics %tmp.275 159 57 65 ];
+        %tmp.275 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.276 159 66 85 ];
+        %tmp.276 = getv %tmp.275 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.260 %tmp.261(%tmp.264, %tmp.267, %tmp.269, %tmp.274, %tmp.276);
+D__TestingApplication_source_TestingApplicationView_mc_155_27_160_8_stop:
+        goto @D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_end;
+D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_else_false:
+D__TestingApplication_source_TestingApplicationView_mc_160_15_164_8_start:
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 161 12 ]
+        %tmp.277 = lgetv %dc;
+        symbol [ dc %tmp.277 161 12 14 ];
+        symbol [ setColor %tmp.278 161 15 23 ];
+        %tmp.278 = getv function %tmp.277 :setColor;
+        symbol [ Graphics %tmp.279 161 24 32 ];
+        %tmp.279 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.280 161 33 46 ];
+        %tmp.280 = getv %tmp.279 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.281 161 48 56 ];
+        %tmp.281 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.282 161 57 74 ];
+        %tmp.282 = getv %tmp.281 :COLOR_TRANSPARENT;
+        invoke %tmp.277 %tmp.278(%tmp.280, %tmp.282);
+[ "D:\TestingApplication\source\TestingApplicationView.mc" 162 12 ]
+        %tmp.283 = lgetv %dc;
+        symbol [ dc %tmp.283 162 12 14 ];
+        symbol [ drawText %tmp.284 162 15 23 ];
+        %tmp.284 = getv function %tmp.283 :drawText;
+        %tmp.285 = lgetv %w.1;
+        symbol [ w %tmp.285 162 24 25 ];
+        %tmp.286 = 2;
+        %tmp.287 = div %tmp.285 %tmp.286;
+        %tmp.288 = lgetv %h.2;
+        symbol [ h %tmp.288 162 29 30 ];
+        %tmp.289 = 60;
+        %tmp.290 = sub %tmp.288 %tmp.289;
+        symbol [ Graphics %tmp.291 162 37 45 ];
+        %tmp.291 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.292 162 46 56 ];
+        %tmp.292 = getv %tmp.291 :FONT_XTINY;
+        %tmp.293 = "back 3x = stop & save";
+        symbol [ Graphics %tmp.294 163 41 49 ];
+        %tmp.294 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.295 163 50 69 ];
+        %tmp.295 = getv %tmp.294 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.283 %tmp.284(%tmp.287, %tmp.290, %tmp.292, %tmp.293, %tmp.295);
+D__TestingApplication_source_TestingApplicationView_mc_160_15_164_8_stop:
+D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_end:
+D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop:
     }
 }
 [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 12; ]

@@ -1,137 +1,147 @@
 // =============================================================
 // TestingApplicationApp.mc
+// Cycle: 10 min record → 2 min sync gap → 10 min record → repeat
 //
-// Simple, reliable session model:
-//   onStart  → create + start session + logger
-//   onStop   → stop + save session  (writes the FIT file)
-//
-// No Storage flags, no background re-creation, no lost references.
-// The session lives exactly as long as the app instance.
-// Recording continues while app is backgrounded (Garmin keeps the
-// activity engine alive); the FIT file is written when the app
-// fully exits and onStop fires.
+// Uses Time.now() to track actual elapsed time instead of relying
+// purely on timers — timers can drift or miss when watch sleeps.
+// A short polling timer checks every 30 seconds if it is time
+// to rotate or restart, so sleep never causes a missed transition.
 // =============================================================
 
 import Toybox.Application;
 import Toybox.Application.Storage;
 import Toybox.ActivityRecording;
 import Toybox.Activity;
-import Toybox.Background;
 import Toybox.SensorLogging;
 import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.System;
 import Toybox.Time;
+import Toybox.Time.Gregorian;
 import Toybox.Timer;
+import Toybox.Communications;
 
 class TestingApplicationApp extends Application.AppBase {
 
-    var _logger  = null;
-    var _session = null;
-    var _saveTimer = null;
-    var _fileCount = 0;
+    var _logger          = null;
+    var _session         = null;
+    var _pollTimer       = null;  // 30-sec polling timer — drives all transitions
+    var _restartAttempts = 0;
+    var _fileCount       = 0;
+    var _heartbeatCount  = 0;
+
+    // Timestamps (unix seconds) tracking current phase
+    var _recordStartTs   = null;  // when current recording started
+    var _syncStartTs     = null;  // when current sync gap started
+    var _phase           = "idle"; // "recording" | "syncing"
+
+    const RECORD_SECS   = 10 * 60;  // 10 minutes
+    const SYNC_SECS     =  2 * 60;  // 2 minutes
+    const POLL_MS       = 30 * 1000; // poll every 30 seconds
+
+    const HEARTBEAT_URL = "https://httpbin.org/get";
 
     function initialize() {
         AppBase.initialize();
     }
 
     function onStart(state as Dictionary?) as Void {
+        System.println("[APP] Started");
         _startSensorLogger();
         _startFitSession();
-
-        // Auto-save timer — saves current FIT and starts a new session
-        // every 5 minutes so data is never lost. This runs in the
-        // foreground app context which owns the session.
-        // NOTE: We do NOT use a background temporal event — that runs in
-        // a separate context that would conflict with our session and
-        // cause "Cannot create a new session" errors.
-        _saveTimer = new Timer.Timer();
-        _saveTimer.start(method(:onSaveTimer), 5 * 60 * 1000, true); // 5 min, repeating
-
+        _sendHeartbeat();
         Storage.setValue("app_start_ts", Time.now().value());
-        System.println("[APP] Started with 5-min auto-save");
+
+        // Single polling timer drives all transitions — survives sleep
+        _pollTimer = new Timer.Timer();
+        _pollTimer.start(method(:onPoll), POLL_MS, true); // repeating every 30 sec
+        System.println("[TIMER] Poll timer started (30s interval)");
     }
 
-    // Fires every 5 minutes — saves current session, starts a new one
-    function onSaveTimer() as Void {
-        System.println("[TIMER] 5-min auto-save triggered");
-        _rotateSession();
+    // Called every 30 seconds — checks if it is time to rotate or restart
+    function onPoll() as Void {
+        var now = Time.now().value();
+
+        if (_phase.equals("recording")) {
+            var elapsed = now - _recordStartTs;
+            System.println("[POLL] Recording " + elapsed + "s / " + RECORD_SECS + "s");
+
+            if (elapsed >= RECORD_SECS) {
+                System.println("[POLL] Record time reached — rotating");
+                _rotateSession();
+            }
+
+        } else if (_phase.equals("syncing")) {
+            var elapsed = now - _syncStartTs;
+            System.println("[POLL] Syncing " + elapsed + "s / " + SYNC_SECS + "s");
+
+            if (elapsed >= SYNC_SECS) {
+                System.println("[POLL] Sync gap done — starting new session");
+                _startNextSession();
+            }
+        }
     }
 
-    // Save current FIT file, then start a fresh session after a short
-    // delay. The delay is critical: save() of a large (~860KB) file does
-    // not release the recording slot instantly. If we call createSession
-    // too soon, it throws "Cannot create a new session while recording is
-    // active", the new session fails to start, and we get a ~5-min GAP
-    // until the next timer tick. The delay lets save() fully complete.
+    // Step 1: Save current session, enter sync gap
     function _rotateSession() as Void {
+        _phase = "idle";
         _saveLoggerStats();
 
         if (_session != null) {
             try {
-                if (_session.isRecording()) {
-                    _session.stop();
-                }
+                if (_session.isRecording()) { _session.stop(); }
                 _session.save();
                 _fileCount++;
                 Storage.setValue("files_saved", _fileCount);
-                System.println("[SESSION] Auto-saved FIT file #" + _fileCount);
+                System.println("[SESSION] Saved FIT file #" + _fileCount);
             } catch (ex instanceof Lang.Exception) {
-                System.println("[SESSION] Auto-save error: " + ex.getErrorMessage());
+                System.println("[SESSION] Save error: " + ex.getErrorMessage());
             }
             _session = null;
         }
 
-        // Wait 3 seconds for save() to fully release the session slot,
-        // THEN start the next session. This closes the gap.
-        var restartTimer = new Timer.Timer();
-        restartTimer.start(method(:onRestartSession), 3000, false);
+        // Null logger — exits activity mode so Garmin Connect can sync
+        _logger = null;
+        _phase  = "syncing";
+        _syncStartTs = Time.now().value();
+        Storage.setValue("session_status", "syncing");
+        System.println("[SESSION] Sync gap started at " + _syncStartTs);
+        _sendHeartbeat();
     }
 
-    // Called 3 seconds after save() — starts the next recording session.
-    // If the session slot is still busy (save not fully done), retry a few
-    // times rather than giving up (which would cause a 5-min gap).
-    var _restartAttempts = 0;
-    function onRestartSession() as Void {
+    // Step 2: Start the next recording session
+    function _startNextSession() as Void {
+        _phase = "idle";
         _startSensorLogger();
-
-        // Try to start the session; verify it actually began recording
         _startFitSession();
 
         if (_session != null && _session.isRecording()) {
             _restartAttempts = 0;
-            System.println("[SESSION] Next session started after save");
+            System.println("[SESSION] New session recording OK");
         } else if (_restartAttempts < 5) {
-            // Slot still busy — wait another 2s and retry
+            // Not ready yet — next poll will retry in 30 sec
             _restartAttempts++;
-            System.println("[SESSION] Slot busy, retry " + _restartAttempts);
-            var retry = new Timer.Timer();
-            retry.start(method(:onRestartSession), 2000, false);
+            _phase = "syncing"; // stay in syncing phase so poll retries
+            System.println("[SESSION] Not recording yet, retry " + _restartAttempts + " on next poll");
         } else {
             _restartAttempts = 0;
-            System.println("[SESSION] Could not restart after retries");
+            System.println("[SESSION] ERROR: could not start after 5 retries");
         }
     }
 
     function onStop(state as Dictionary?) as Void {
-        // Stop the auto-save timer
-        if (_saveTimer != null) {
-            _saveTimer.stop();
-            _saveTimer = null;
-        }
+        _phase = "idle";
+        if (_pollTimer != null) { _pollTimer.stop(); _pollTimer = null; }
 
         _saveLoggerStats();
-        // Final save of the current session
         if (_session != null) {
             try {
-                if (_session.isRecording()) {
-                    _session.stop();
-                }
+                if (_session.isRecording()) { _session.stop(); }
                 _session.save();
                 Storage.setValue("session_status", "saved");
-                System.println("[SESSION] Final save on stop");
+                System.println("[SESSION] Final save on exit");
             } catch (ex instanceof Lang.Exception) {
-                System.println("[SESSION] Save error: " + ex.getErrorMessage());
+                System.println("[SESSION] Final save error: " + ex.getErrorMessage());
             }
         }
         _session = null;
@@ -139,7 +149,6 @@ class TestingApplicationApp extends Application.AppBase {
         System.println("[APP] Stopped");
     }
 
-    // Called when user confirms exit (back 3x) — save then close app
     function saveAndExit() as Void {
         onStop(null);
         System.exit();
@@ -147,48 +156,45 @@ class TestingApplicationApp extends Application.AppBase {
 
     function _startFitSession() as Void {
         if (!(Toybox has :ActivityRecording)) {
-            System.println("[SESSION] ActivityRecording not supported");
+            System.println("[SESSION] ActivityRecording not available");
             return;
         }
-
-        // If we already hold a recording session, do nothing
         if (_session != null && _session.isRecording()) {
-            System.println("[SESSION] Already holding active session");
-            Storage.setValue("session_status", "recording");
+            System.println("[SESSION] Already recording");
             return;
         }
 
         try {
+            var now  = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+            var name = "SensorLog_"
+                + now.year.format("%04d") + "-"
+                + now.month.format("%02d") + "-"
+                + now.day.format("%02d") + "_"
+                + now.hour.format("%02d") + "-"
+                + now.min.format("%02d");
+
             _session = ActivityRecording.createSession({
-                :name         => "SensorLog",
+                :name         => name,
                 :sport        => Activity.SPORT_GENERIC,
                 :subSport     => Activity.SUB_SPORT_GENERIC,
                 :sensorLogger => _logger
             });
-            if (!_session.isRecording()) {
-                _session.start();
-                System.println("[SESSION] FIT session started");
-            } else {
-                System.println("[SESSION] Recovered active session");
-            }
+
+            if (!_session.isRecording()) { _session.start(); }
+
+            _phase         = "recording";
+            _recordStartTs = Time.now().value();
             Storage.setValue("session_status", "recording");
+            System.println("[SESSION] Started: " + name);
         } catch (ex) {
-            // Slot still busy (previous save() not fully released) or a
-            // leftover session exists. Null our reference so the retry
-            // logic in onRestartSession knows the start did NOT succeed.
             _session = null;
-            System.println("[SESSION] createSession failed — slot busy, will retry");
+            System.println("[SESSION] createSession failed — will retry on next poll");
             Storage.setValue("session_status", "retrying");
         }
     }
 
-    function getInitialView() as [Views] or [Views, InputDelegates] {
-        var view     = new TestingApplicationView();
-        var delegate = new TestingApplicationDelegate(view);
-        return [ view, delegate ];
-    }
-
     function _startSensorLogger() as Void {
+        if (_logger != null) { return; }
         try {
             _logger = new SensorLogging.SensorLogger({
                 :accelerometer => { :enabled => true },
@@ -197,6 +203,7 @@ class TestingApplicationApp extends Application.AppBase {
             Storage.setValue("logger_status", "running");
             System.println("[LOGGER] Started");
         } catch (ex instanceof Lang.Exception) {
+            _logger = null;
             Storage.setValue("logger_status", "failed");
             System.println("[LOGGER] Failed: " + ex.getErrorMessage());
         }
@@ -219,6 +226,43 @@ class TestingApplicationApp extends Application.AppBase {
         } catch (ex instanceof Lang.Exception) {
             System.println("[STATS] Error: " + ex.getErrorMessage());
         }
+    }
+
+    function _sendHeartbeat() as Void {
+        if (!(Communications has :makeWebRequest)) { return; }
+        var options = {
+            :method       => Communications.HTTP_REQUEST_METHOD_GET,
+            :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+        };
+        var params = { "device" => "vivoactive6", "ping" => _heartbeatCount };
+        System.println("[PING] Sending heartbeat #" + _heartbeatCount);
+        Communications.makeWebRequest(HEARTBEAT_URL, params, options,
+            method(:onHeartbeatResponse));
+    }
+
+    function onHeartbeatResponse(
+        responseCode as Number,
+        data as Dictionary or String or Null
+    ) as Void {
+        _heartbeatCount++;
+        Storage.setValue("ping_count", _heartbeatCount);
+        Storage.setValue("last_ping_code", responseCode);
+        if (responseCode == 200) {
+            Storage.setValue("connection_ok", true);
+            System.println("[PING] OK — connection alive");
+        } else if (responseCode == -104) {
+            Storage.setValue("connection_ok", false);
+            System.println("[PING] -104 — no BLE");
+        } else {
+            Storage.setValue("connection_ok", false);
+            System.println("[PING] Failed: " + responseCode);
+        }
+    }
+
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+        var view     = new TestingApplicationView();
+        var delegate = new TestingApplicationDelegate(view);
+        return [ view, delegate ];
     }
 
 }
