@@ -1,137 +1,113 @@
 // =============================================================
 // TestingApplicationApp.mc
-//
-// Simple, reliable session model:
-//   onStart  → create + start session + logger
-//   onStop   → stop + save session  (writes the FIT file)
-//
-// No Storage flags, no background re-creation, no lost references.
-// The session lives exactly as long as the app instance.
-// Recording continues while app is backgrounded (Garmin keeps the
-// activity engine alive); the FIT file is written when the app
-// fully exits and onStop fires.
+// Cycle: 1 hour record → 3 sec save gap → 1 hour record → repeat
 // =============================================================
 
 import Toybox.Application;
 import Toybox.Application.Storage;
 import Toybox.ActivityRecording;
 import Toybox.Activity;
-import Toybox.Background;
 import Toybox.SensorLogging;
 import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.System;
 import Toybox.Time;
+import Toybox.Time.Gregorian;
 import Toybox.Timer;
+import Toybox.Communications;
 
 class TestingApplicationApp extends Application.AppBase {
 
-    var _logger  = null;
-    var _session = null;
-    var _saveTimer = null;
-    var _fileCount = 0;
+    var _logger         = null;
+    var _session        = null;
+    var _pollTimer      = null;  // repeating 30-sec poll — sleep-safe
+    var _restartTimer   = null;  // one-shot 3-sec save gap
+    var _fileCount      = 0;
+    var _heartbeatCount = 0;
+    var _recordStartTs  = null;  // unix timestamp when recording started
+
+    const RECORD_SECS = 60 * 60;  // 1 hour
+    const POLL_MS     = 30 * 1000; // check every 30 sec
+    const SAVE_GAP_MS = 3 * 1000;  // 3 sec gap for save() to complete
+
+    const HEARTBEAT_URL = "https://httpbin.org/get";
 
     function initialize() {
         AppBase.initialize();
     }
 
     function onStart(state as Dictionary?) as Void {
+        System.println("[APP] Started");
         _startSensorLogger();
         _startFitSession();
-
-        // Auto-save timer — saves current FIT and starts a new session
-        // every 5 minutes so data is never lost. This runs in the
-        // foreground app context which owns the session.
-        // NOTE: We do NOT use a background temporal event — that runs in
-        // a separate context that would conflict with our session and
-        // cause "Cannot create a new session" errors.
-        _saveTimer = new Timer.Timer();
-        _saveTimer.start(method(:onSaveTimer), 5 * 60 * 1000, true); // 5 min, repeating
-
+        _sendHeartbeat();
         Storage.setValue("app_start_ts", Time.now().value());
-        System.println("[APP] Started with 5-min auto-save");
+
+        // Repeating 30-sec poll checks real elapsed time — survives sleep
+        _pollTimer = new Timer.Timer();
+        _pollTimer.start(method(:onPoll), POLL_MS, true);
+        System.println("[TIMER] Poll timer started (30s)");
     }
 
-    // Fires every 5 minutes — saves current session, starts a new one
-    function onSaveTimer() as Void {
-        System.println("[TIMER] 5-min auto-save triggered");
-        _rotateSession();
+    // Fires every 30 sec — checks if 1 hour has elapsed
+    function onPoll() as Void {
+        if (_recordStartTs == null || _session == null) { return; }
+
+        var elapsed = Time.now().value() - _recordStartTs;
+        System.println("[POLL] Recording " + elapsed + "s / " + RECORD_SECS + "s");
+
+        if (elapsed >= RECORD_SECS) {
+            System.println("[POLL] 1 hour reached — rotating session");
+            _sendHeartbeat();
+            _rotateSession();
+        }
     }
 
-    // Save current FIT file, then start a fresh session after a short
-    // delay. The delay is critical: save() of a large (~860KB) file does
-    // not release the recording slot instantly. If we call createSession
-    // too soon, it throws "Cannot create a new session while recording is
-    // active", the new session fails to start, and we get a ~5-min GAP
-    // until the next timer tick. The delay lets save() fully complete.
+    // Stop + save current session, wait 3 sec, start new one
     function _rotateSession() as Void {
         _saveLoggerStats();
 
         if (_session != null) {
             try {
-                if (_session.isRecording()) {
-                    _session.stop();
-                }
+                if (_session.isRecording()) { _session.stop(); }
                 _session.save();
                 _fileCount++;
                 Storage.setValue("files_saved", _fileCount);
-                System.println("[SESSION] Auto-saved FIT file #" + _fileCount);
+                System.println("[SESSION] Saved FIT file #" + _fileCount);
             } catch (ex instanceof Lang.Exception) {
-                System.println("[SESSION] Auto-save error: " + ex.getErrorMessage());
+                System.println("[SESSION] Save error: " + ex.getErrorMessage());
             }
             _session = null;
         }
+        _logger = null;
 
-        // Wait 3 seconds for save() to fully release the session slot,
-        // THEN start the next session. This closes the gap.
-        var restartTimer = new Timer.Timer();
-        restartTimer.start(method(:onRestartSession), 3000, false);
+        // 3-sec gap lets save() fully release the slot before createSession
+        _restartTimer = new Timer.Timer();
+        _restartTimer.start(method(:onRestartSession), SAVE_GAP_MS, false);
+        System.println("[SESSION] Waiting 3s for save to complete...");
     }
 
-    // Called 3 seconds after save() — starts the next recording session.
-    // If the session slot is still busy (save not fully done), retry a few
-    // times rather than giving up (which would cause a 5-min gap).
-    var _restartAttempts = 0;
+    // Called 3 sec after save — start the next session immediately
     function onRestartSession() as Void {
+        _restartTimer = null;
+        System.println("[SESSION] Starting next session");
         _startSensorLogger();
-
-        // Try to start the session; verify it actually began recording
         _startFitSession();
-
-        if (_session != null && _session.isRecording()) {
-            _restartAttempts = 0;
-            System.println("[SESSION] Next session started after save");
-        } else if (_restartAttempts < 5) {
-            // Slot still busy — wait another 2s and retry
-            _restartAttempts++;
-            System.println("[SESSION] Slot busy, retry " + _restartAttempts);
-            var retry = new Timer.Timer();
-            retry.start(method(:onRestartSession), 2000, false);
-        } else {
-            _restartAttempts = 0;
-            System.println("[SESSION] Could not restart after retries");
-        }
     }
 
     function onStop(state as Dictionary?) as Void {
-        // Stop the auto-save timer
-        if (_saveTimer != null) {
-            _saveTimer.stop();
-            _saveTimer = null;
-        }
+        if (_pollTimer    != null) { _pollTimer.stop();    _pollTimer    = null; }
+        if (_restartTimer != null) { _restartTimer.stop(); _restartTimer = null; }
 
         _saveLoggerStats();
-        // Final save of the current session
         if (_session != null) {
             try {
-                if (_session.isRecording()) {
-                    _session.stop();
-                }
+                if (_session.isRecording()) { _session.stop(); }
                 _session.save();
                 Storage.setValue("session_status", "saved");
-                System.println("[SESSION] Final save on stop");
+                System.println("[SESSION] Final save on exit");
             } catch (ex instanceof Lang.Exception) {
-                System.println("[SESSION] Save error: " + ex.getErrorMessage());
+                System.println("[SESSION] Final save error: " + ex.getErrorMessage());
             }
         }
         _session = null;
@@ -139,56 +115,45 @@ class TestingApplicationApp extends Application.AppBase {
         System.println("[APP] Stopped");
     }
 
-    // Called when user confirms exit (back 3x) — save then close app
     function saveAndExit() as Void {
         onStop(null);
         System.exit();
     }
 
     function _startFitSession() as Void {
-        if (!(Toybox has :ActivityRecording)) {
-            System.println("[SESSION] ActivityRecording not supported");
-            return;
-        }
-
-        // If we already hold a recording session, do nothing
-        if (_session != null && _session.isRecording()) {
-            System.println("[SESSION] Already holding active session");
-            Storage.setValue("session_status", "recording");
-            return;
-        }
+        if (!(Toybox has :ActivityRecording)) { return; }
+        if (_session != null && _session.isRecording()) { return; }
 
         try {
+            var now  = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+            var name = "SensorLog_"
+                + now.year.format("%04d") + "-"
+                + now.month.format("%02d") + "-"
+                + now.day.format("%02d") + "_"
+                + now.hour.format("%02d") + "-"
+                + now.min.format("%02d");
+
             _session = ActivityRecording.createSession({
-                :name         => "SensorLog",
+                :name         => name,
                 :sport        => Activity.SPORT_GENERIC,
                 :subSport     => Activity.SUB_SPORT_GENERIC,
                 :sensorLogger => _logger
             });
-            if (!_session.isRecording()) {
-                _session.start();
-                System.println("[SESSION] FIT session started");
-            } else {
-                System.println("[SESSION] Recovered active session");
-            }
+
+            if (!_session.isRecording()) { _session.start(); }
+
+            _recordStartTs = Time.now().value();
             Storage.setValue("session_status", "recording");
+            System.println("[SESSION] Started: " + name);
         } catch (ex) {
-            // Slot still busy (previous save() not fully released) or a
-            // leftover session exists. Null our reference so the retry
-            // logic in onRestartSession knows the start did NOT succeed.
             _session = null;
-            System.println("[SESSION] createSession failed — slot busy, will retry");
-            Storage.setValue("session_status", "retrying");
+            System.println("[SESSION] createSession failed: " + ex);
+            Storage.setValue("session_status", "failed");
         }
     }
 
-    function getInitialView() as [Views] or [Views, InputDelegates] {
-        var view     = new TestingApplicationView();
-        var delegate = new TestingApplicationDelegate(view);
-        return [ view, delegate ];
-    }
-
     function _startSensorLogger() as Void {
+        if (_logger != null) { return; }
         try {
             _logger = new SensorLogging.SensorLogger({
                 :accelerometer => { :enabled => true },
@@ -197,6 +162,7 @@ class TestingApplicationApp extends Application.AppBase {
             Storage.setValue("logger_status", "running");
             System.println("[LOGGER] Started");
         } catch (ex instanceof Lang.Exception) {
+            _logger = null;
             Storage.setValue("logger_status", "failed");
             System.println("[LOGGER] Failed: " + ex.getErrorMessage());
         }
@@ -219,6 +185,42 @@ class TestingApplicationApp extends Application.AppBase {
         } catch (ex instanceof Lang.Exception) {
             System.println("[STATS] Error: " + ex.getErrorMessage());
         }
+    }
+
+    function _sendHeartbeat() as Void {
+        if (!(Communications has :makeWebRequest)) { return; }
+        var options = {
+            :method       => Communications.HTTP_REQUEST_METHOD_GET,
+            :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+        };
+        var params = { "device" => "vivoactive6", "ping" => _heartbeatCount };
+        System.println("[PING] Heartbeat #" + _heartbeatCount);
+        Communications.makeWebRequest(HEARTBEAT_URL, params, options,
+            method(:onHeartbeatResponse));
+    }
+
+    function onHeartbeatResponse(
+        responseCode as Number,
+        data as Dictionary or String or Null
+    ) as Void {
+        _heartbeatCount++;
+        Storage.setValue("ping_count", _heartbeatCount);
+        Storage.setValue("last_ping_code", responseCode);
+        if (responseCode == 200) {
+            Storage.setValue("connection_ok", true);
+            System.println("[PING] OK");
+        } else if (responseCode == -104) {
+            Storage.setValue("connection_ok", false);
+            System.println("[PING] -104 no BLE");
+        } else {
+            Storage.setValue("connection_ok", false);
+            System.println("[PING] Failed: " + responseCode);
+        }
+    }
+
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+        var view = new TestingApplicationView();
+        return [ view, new TestingApplicationDelegate(view) ];
     }
 
 }

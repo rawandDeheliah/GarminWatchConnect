@@ -137,6 +137,20 @@ class TestingApplicationView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(w/2, 290, Graphics.FONT_XTINY, "auto-saves every 5 min", Graphics.TEXT_JUSTIFY_CENTER);
 
+        // Connection heartbeat status
+        var connOk = Storage.getValue("connection_ok");
+        var pings  = Storage.getValue("ping_count");
+        if (pings == null) { pings = 0; }
+        if (connOk != null && connOk == true) {
+            dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(w/2, 315, Graphics.FONT_XTINY,
+                "connection OK (" + pings + ")", Graphics.TEXT_JUSTIFY_CENTER);
+        } else {
+            dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(w/2, 315, Graphics.FONT_XTINY,
+                "no connection (" + pings + ")", Graphics.TEXT_JUSTIFY_CENTER);
+        }
+
         // Back-button exit hint
         if (_backHint > 0) {
             var remaining = 3 - _backHint;
