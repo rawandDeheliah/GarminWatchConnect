@@ -1,986 +1,1264 @@
-[ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 12; @symbol_importdef<0> = [Toybox,12,7,13]; @symbol_importdef<1> = [WatchUi,12,14,21]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [WatchUi,6,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 13; @symbol_importdef<0> = [Toybox,13,7,13]; @symbol_importdef<1> = [Sensor,13,14,20]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Sensor,7,14,20]; ]
 import Toybox.Sensor;
-[ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 14; @symbol_importdef<0> = [Toybox,14,7,13]; @symbol_importdef<1> = [Graphics,14,14,22]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [Activity,8,14,22]; ]
+import Toybox.Activity;
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 9; @symbol_importdef<0> = [Toybox,9,7,13]; @symbol_importdef<1> = [Timer,9,14,19]; ]
+import Toybox.Timer;
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 10; @symbol_importdef<0> = [Toybox,10,7,13]; @symbol_importdef<1> = [Graphics,10,14,22]; ]
 import Toybox.Graphics;
-[ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 15; @symbol_importdef<0> = [Toybox,15,7,13]; @symbol_importdef<1> = [Lang,15,14,18]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 11; @symbol_importdef<0> = [Toybox,11,7,13]; @symbol_importdef<1> = [Lang,11,14,18]; ]
 import Toybox.Lang;
-[ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 16; @symbol_importdef<0> = [Toybox,16,7,13]; @symbol_importdef<1> = [System,16,14,20]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 12; @symbol_importdef<0> = [Toybox,12,7,13]; @symbol_importdef<1> = [System,12,14,20]; ]
 import Toybox.System;
-[ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 17; @symbol_importdef<0> = [Toybox,17,7,13]; @symbol_importdef<1> = [Application,17,14,25]; @symbol_importdef<2> = [Storage,17,26,33]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 13; @symbol_importdef<0> = [Toybox,13,7,13]; @symbol_importdef<1> = [Time,13,14,18]; ]
+import Toybox.Time;
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 14; @symbol_importdef<0> = [Toybox,14,7,13]; @symbol_importdef<1> = [Time,14,14,18]; @symbol_importdef<2> = [Gregorian,14,19,28]; ]
+import Toybox.Time.Gregorian;
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 15; @symbol_importdef<0> = [Toybox,15,7,13]; @symbol_importdef<1> = [Application,15,14,25]; @symbol_importdef<2> = [Storage,15,26,33]; ]
 import Toybox.Application.Storage;
-[ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 19; @symbol_classdef = [TestingApplicationView,19,6,28]; @symbol_extends<0> = [WatchUi,19,37,44]; @symbol_extends<1> = [View,19,45,49]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 17; @symbol_classdef = [TestingApplicationView,17,6,28]; @symbol_extends<0> = [WatchUi,17,37,44]; @symbol_extends<1> = [View,17,45,49]; ]
 class TestingApplicationView extends WatchUi.View {
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 19; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 17; ]
     <init> {
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 19; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 17; ]
     static
     <init> {
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 21; @position = 8; @symbol_vardef = [_heartRate,21,8,18]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 19; @position = 8; @symbol_vardef = [_heartRate,19,8,18]; ]
     var _heartRate = null;
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 22; @position = 8; @symbol_vardef = [_temperature,22,8,20]; ]
-    var _temperature = null;
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 23; @position = 8; @symbol_vardef = [_backHint,23,8,17]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 20; @position = 8; @symbol_vardef = [_backHint,20,8,17]; ]
     var _backHint = 0;
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 24; @position = 8; @symbol_vardef = [_listenerActive,24,8,23]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 21; @position = 8; @symbol_vardef = [_listenerActive,21,8,23]; ]
     var _listenerActive = false;
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 25; @position = 8; @symbol_vardef = [_screenVisible,25,8,22]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 22; @position = 8; @symbol_vardef = [_screenVisible,22,8,22]; ]
     var _screenVisible = false;
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 27; @symbol_functiondef = [initialize,27,13,23]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 23; @position = 8; @symbol_vardef = [_hrTimer,23,8,16]; ]
+    var _hrTimer = null;
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 25; @symbol_functiondef = [initialize,25,13,23]; ]
     function initialize() as Void {
-D__TestingApplication_source_TestingApplicationView_mc_27_26_30_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 28 8 ]
-        symbol [ View %tmp.2 28 8 12 ];
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_25_26_27_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 26 8 ]
+        symbol [ View %tmp.2 26 8 12 ];
         %tmp.2 = getv ? :View;
-        symbol [ initialize %tmp.3 28 13 23 ];
+        symbol [ initialize %tmp.3 26 13 23 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 29 8 ]
-        symbol [ System %tmp.4 29 8 14 ];
-        %tmp.4 = getm $.Toybox.System;
-        symbol [ println %tmp.5 29 15 22 ];
-        %tmp.5 = getv function %tmp.4 :println;
-        %tmp.6 = "=== TestingApplication VIEW STARTED ===";
-        invoke %tmp.4 %tmp.5(%tmp.6);
-D__TestingApplication_source_TestingApplicationView_mc_27_26_30_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_25_26_27_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 32; @symbol_functiondef = [onLayout,32,13,21]; @symbol_param<0> = [dc,32,22,24]; @symbol_param<0>_type<0> = [Graphics,32,28,36]; @symbol_param<0>_type<1> = [Dc,32,37,39]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 29; @symbol_functiondef = [onLayout,29,13,21]; @symbol_param<0> = [dc,29,22,24]; @symbol_param<0>_type<0> = [Graphics,29,28,36]; @symbol_param<0>_type<1> = [Dc,29,37,39]; ]
     function onLayout(dc as Graphics.Dc) as Void {
-D__TestingApplication_source_TestingApplicationView_mc_32_49_34_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 33 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_29_49_31_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 30 8 ]
         %tmp.1 = self;
-        symbol [ _registerListeners %tmp.2 33 8 26 ];
+        symbol [ _registerListeners %tmp.2 30 8 26 ];
         %tmp.2 = getv function %tmp.1 :_registerListeners;
         invoke %tmp.1 %tmp.2();
-D__TestingApplication_source_TestingApplicationView_mc_32_49_34_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_29_49_31_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 36; @symbol_functiondef = [onShow,36,13,19]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 33; @symbol_functiondef = [onShow,33,13,19]; ]
     function onShow() as Void {
-D__TestingApplication_source_TestingApplicationView_mc_36_30_40_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 37 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_33_30_37_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 34 8 ]
         %tmp.1 = true;
-        symbol [ _screenVisible ? 37 8 22 ];
+        symbol [ _screenVisible ? 34 8 22 ];
         putv self :_screenVisible %tmp.1;
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 38 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 35 8 ]
         %tmp.2 = self;
-        symbol [ _registerListeners %tmp.3 38 8 26 ];
+        symbol [ _registerListeners %tmp.3 35 8 26 ];
         %tmp.3 = getv function %tmp.2 :_registerListeners;
         invoke %tmp.2 %tmp.3();
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 39 8 ]
-        symbol [ System %tmp.4 39 8 14 ];
-        %tmp.4 = getm $.Toybox.System;
-        symbol [ println %tmp.5 39 15 22 ];
-        %tmp.5 = getv function %tmp.4 :println;
-        %tmp.6 = "[VIEW] onShow — screen on";
-        invoke %tmp.4 %tmp.5(%tmp.6);
-D__TestingApplication_source_TestingApplicationView_mc_36_30_40_4_stop:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 36 8 ]
+        symbol [ WatchUi %tmp.4 36 8 15 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.5 36 16 29 ];
+        %tmp.5 = getv function %tmp.4 :requestUpdate;
+        invoke %tmp.4 %tmp.5();
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_33_30_37_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 42; @symbol_functiondef = [onHide,42,13,19]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 39; @symbol_functiondef = [onHide,39,13,19]; ]
     function onHide() as Void {
-D__TestingApplication_source_TestingApplicationView_mc_42_30_46_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 43 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_39_30_46_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 40 8 ]
         %tmp.1 = false;
-        symbol [ _screenVisible ? 43 8 22 ];
+        symbol [ _screenVisible ? 40 8 22 ];
         putv self :_screenVisible %tmp.1;
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 45 8 ]
-        symbol [ System %tmp.2 45 8 14 ];
-        %tmp.2 = getm $.Toybox.System;
-        symbol [ println %tmp.3 45 15 22 ];
-        %tmp.3 = getv function %tmp.2 :println;
-        %tmp.4 = "[VIEW] onHide — screen off, FIT still recording";
-        invoke %tmp.2 %tmp.3(%tmp.4);
-D__TestingApplication_source_TestingApplicationView_mc_42_30_46_4_stop:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 41 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_41_8_45_8_if_stmt:
+        symbol [ _hrTimer %tmp.3 41 12 20 ];
+        %tmp.3 = getv ? :_hrTimer;
+        %tmp.4 = null;
+        %tmp.5 = ne %tmp.3 %tmp.4;
+        bf %tmp.5 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_41_8_45_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_41_8_45_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_41_30_45_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 42 12 ]
+        symbol [ _hrTimer %tmp.7 42 12 20 ];
+        %tmp.7 = getv ? :_hrTimer;
+        %tmp.8 = as %tmp.7 { (!Null) };
+        symbol [ stop %tmp.9 42 21 25 ];
+        %tmp.9 = getv function %tmp.8 :stop;
+        invoke %tmp.8 %tmp.9();
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 43 12 ]
+        %tmp.10 = null;
+        symbol [ _hrTimer ? 43 12 20 ];
+        putv self :_hrTimer %tmp.10;
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 44 12 ]
+        %tmp.11 = false;
+        symbol [ _listenerActive ? 44 12 27 ];
+        putv self :_listenerActive %tmp.11;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_41_30_45_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_41_8_45_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_41_8_45_8_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_39_30_46_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 48; @symbol_functiondef = [_registerListeners,48,13,31]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 48; @symbol_functiondef = [_registerListeners,48,13,31]; ]
     function _registerListeners() as Void {
-D__TestingApplication_source_TestingApplicationView_mc_48_42_60_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 49 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_48_42_56_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 49 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_stmt:
         symbol [ _listenerActive %tmp.2 49 12 27 ];
         %tmp.2 = getv ? :_listenerActive;
-        bf %tmp.2 @D__TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_49_29_49_39_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 49 31 ]
+        bf %tmp.2 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_49_29_49_39_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 49 31 ]
         ret ?;
-D__TestingApplication_source_TestingApplicationView_mc_49_29_49_39_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_end:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 50 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_49_29_49_39_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_49_8_49_39_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 50 8 ]
         %tmp.3 = true;
         symbol [ _listenerActive ? 50 8 23 ];
         putv self :_listenerActive %tmp.3;
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 54 8 ]
-        symbol [ Sensor %tmp.4 54 8 14 ];
-        %tmp.4 = getm $.Toybox.Sensor;
-        symbol [ setEnabledSensors %tmp.5 54 15 32 ];
-        %tmp.5 = getv function %tmp.4 :setEnabledSensors;
-        %tmp.6 = newa 2;
-        symbol [ Sensor %tmp.7 55 12 18 ];
-        %tmp.7 = getm $.Toybox.Sensor;
-        symbol [ SENSOR_HEARTRATE %tmp.8 55 19 35 ];
-        %tmp.8 = getv %tmp.7 :SENSOR_HEARTRATE;
-        %tmp.9 = dup %tmp.6;
-        %tmp.10 = aputv %tmp.9 0 %tmp.8;
-        symbol [ Sensor %tmp.11 56 12 18 ];
-        %tmp.11 = getm $.Toybox.Sensor;
-        symbol [ SENSOR_TEMPERATURE %tmp.12 56 19 37 ];
-        %tmp.12 = getv %tmp.11 :SENSOR_TEMPERATURE;
-        %tmp.13 = dup %tmp.10;
-        %tmp.14 = aputv %tmp.13 1 %tmp.12;
-        invoke %tmp.4 %tmp.5(%tmp.14);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 58 8 ]
-        symbol [ Sensor %tmp.15 58 8 14 ];
-        %tmp.15 = getm $.Toybox.Sensor;
-        symbol [ enableSensorEvents %tmp.16 58 15 33 ];
-        %tmp.16 = getv function %tmp.15 :enableSensorEvents;
-        %tmp.17 = self;
-        symbol [ method %tmp.18 58 34 40 ];
-        %tmp.18 = getv function %tmp.17 :method;
-        %tmp.20 = const :onSensor;
-        symbol [ onSensor %tmp.20 58 42 50 const ];
-        %tmp.21 = invoke %tmp.17 %tmp.18(%tmp.20);
-        invoke %tmp.15 %tmp.16(%tmp.21);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 59 8 ]
-        symbol [ System %tmp.22 59 8 14 ];
-        %tmp.22 = getm $.Toybox.System;
-        symbol [ println %tmp.23 59 15 22 ];
-        %tmp.23 = getv function %tmp.22 :println;
-        %tmp.24 = "[VIEW] HR/Temp listener active (screen free to sleep)";
-        invoke %tmp.22 %tmp.23(%tmp.24);
-D__TestingApplication_source_TestingApplicationView_mc_48_42_60_4_stop:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 53 8 ]
+        symbol [ Timer %tmp.6 53 23 28 ];
+        %tmp.6 = getm $.Toybox.Timer;
+        symbol [ Timer %tmp.7 53 29 34 ];
+        %tmp.7 = getv function ? %tmp.6 :Timer;
+        %tmp.4 = newc %tmp.7 ();
+        symbol [ _hrTimer ? 53 8 16 ];
+        putv self :_hrTimer %tmp.4;
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 54 8 ]
+        symbol [ _hrTimer %tmp.9 54 8 16 ];
+        %tmp.9 = getv ? :_hrTimer;
+        symbol [ start %tmp.10 54 17 22 ];
+        %tmp.10 = getv function %tmp.9 :start;
+        %tmp.11 = self;
+        symbol [ method %tmp.12 54 23 29 ];
+        %tmp.12 = getv function %tmp.11 :method;
+        %tmp.14 = const :onHrPoll;
+        symbol [ onHrPoll %tmp.14 54 31 39 const ];
+        %tmp.15 = invoke %tmp.11 %tmp.12(%tmp.14);
+        %tmp.16 = 120000;
+        %tmp.17 = true;
+        invoke %tmp.9 %tmp.10(%tmp.15, %tmp.16, %tmp.17);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 55 8 ]
+        symbol [ System %tmp.18 55 8 14 ];
+        %tmp.18 = getm $.Toybox.System;
+        symbol [ println %tmp.19 55 15 22 ];
+        %tmp.19 = getv function %tmp.18 :println;
+        %tmp.20 = "[HR] Poll timer started";
+        invoke %tmp.18 %tmp.19(%tmp.20);
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_48_42_56_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 63; @symbol_functiondef = [onSensor,63,13,21]; @symbol_param<0> = [info,63,22,26]; @symbol_param<0>_type<0> = [Sensor,63,30,36]; @symbol_param<0>_type<1> = [Info,63,37,41]; ]
-    function onSensor(info as Sensor.Info) as Void {
-D__TestingApplication_source_TestingApplicationView_mc_63_51_76_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 64 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_64_8_66_8_if_stmt:
-D__TestingApplication_source_TestingApplicationView_mc_64_12_64_53_begin:
-        %tmp.1 = lgetv %info;
-        symbol [ info %tmp.1 64 12 16 ];
-        %tmp.3 = const :heartRate;
-        symbol [ heartRate %tmp.3 64 22 31 const ];
-        %tmp.4 = canhazplz %tmp.1 %tmp.3;
-        bf %tmp.4 @D__TestingApplication_source_TestingApplicationView_mc_64_8_66_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_64_35_64_53_true:
-        %tmp.5 = lgetv %info;
-        symbol [ info %tmp.5 64 35 39 ];
-        %tmp.6 = as %tmp.5 { (interface { var heartRate; }) };
-        symbol [ heartRate %tmp.7 64 40 49 ];
-        %tmp.7 = getv %tmp.6 :heartRate;
-        %tmp.8 = null;
-        %tmp.9 = ne %tmp.7 %tmp.8;
-        push %tmp.9;
-D__TestingApplication_source_TestingApplicationView_mc_64_35_64_53_end:
-        %tmp.10 = phi [%tmp.4 @D__TestingApplication_source_TestingApplicationView_mc_64_12_64_53_begin] [%tmp.9 @D__TestingApplication_source_TestingApplicationView_mc_64_35_64_53_true] [%tmp.10 @D__TestingApplication_source_TestingApplicationView_mc_64_35_64_53_end];
-        bf %tmp.10 @D__TestingApplication_source_TestingApplicationView_mc_64_8_66_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_64_8_66_8_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_64_59_66_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 65 12 ]
-        %tmp.11 = lgetv %info;
-        symbol [ info %tmp.11 65 25 29 ];
-        %tmp.12 = as %tmp.11 { (interface { var heartRate; }) };
-        symbol [ heartRate %tmp.13 65 30 39 ];
-        %tmp.13 = getv %tmp.12 :heartRate;
-        symbol [ _heartRate ? 65 12 22 ];
-        putv self :_heartRate %tmp.13;
-D__TestingApplication_source_TestingApplicationView_mc_64_59_66_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_64_8_66_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_64_8_66_8_if_end:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 67 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_67_8_69_8_if_stmt:
-D__TestingApplication_source_TestingApplicationView_mc_67_12_67_57_begin:
-        %tmp.14 = lgetv %info;
-        symbol [ info %tmp.14 67 12 16 ];
-        %tmp.16 = const :temperature;
-        symbol [ temperature %tmp.16 67 22 33 const ];
-        %tmp.17 = canhazplz %tmp.14 %tmp.16;
-        bf %tmp.17 @D__TestingApplication_source_TestingApplicationView_mc_67_8_69_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_67_37_67_57_true:
-        %tmp.18 = lgetv %info;
-        symbol [ info %tmp.18 67 37 41 ];
-        %tmp.19 = as %tmp.18 { (interface { var temperature; }) };
-        symbol [ temperature %tmp.20 67 42 53 ];
-        %tmp.20 = getv %tmp.19 :temperature;
-        %tmp.21 = null;
-        %tmp.22 = ne %tmp.20 %tmp.21;
-        push %tmp.22;
-D__TestingApplication_source_TestingApplicationView_mc_67_37_67_57_end:
-        %tmp.23 = phi [%tmp.17 @D__TestingApplication_source_TestingApplicationView_mc_67_12_67_57_begin] [%tmp.22 @D__TestingApplication_source_TestingApplicationView_mc_67_37_67_57_true] [%tmp.23 @D__TestingApplication_source_TestingApplicationView_mc_67_37_67_57_end];
-        bf %tmp.23 @D__TestingApplication_source_TestingApplicationView_mc_67_8_69_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_67_8_69_8_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_67_63_69_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 68 12 ]
-        %tmp.24 = lgetv %info;
-        symbol [ info %tmp.24 68 27 31 ];
-        %tmp.25 = as %tmp.24 { (interface { var temperature; }) };
-        symbol [ temperature %tmp.26 68 32 43 ];
-        %tmp.26 = getv %tmp.25 :temperature;
-        symbol [ _temperature ? 68 12 24 ];
-        putv self :_temperature %tmp.26;
-D__TestingApplication_source_TestingApplicationView_mc_67_63_69_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_67_8_69_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_67_8_69_8_if_end:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 73 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_73_8_75_8_if_stmt:
-        symbol [ _screenVisible %tmp.28 73 12 26 ];
-        %tmp.28 = getv ? :_screenVisible;
-        bf %tmp.28 @D__TestingApplication_source_TestingApplicationView_mc_73_8_75_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_73_8_75_8_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_73_28_75_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 74 12 ]
-        symbol [ WatchUi %tmp.29 74 12 19 ];
-        %tmp.29 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.30 74 20 33 ];
-        %tmp.30 = getv function %tmp.29 :requestUpdate;
-        invoke %tmp.29 %tmp.30();
-D__TestingApplication_source_TestingApplicationView_mc_73_28_75_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_73_8_75_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_73_8_75_8_if_end:
-D__TestingApplication_source_TestingApplicationView_mc_63_51_76_4_stop:
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 58; @symbol_functiondef = [onHrPoll,58,13,21]; ]
+    function onHrPoll() as Void {
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_58_32_85_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 59 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_58_32_85_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_58_32_85_4_stop" ]
+        %gotHr.1 = local;
+        symbol [ gotHr %gotHr.1 59 12 17 ];
+        %tmp.1 = false;
+        lputv %gotHr.1 %tmp.1;
+        symbol [ gotHr %gotHr.1 59 12 17 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 62 8 ]
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_beginTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_endTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_beginTry:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_12_69_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 63 12 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_12_69_8_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_12_69_8_stop" ]
+        %actInfo.2 = local;
+        symbol [ actInfo %actInfo.2 63 16 23 ];
+        symbol [ Activity %tmp.2 63 26 34 ];
+        %tmp.2 = getm $.Toybox.Activity;
+        symbol [ getActivityInfo %tmp.3 63 35 50 ];
+        %tmp.3 = getv function %tmp.2 :getActivityInfo;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %actInfo.2 %tmp.4;
+        symbol [ actInfo %actInfo.2 63 16 23 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 64 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_12_68_12_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_16_64_63_begin:
+        %tmp.5 = lgetv %actInfo.2;
+        symbol [ actInfo %tmp.5 64 16 23 ];
+        %tmp.6 = null;
+        %tmp.7 = ne %tmp.5 %tmp.6;
+        bf %tmp.7 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_12_68_12_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_35_64_63_true:
+        %tmp.8 = lgetv %actInfo.2;
+        symbol [ actInfo %tmp.8 64 35 42 ];
+        %tmp.9 = as %tmp.8 { (!Null) };
+        symbol [ currentHeartRate %tmp.10 64 43 59 ];
+        %tmp.10 = getv %tmp.9 :currentHeartRate;
+        %tmp.11 = null;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        push %tmp.12;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_35_64_63_end:
+        %tmp.13 = phi [%tmp.7 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_16_64_63_begin] [%tmp.12 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_35_64_63_true] [%tmp.13 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_35_64_63_end];
+        bf %tmp.13 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_12_68_12_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_12_68_12_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_69_68_12_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 65 16 ]
+        %tmp.14 = lgetv %actInfo.2;
+        symbol [ actInfo %tmp.14 65 29 36 ];
+        %tmp.15 = as %tmp.14 { (!Null) };
+        symbol [ currentHeartRate %tmp.16 65 37 53 ];
+        %tmp.16 = getv %tmp.15 :currentHeartRate;
+        symbol [ _heartRate ? 65 16 26 ];
+        putv self :_heartRate %tmp.16;
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 66 16 ]
+        %tmp.17 = true;
+        lputv %gotHr.1 %tmp.17;
+        symbol [ gotHr %gotHr.1 66 16 21 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 67 16 ]
+        symbol [ System %tmp.18 67 16 22 ];
+        %tmp.18 = getm $.Toybox.System;
+        symbol [ println %tmp.19 67 23 30 ];
+        %tmp.19 = getv function %tmp.18 :println;
+        %tmp.20 = "[HR] Activity: ";
+        symbol [ _heartRate %tmp.22 67 51 61 ];
+        %tmp.22 = getv ? :_heartRate;
+        %tmp.23 = add %tmp.20 %tmp.22;
+        invoke %tmp.18 %tmp.19(%tmp.23);
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_69_68_12_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_12_68_12_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_64_12_68_12_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_12_69_8_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_endTry:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_catch:
+        %tmp.24 = exception;
+        push %tmp.24;
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 69 10 ]
+        %tmp.25 = dup %tmp.24;
+        symbol [ Lang %tmp.26 69 31 35 ];
+        %tmp.26 = getm $.Toybox.Lang;
+        symbol [ Exception %tmp.27 69 36 45 ];
+        %tmp.27 = getv %tmp.26 :Exception;
+        %tmp.28 = isa %tmp.25 %tmp.27;
+        bf %tmp.28 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_69_10_69_48_next;
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_catch" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_69_10_69_48_next" ]
+        %ex.3 = local;
+        symbol [ ex %ex.3 69 17 19 ];
+        %tmp.29 = dup %tmp.24;
+        %tmp.30 = as %tmp.29 Lang.Exception;
+        lputv %ex.3 %tmp.30;
+        symbol [ ex %ex.3 69 17 19 ];
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_finally;
+        pop;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_69_10_69_48_next:
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_69_10_69_48_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_69_10_69_48_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_finally;
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_finally;
+        throw %tmp.24;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_finally:
+        jsrret;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_62_8_69_48_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 72 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_72_8_82_8_if_stmt:
+        %tmp.31 = lgetv %gotHr.1;
+        symbol [ gotHr %tmp.31 72 13 18 ];
+        %tmp.32 = not %tmp.31;
+        bf %tmp.32 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_72_8_82_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_72_8_82_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_72_20_82_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 73 12 ]
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_beginTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_endTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_beginTry:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_16_81_12_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 74 16 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_16_81_12_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_16_81_12_stop" ]
+        %sInfo.4 = local;
+        symbol [ sInfo %sInfo.4 74 20 25 ];
+        symbol [ Sensor %tmp.33 74 28 34 ];
+        %tmp.33 = getm $.Toybox.Sensor;
+        symbol [ getInfo %tmp.34 74 35 42 ];
+        %tmp.34 = getv function %tmp.33 :getInfo;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        lputv %sInfo.4 %tmp.35;
+        symbol [ sInfo %sInfo.4 74 20 25 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 75 16 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_16_80_16_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_20_75_56_begin:
+        %tmp.36 = lgetv %sInfo.4;
+        symbol [ sInfo %tmp.36 75 20 25 ];
+        %tmp.37 = null;
+        %tmp.38 = ne %tmp.36 %tmp.37;
+        bf %tmp.38 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_16_80_16_if_else_false;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_37_75_56_true:
+        %tmp.39 = lgetv %sInfo.4;
+        symbol [ sInfo %tmp.39 75 37 42 ];
+        %tmp.40 = as %tmp.39 { (!Null) };
+        symbol [ heartRate %tmp.41 75 43 52 ];
+        %tmp.41 = getv %tmp.40 :heartRate;
+        %tmp.42 = null;
+        %tmp.43 = ne %tmp.41 %tmp.42;
+        push %tmp.43;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_37_75_56_end:
+        %tmp.44 = phi [%tmp.38 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_20_75_56_begin] [%tmp.43 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_37_75_56_true] [%tmp.44 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_37_75_56_end];
+        bf %tmp.44 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_16_80_16_if_else_false;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_16_80_16_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_62_78_16_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 76 20 ]
+        %tmp.45 = lgetv %sInfo.4;
+        symbol [ sInfo %tmp.45 76 33 38 ];
+        %tmp.46 = as %tmp.45 { (!Null) };
+        symbol [ heartRate %tmp.47 76 39 48 ];
+        %tmp.47 = getv %tmp.46 :heartRate;
+        symbol [ _heartRate ? 76 20 30 ];
+        putv self :_heartRate %tmp.47;
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 77 20 ]
+        symbol [ System %tmp.48 77 20 26 ];
+        %tmp.48 = getm $.Toybox.System;
+        symbol [ println %tmp.49 77 27 34 ];
+        %tmp.49 = getv function %tmp.48 :println;
+        %tmp.50 = "[HR] Sensor: ";
+        symbol [ _heartRate %tmp.52 77 53 63 ];
+        %tmp.52 = getv ? :_heartRate;
+        %tmp.53 = add %tmp.50 %tmp.52;
+        invoke %tmp.48 %tmp.49(%tmp.53);
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_62_78_16_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_16_80_16_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_16_80_16_if_else_false:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_78_23_80_16_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 79 20 ]
+        symbol [ System %tmp.54 79 20 26 ];
+        %tmp.54 = getm $.Toybox.System;
+        symbol [ println %tmp.55 79 27 34 ];
+        %tmp.55 = getv function %tmp.54 :println;
+        %tmp.56 = "[HR] both sources null";
+        invoke %tmp.54 %tmp.55(%tmp.56);
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_78_23_80_16_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_75_16_80_16_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_16_81_12_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_endTry:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_catch:
+        %tmp.57 = exception;
+        push %tmp.57;
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 81 14 ]
+        %tmp.58 = dup %tmp.57;
+        symbol [ Lang %tmp.59 81 35 39 ];
+        %tmp.59 = getm $.Toybox.Lang;
+        symbol [ Exception %tmp.60 81 40 49 ];
+        %tmp.60 = getv %tmp.59 :Exception;
+        %tmp.61 = isa %tmp.58 %tmp.60;
+        bf %tmp.61 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_81_14_81_52_next;
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_catch" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_81_14_81_52_next" ]
+        %ex.5 = local;
+        symbol [ ex %ex.5 81 21 23 ];
+        %tmp.62 = dup %tmp.57;
+        %tmp.63 = as %tmp.62 Lang.Exception;
+        lputv %ex.5 %tmp.63;
+        symbol [ ex %ex.5 81 21 23 ];
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_finally;
+        pop;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_81_14_81_52_next:
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_81_14_81_52_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_81_14_81_52_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_finally;
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_finally;
+        throw %tmp.57;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_finally:
+        jsrret;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_73_12_81_52_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_72_20_82_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_72_8_82_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_72_8_82_8_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 84 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_84_8_84_55_if_stmt:
+        symbol [ _screenVisible %tmp.65 84 12 26 ];
+        %tmp.65 = getv ? :_screenVisible;
+        bf %tmp.65 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_84_8_84_55_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_84_8_84_55_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_84_28_84_55_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 84 30 ]
+        symbol [ WatchUi %tmp.66 84 30 37 ];
+        %tmp.66 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.67 84 38 51 ];
+        %tmp.67 = getv function %tmp.66 :requestUpdate;
+        invoke %tmp.66 %tmp.67();
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_84_28_84_55_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_84_8_84_55_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_84_8_84_55_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_58_32_85_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 78; @symbol_functiondef = [nextPage,78,13,21]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 87; @symbol_functiondef = [nextPage,87,13,21]; ]
     function nextPage() as Void {
-D__TestingApplication_source_TestingApplicationView_mc_78_32_82_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 79 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_79_8_81_8_if_stmt:
-        symbol [ _screenVisible %tmp.2 79 12 26 ];
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_87_32_89_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 88 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_88_8_88_55_if_stmt:
+        symbol [ _screenVisible %tmp.2 88 12 26 ];
         %tmp.2 = getv ? :_screenVisible;
-        bf %tmp.2 @D__TestingApplication_source_TestingApplicationView_mc_79_8_81_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_79_8_81_8_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_79_28_81_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 80 12 ]
-        symbol [ WatchUi %tmp.3 80 12 19 ];
+        bf %tmp.2 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_88_8_88_55_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_88_8_88_55_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_88_28_88_55_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 88 30 ]
+        symbol [ WatchUi %tmp.3 88 30 37 ];
         %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.4 80 20 33 ];
+        symbol [ requestUpdate %tmp.4 88 38 51 ];
         %tmp.4 = getv function %tmp.3 :requestUpdate;
         invoke %tmp.3 %tmp.4();
-D__TestingApplication_source_TestingApplicationView_mc_79_28_81_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_79_8_81_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_79_8_81_8_if_end:
-D__TestingApplication_source_TestingApplicationView_mc_78_32_82_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_88_28_88_55_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_88_8_88_55_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_88_8_88_55_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_87_32_89_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 84; @symbol_functiondef = [confirmExit,84,13,24]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 91; @symbol_functiondef = [confirmExit,91,13,24]; ]
     function confirmExit() as Void {
-D__TestingApplication_source_TestingApplicationView_mc_84_35_86_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 85 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_91_35_93_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 92 8 ]
         %tmp.1 = self;
-        symbol [ getApp %tmp.2 85 8 14 ];
+        symbol [ getApp %tmp.2 92 8 14 ];
         %tmp.2 = getv function %tmp.1 :getApp;
         %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ saveAndExit %tmp.4 85 17 28 ];
+        symbol [ saveAndExit %tmp.4 92 17 28 ];
         %tmp.4 = getv function %tmp.3 :saveAndExit;
         invoke %tmp.3 %tmp.4();
-D__TestingApplication_source_TestingApplicationView_mc_84_35_86_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_91_35_93_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 88; @symbol_functiondef = [showBackHint,88,13,25]; @symbol_param<0> = [count,88,26,31]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 95; @symbol_functiondef = [showBackHint,95,13,25]; @symbol_param<0> = [count,95,26,31]; ]
     function showBackHint(count) as Void {
-D__TestingApplication_source_TestingApplicationView_mc_88_41_91_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 89 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_95_41_98_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 96 8 ]
         %tmp.1 = lgetv %count;
-        symbol [ count %tmp.1 89 20 25 ];
-        symbol [ _backHint ? 89 8 17 ];
+        symbol [ count %tmp.1 96 20 25 ];
+        symbol [ _backHint ? 96 8 17 ];
         putv self :_backHint %tmp.1;
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 90 8 ]
-        symbol [ WatchUi %tmp.2 90 8 15 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 97 8 ]
+        symbol [ WatchUi %tmp.2 97 8 15 ];
         %tmp.2 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.3 90 16 29 ];
+        symbol [ requestUpdate %tmp.3 97 16 29 ];
         %tmp.3 = getv function %tmp.2 :requestUpdate;
         invoke %tmp.2 %tmp.3();
-D__TestingApplication_source_TestingApplicationView_mc_88_41_91_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_95_41_98_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 96; @symbol_functiondef = [onUpdate,96,13,21]; @symbol_param<0> = [dc,96,22,24]; @symbol_param<0>_type<0> = [Graphics,96,28,36]; @symbol_param<0>_type<1> = [Dc,96,37,39]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 100; @symbol_functiondef = [onUpdate,100,13,21]; @symbol_param<0> = [dc,100,22,24]; @symbol_param<0>_type<0> = [Graphics,100,28,36]; @symbol_param<0>_type<1> = [Dc,100,37,39]; ]
     function onUpdate(dc as Graphics.Dc) as Void {
-D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 97 8 ]
-        %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 97 8 10 ];
-        symbol [ setColor %tmp.2 97 11 19 ];
-        %tmp.2 = getv function %tmp.1 :setColor;
-        symbol [ Graphics %tmp.3 97 20 28 ];
-        %tmp.3 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.4 97 29 40 ];
-        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
-        symbol [ Graphics %tmp.5 97 42 50 ];
-        %tmp.5 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.6 97 51 62 ];
-        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
-        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 98 8 ]
-        %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 98 8 10 ];
-        symbol [ clear %tmp.8 98 11 16 ];
-        %tmp.8 = getv function %tmp.7 :clear;
-        invoke %tmp.7 %tmp.8();
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 100 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 101 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
         %w.1 = local;
-        symbol [ w %w.1 100 12 13 ];
-        %tmp.9 = lgetv %dc;
-        symbol [ dc %tmp.9 100 16 18 ];
-        symbol [ getWidth %tmp.10 100 19 27 ];
-        %tmp.10 = getv function %tmp.9 :getWidth;
-        %tmp.11 = invoke %tmp.9 %tmp.10();
-        lputv %w.1 %tmp.11;
-        symbol [ w %w.1 100 12 13 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 101 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
+        symbol [ w %w.1 101 12 13 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 101 16 18 ];
+        symbol [ getWidth %tmp.2 101 19 27 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %w.1 %tmp.3;
+        symbol [ w %w.1 101 12 13 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 102 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
         %h.2 = local;
-        symbol [ h %h.2 101 12 13 ];
-        %tmp.12 = lgetv %dc;
-        symbol [ dc %tmp.12 101 16 18 ];
-        symbol [ getHeight %tmp.13 101 19 28 ];
-        %tmp.13 = getv function %tmp.12 :getHeight;
-        %tmp.14 = invoke %tmp.12 %tmp.13();
-        lputv %h.2 %tmp.14;
-        symbol [ h %h.2 101 12 13 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 104 8 ]
-        %tmp.15 = lgetv %dc;
-        symbol [ dc %tmp.15 104 8 10 ];
-        symbol [ setColor %tmp.16 104 11 19 ];
-        %tmp.16 = getv function %tmp.15 :setColor;
-        symbol [ Graphics %tmp.17 104 20 28 ];
-        %tmp.17 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.18 104 29 40 ];
-        %tmp.18 = getv %tmp.17 :COLOR_WHITE;
-        symbol [ Graphics %tmp.19 104 42 50 ];
-        %tmp.19 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.20 104 51 68 ];
-        %tmp.20 = getv %tmp.19 :COLOR_TRANSPARENT;
-        invoke %tmp.15 %tmp.16(%tmp.18, %tmp.20);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 105 8 ]
-        %tmp.21 = lgetv %dc;
-        symbol [ dc %tmp.21 105 8 10 ];
-        symbol [ drawText %tmp.22 105 11 19 ];
-        %tmp.22 = getv function %tmp.21 :drawText;
-        %tmp.23 = lgetv %w.1;
-        symbol [ w %tmp.23 105 20 21 ];
-        %tmp.24 = 2;
-        %tmp.25 = div %tmp.23 %tmp.24;
-        %tmp.26 = 25;
-        symbol [ Graphics %tmp.27 105 29 37 ];
+        symbol [ h %h.2 102 12 13 ];
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 102 16 18 ];
+        symbol [ getHeight %tmp.5 102 19 28 ];
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %h.2 %tmp.6;
+        symbol [ h %h.2 102 12 13 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 105 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 105 8 10 ];
+        symbol [ setColor %tmp.8 105 11 19 ];
+        %tmp.8 = getv function %tmp.7 :setColor;
+        %tmp.9 = 0x1A1A1A;
+        %tmp.10 = 0x1A1A1A;
+        invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 106 8 ]
+        %tmp.11 = lgetv %dc;
+        symbol [ dc %tmp.11 106 8 10 ];
+        symbol [ clear %tmp.12 106 11 16 ];
+        %tmp.12 = getv function %tmp.11 :clear;
+        invoke %tmp.11 %tmp.12();
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 109 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
+        %now.3 = local;
+        symbol [ now %now.3 109 12 15 ];
+        symbol [ Gregorian %tmp.13 109 18 27 ];
+        %tmp.13 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.14 109 28 32 ];
+        %tmp.14 = getv function %tmp.13 :info;
+        symbol [ Time %tmp.15 109 33 37 ];
+        %tmp.15 = getm $.Toybox.Time;
+        symbol [ now %tmp.16 109 38 41 ];
+        %tmp.16 = getv function %tmp.15 :now;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        symbol [ Time %tmp.18 109 45 49 ];
+        %tmp.18 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.19 109 50 62 ];
+        %tmp.19 = getv %tmp.18 :FORMAT_SHORT;
+        %tmp.20 = invoke %tmp.13 %tmp.14(%tmp.17, %tmp.19);
+        lputv %now.3 %tmp.20;
+        symbol [ now %now.3 109 12 15 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 113 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
+        %cx.4 = local;
+        symbol [ cx %cx.4 113 12 14 ];
+        %tmp.21 = lgetv %w.1;
+        symbol [ w %tmp.21 113 17 18 ];
+        %tmp.22 = 2;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        lputv %cx.4 %tmp.23;
+        symbol [ cx %cx.4 113 12 14 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 114 8 ]
+        %tmp.24 = lgetv %dc;
+        symbol [ dc %tmp.24 114 8 10 ];
+        symbol [ setColor %tmp.25 114 11 19 ];
+        %tmp.25 = getv function %tmp.24 :setColor;
+        %tmp.26 = 0xFF2D55;
+        symbol [ Graphics %tmp.27 114 30 38 ];
         %tmp.27 = getm $.Toybox.Graphics;
-        symbol [ FONT_SMALL %tmp.28 105 38 48 ];
-        %tmp.28 = getv %tmp.27 :FONT_SMALL;
-        %tmp.29 = "SENSOR LOG";
-        symbol [ Graphics %tmp.30 105 64 72 ];
-        %tmp.30 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.31 105 73 92 ];
-        %tmp.31 = getv %tmp.30 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.21 %tmp.22(%tmp.25, %tmp.26, %tmp.28, %tmp.29, %tmp.31);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 107 8 ]
-        %tmp.32 = lgetv %dc;
-        symbol [ dc %tmp.32 107 8 10 ];
-        symbol [ setColor %tmp.33 107 11 19 ];
-        %tmp.33 = getv function %tmp.32 :setColor;
-        symbol [ Graphics %tmp.34 107 20 28 ];
-        %tmp.34 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.35 107 29 42 ];
-        %tmp.35 = getv %tmp.34 :COLOR_DK_GRAY;
-        symbol [ Graphics %tmp.36 107 44 52 ];
+        symbol [ COLOR_TRANSPARENT %tmp.28 114 39 56 ];
+        %tmp.28 = getv %tmp.27 :COLOR_TRANSPARENT;
+        invoke %tmp.24 %tmp.25(%tmp.26, %tmp.28);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 115 8 ]
+        %tmp.29 = lgetv %dc;
+        symbol [ dc %tmp.29 115 8 10 ];
+        symbol [ fillCircle %tmp.30 115 11 21 ];
+        %tmp.30 = getv function %tmp.29 :fillCircle;
+        %tmp.31 = lgetv %cx.4;
+        symbol [ cx %tmp.31 115 22 24 ];
+        %tmp.32 = 58;
+        %tmp.33 = 36;
+        invoke %tmp.29 %tmp.30(%tmp.31, %tmp.32, %tmp.33);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 118 8 ]
+        %tmp.34 = lgetv %dc;
+        symbol [ dc %tmp.34 118 8 10 ];
+        symbol [ setColor %tmp.35 118 11 19 ];
+        %tmp.35 = getv function %tmp.34 :setColor;
+        symbol [ Graphics %tmp.36 118 20 28 ];
         %tmp.36 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.37 107 53 70 ];
-        %tmp.37 = getv %tmp.36 :COLOR_TRANSPARENT;
-        invoke %tmp.32 %tmp.33(%tmp.35, %tmp.37);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 108 8 ]
-        %tmp.38 = lgetv %dc;
-        symbol [ dc %tmp.38 108 8 10 ];
-        symbol [ drawLine %tmp.39 108 11 19 ];
-        %tmp.39 = getv function %tmp.38 :drawLine;
-        %tmp.40 = 30;
-        %tmp.41 = 60;
-        %tmp.42 = lgetv %w.1;
-        symbol [ w %tmp.42 108 28 29 ];
-        %tmp.43 = 30;
-        %tmp.44 = sub %tmp.42 %tmp.43;
-        %tmp.45 = 60;
-        invoke %tmp.38 %tmp.39(%tmp.40, %tmp.41, %tmp.44, %tmp.45);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 111 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
-        %status.3 = local;
-        symbol [ status %status.3 111 12 18 ];
-        symbol [ Storage %tmp.46 111 21 28 ];
-        %tmp.46 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.47 111 29 37 ];
-        %tmp.47 = getv function %tmp.46 :getValue;
-        %tmp.48 = "session_status";
-        %tmp.49 = invoke %tmp.46 %tmp.47(%tmp.48);
-        lputv %status.3 %tmp.49;
-        symbol [ status %status.3 111 12 18 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 112 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
-        %statusColor.4 = local;
-        symbol [ statusColor %statusColor.4 112 12 23 ];
-        symbol [ Graphics %tmp.50 112 26 34 ];
-        %tmp.50 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.51 112 35 44 ];
-        %tmp.51 = getv %tmp.50 :COLOR_RED;
-        lputv %statusColor.4 %tmp.51;
-        symbol [ statusColor %statusColor.4 112 12 23 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 113 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
-        %statusText.5 = local;
-        symbol [ statusText %statusText.5 113 12 22 ];
-        %tmp.52 = "not recording";
-        lputv %statusText.5 %tmp.52;
-        symbol [ statusText %statusText.5 113 12 22 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 114 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_114_8_120_8_if_stmt:
-D__TestingApplication_source_TestingApplicationView_mc_114_12_114_55_begin:
-        %tmp.53 = lgetv %status.3;
-        symbol [ status %tmp.53 114 12 18 ];
-        %tmp.54 = null;
-        %tmp.55 = ne %tmp.53 %tmp.54;
-        bf %tmp.55 @D__TestingApplication_source_TestingApplicationView_mc_114_8_120_8_if_false;
-D__TestingApplication_source_TestingApplicationView_mc_114_30_114_55_true:
-        %tmp.56 = lgetv %status.3;
-        symbol [ status %tmp.56 114 30 36 ];
-        %tmp.57 = as %tmp.56 { (!Null) };
-        symbol [ equals %tmp.58 114 37 43 ];
-        %tmp.58 = getv function %tmp.57 :equals;
-        %tmp.59 = "recording";
-        %tmp.60 = invoke %tmp.57 %tmp.58(%tmp.59);
-        push %tmp.60;
-D__TestingApplication_source_TestingApplicationView_mc_114_30_114_55_end:
-        %tmp.61 = phi [%tmp.55 @D__TestingApplication_source_TestingApplicationView_mc_114_12_114_55_begin] [%tmp.60 @D__TestingApplication_source_TestingApplicationView_mc_114_30_114_55_true] [%tmp.61 @D__TestingApplication_source_TestingApplicationView_mc_114_30_114_55_end];
-        bf %tmp.61 @D__TestingApplication_source_TestingApplicationView_mc_114_8_120_8_if_false;
-D__TestingApplication_source_TestingApplicationView_mc_114_8_120_8_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_114_58_117_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 115 12 ]
-        symbol [ Graphics %tmp.62 115 26 34 ];
-        %tmp.62 = getm $.Toybox.Graphics;
-        symbol [ COLOR_GREEN %tmp.63 115 35 46 ];
-        %tmp.63 = getv %tmp.62 :COLOR_GREEN;
-        lputv %statusColor.4 %tmp.63;
-        symbol [ statusColor %statusColor.4 115 12 23 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 116 12 ]
-        %tmp.64 = "RECORDING";
-        lputv %statusText.5 %tmp.64;
-        symbol [ statusText %statusText.5 116 12 22 ];
-D__TestingApplication_source_TestingApplicationView_mc_114_58_117_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_114_8_120_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_114_8_120_8_if_false:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 117 15 ]
-D__TestingApplication_source_TestingApplicationView_mc_117_15_120_8_if_stmt:
-D__TestingApplication_source_TestingApplicationView_mc_117_19_117_58_begin:
-        %tmp.65 = lgetv %status.3;
-        symbol [ status %tmp.65 117 19 25 ];
-        %tmp.66 = null;
-        %tmp.67 = ne %tmp.65 %tmp.66;
-        bf %tmp.67 @D__TestingApplication_source_TestingApplicationView_mc_117_15_120_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_117_37_117_58_true:
-        %tmp.68 = lgetv %status.3;
-        symbol [ status %tmp.68 117 37 43 ];
-        %tmp.69 = as %tmp.68 { (!Null) };
-        symbol [ equals %tmp.70 117 44 50 ];
-        %tmp.70 = getv function %tmp.69 :equals;
-        %tmp.71 = "saved";
-        %tmp.72 = invoke %tmp.69 %tmp.70(%tmp.71);
-        push %tmp.72;
-D__TestingApplication_source_TestingApplicationView_mc_117_37_117_58_end:
-        %tmp.73 = phi [%tmp.67 @D__TestingApplication_source_TestingApplicationView_mc_117_19_117_58_begin] [%tmp.72 @D__TestingApplication_source_TestingApplicationView_mc_117_37_117_58_true] [%tmp.73 @D__TestingApplication_source_TestingApplicationView_mc_117_37_117_58_end];
-        bf %tmp.73 @D__TestingApplication_source_TestingApplicationView_mc_117_15_120_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_117_15_120_8_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_117_61_120_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 118 12 ]
-        symbol [ Graphics %tmp.74 118 26 34 ];
-        %tmp.74 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLUE %tmp.75 118 35 45 ];
-        %tmp.75 = getv %tmp.74 :COLOR_BLUE;
-        lputv %statusColor.4 %tmp.75;
-        symbol [ statusColor %statusColor.4 118 12 23 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 119 12 ]
-        %tmp.76 = "SAVED";
-        lputv %statusText.5 %tmp.76;
-        symbol [ statusText %statusText.5 119 12 22 ];
-D__TestingApplication_source_TestingApplicationView_mc_117_61_120_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_117_15_120_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_117_15_120_8_if_end:
-D__TestingApplication_source_TestingApplicationView_mc_114_8_120_8_if_end:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 121 8 ]
-        %tmp.77 = lgetv %dc;
-        symbol [ dc %tmp.77 121 8 10 ];
-        symbol [ setColor %tmp.78 121 11 19 ];
-        %tmp.78 = getv function %tmp.77 :setColor;
-        %tmp.79 = lgetv %statusColor.4;
-        symbol [ statusColor %tmp.79 121 20 31 ];
-        symbol [ Graphics %tmp.80 121 33 41 ];
-        %tmp.80 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.81 121 42 59 ];
-        %tmp.81 = getv %tmp.80 :COLOR_TRANSPARENT;
-        invoke %tmp.77 %tmp.78(%tmp.79, %tmp.81);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 122 8 ]
-        %tmp.82 = lgetv %dc;
-        symbol [ dc %tmp.82 122 8 10 ];
-        symbol [ drawText %tmp.83 122 11 19 ];
-        %tmp.83 = getv function %tmp.82 :drawText;
-        %tmp.84 = lgetv %w.1;
-        symbol [ w %tmp.84 122 20 21 ];
-        %tmp.85 = 2;
-        %tmp.86 = div %tmp.84 %tmp.85;
-        %tmp.87 = 85;
-        symbol [ Graphics %tmp.88 122 29 37 ];
-        %tmp.88 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.89 122 38 49 ];
-        %tmp.89 = getv %tmp.88 :FONT_MEDIUM;
-        %tmp.90 = lgetv %statusText.5;
-        symbol [ statusText %tmp.90 122 51 61 ];
-        symbol [ Graphics %tmp.91 122 63 71 ];
-        %tmp.91 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.92 122 72 91 ];
-        %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.82 %tmp.83(%tmp.86, %tmp.87, %tmp.89, %tmp.90, %tmp.92);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 125 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
-        %files.6 = local;
-        symbol [ files %files.6 125 12 17 ];
-        symbol [ Storage %tmp.93 125 20 27 ];
-        %tmp.93 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.94 125 28 36 ];
-        %tmp.94 = getv function %tmp.93 :getValue;
-        %tmp.95 = "files_saved";
-        %tmp.96 = invoke %tmp.93 %tmp.94(%tmp.95);
-        lputv %files.6 %tmp.96;
-        symbol [ files %files.6 125 12 17 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 126 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_126_8_126_40_if_stmt:
-        %tmp.97 = lgetv %files.6;
-        symbol [ files %tmp.97 126 12 17 ];
-        %tmp.98 = null;
-        %tmp.99 = eq %tmp.97 %tmp.98;
-        bf %tmp.99 @D__TestingApplication_source_TestingApplicationView_mc_126_8_126_40_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_126_8_126_40_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_126_27_126_40_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 126 29 ]
-        %tmp.100 = 0;
-        lputv %files.6 %tmp.100;
-        symbol [ files %files.6 126 29 34 ];
-D__TestingApplication_source_TestingApplicationView_mc_126_27_126_40_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_126_8_126_40_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_126_8_126_40_if_end:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 127 8 ]
-        %tmp.101 = lgetv %dc;
-        symbol [ dc %tmp.101 127 8 10 ];
-        symbol [ setColor %tmp.102 127 11 19 ];
-        %tmp.102 = getv function %tmp.101 :setColor;
-        symbol [ Graphics %tmp.103 127 20 28 ];
-        %tmp.103 = getm $.Toybox.Graphics;
-        symbol [ COLOR_LT_GRAY %tmp.104 127 29 42 ];
-        %tmp.104 = getv %tmp.103 :COLOR_LT_GRAY;
-        symbol [ Graphics %tmp.105 127 44 52 ];
-        %tmp.105 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.106 127 53 70 ];
-        %tmp.106 = getv %tmp.105 :COLOR_TRANSPARENT;
-        invoke %tmp.101 %tmp.102(%tmp.104, %tmp.106);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 128 8 ]
-        %tmp.107 = lgetv %dc;
-        symbol [ dc %tmp.107 128 8 10 ];
-        symbol [ drawText %tmp.108 128 11 19 ];
-        %tmp.108 = getv function %tmp.107 :drawText;
-        %tmp.109 = lgetv %w.1;
-        symbol [ w %tmp.109 128 20 21 ];
-        %tmp.110 = 2;
-        %tmp.111 = div %tmp.109 %tmp.110;
-        %tmp.112 = 150;
-        symbol [ Graphics %tmp.113 128 30 38 ];
-        %tmp.113 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.114 128 39 49 ];
-        %tmp.114 = getv %tmp.113 :FONT_XTINY;
-        %tmp.115 = "FIT FILES SAVED";
-        symbol [ Graphics %tmp.116 128 70 78 ];
-        %tmp.116 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.117 128 79 98 ];
-        %tmp.117 = getv %tmp.116 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.107 %tmp.108(%tmp.111, %tmp.112, %tmp.114, %tmp.115, %tmp.117);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 129 8 ]
-        %tmp.118 = lgetv %dc;
-        symbol [ dc %tmp.118 129 8 10 ];
-        symbol [ setColor %tmp.119 129 11 19 ];
-        %tmp.119 = getv function %tmp.118 :setColor;
-        symbol [ Graphics %tmp.120 129 20 28 ];
-        %tmp.120 = getm $.Toybox.Graphics;
-        symbol [ COLOR_GREEN %tmp.121 129 29 40 ];
-        %tmp.121 = getv %tmp.120 :COLOR_GREEN;
-        symbol [ Graphics %tmp.122 129 42 50 ];
-        %tmp.122 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.123 129 51 68 ];
-        %tmp.123 = getv %tmp.122 :COLOR_TRANSPARENT;
-        invoke %tmp.118 %tmp.119(%tmp.121, %tmp.123);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 130 8 ]
-        %tmp.124 = lgetv %dc;
-        symbol [ dc %tmp.124 130 8 10 ];
-        symbol [ drawText %tmp.125 130 11 19 ];
-        %tmp.125 = getv function %tmp.124 :drawText;
-        %tmp.126 = lgetv %w.1;
-        symbol [ w %tmp.126 130 20 21 ];
-        %tmp.127 = 2;
-        %tmp.128 = div %tmp.126 %tmp.127;
-        %tmp.129 = 175;
-        symbol [ Graphics %tmp.130 130 30 38 ];
-        %tmp.130 = getm $.Toybox.Graphics;
-        symbol [ FONT_NUMBER_MEDIUM %tmp.131 130 39 57 ];
-        %tmp.131 = getv %tmp.130 :FONT_NUMBER_MEDIUM;
-        %tmp.132 = lgetv %files.6;
-        symbol [ files %tmp.132 130 59 64 ];
-        symbol [ toString %tmp.133 130 65 73 ];
-        %tmp.133 = getv function %tmp.132 :toString;
-        %tmp.134 = invoke %tmp.132 %tmp.133();
-        symbol [ Graphics %tmp.135 130 77 85 ];
-        %tmp.135 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.136 130 86 105 ];
-        %tmp.136 = getv %tmp.135 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.124 %tmp.125(%tmp.128, %tmp.129, %tmp.131, %tmp.134, %tmp.136);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 133 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
-        %hrStr.7 = local;
-        symbol [ hrStr %hrStr.7 133 12 17 ];
-D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_begin:
-        symbol [ _heartRate %tmp.138 133 21 31 ];
-        %tmp.138 = getv ? :_heartRate;
-        %tmp.139 = null;
-        %tmp.140 = ne %tmp.138 %tmp.139;
-        bf %tmp.140 @D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_else_false;
-D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_true:
-        symbol [ _heartRate %tmp.142 133 43 53 ];
-        %tmp.142 = getv ? :_heartRate;
-        %tmp.143 = as %tmp.142 { (!Null) };
-        symbol [ toString %tmp.144 133 54 62 ];
-        %tmp.144 = getv function %tmp.143 :toString;
-        %tmp.145 = invoke %tmp.143 %tmp.144();
-        %tmp.146 = " bpm";
-        %tmp.147 = add %tmp.145 %tmp.146;
-        push %tmp.147;
-        goto @D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_end;
-D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_else_false:
-        %tmp.148 = "-- bpm";
-        push %tmp.148;
-D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_end:
-        %tmp.149 = phi [%tmp.140 @D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_begin] [%tmp.147 @D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_true] [%tmp.148 @D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_else_false] [%tmp.149 @D__TestingApplication_source_TestingApplicationView_mc_133_20_133_76_end];
-        lputv %hrStr.7 %tmp.149;
-        symbol [ hrStr %hrStr.7 133 12 17 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 134 8 ]
-        %tmp.150 = lgetv %dc;
-        symbol [ dc %tmp.150 134 8 10 ];
-        symbol [ setColor %tmp.151 134 11 19 ];
-        %tmp.151 = getv function %tmp.150 :setColor;
-        symbol [ Graphics %tmp.152 134 20 28 ];
-        %tmp.152 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.153 134 29 40 ];
-        %tmp.153 = getv %tmp.152 :COLOR_WHITE;
-        symbol [ Graphics %tmp.154 134 42 50 ];
-        %tmp.154 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.155 134 51 68 ];
-        %tmp.155 = getv %tmp.154 :COLOR_TRANSPARENT;
-        invoke %tmp.150 %tmp.151(%tmp.153, %tmp.155);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 135 8 ]
-        %tmp.156 = lgetv %dc;
-        symbol [ dc %tmp.156 135 8 10 ];
-        symbol [ drawText %tmp.157 135 11 19 ];
-        %tmp.157 = getv function %tmp.156 :drawText;
-        %tmp.158 = lgetv %w.1;
-        symbol [ w %tmp.158 135 20 21 ];
-        %tmp.159 = 2;
-        %tmp.160 = div %tmp.158 %tmp.159;
-        %tmp.161 = 250;
-        symbol [ Graphics %tmp.162 135 30 38 ];
-        %tmp.162 = getm $.Toybox.Graphics;
-        symbol [ FONT_SMALL %tmp.163 135 39 49 ];
-        %tmp.163 = getv %tmp.162 :FONT_SMALL;
-        %tmp.164 = lgetv %hrStr.7;
-        symbol [ hrStr %tmp.164 135 51 56 ];
-        symbol [ Graphics %tmp.165 135 58 66 ];
-        %tmp.165 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.166 135 67 86 ];
-        %tmp.166 = getv %tmp.165 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.156 %tmp.157(%tmp.160, %tmp.161, %tmp.163, %tmp.164, %tmp.166);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 137 8 ]
-        %tmp.167 = lgetv %dc;
-        symbol [ dc %tmp.167 137 8 10 ];
-        symbol [ setColor %tmp.168 137 11 19 ];
-        %tmp.168 = getv function %tmp.167 :setColor;
-        symbol [ Graphics %tmp.169 137 20 28 ];
-        %tmp.169 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.170 137 29 42 ];
-        %tmp.170 = getv %tmp.169 :COLOR_DK_GRAY;
-        symbol [ Graphics %tmp.171 137 44 52 ];
-        %tmp.171 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.172 137 53 70 ];
-        %tmp.172 = getv %tmp.171 :COLOR_TRANSPARENT;
-        invoke %tmp.167 %tmp.168(%tmp.170, %tmp.172);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 138 8 ]
-        %tmp.173 = lgetv %dc;
-        symbol [ dc %tmp.173 138 8 10 ];
-        symbol [ drawText %tmp.174 138 11 19 ];
-        %tmp.174 = getv function %tmp.173 :drawText;
-        %tmp.175 = lgetv %w.1;
-        symbol [ w %tmp.175 138 20 21 ];
-        %tmp.176 = 2;
-        %tmp.177 = div %tmp.175 %tmp.176;
-        %tmp.178 = 290;
-        symbol [ Graphics %tmp.179 138 30 38 ];
-        %tmp.179 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.180 138 39 49 ];
-        %tmp.180 = getv %tmp.179 :FONT_XTINY;
-        %tmp.181 = "auto-saves every 5 min";
-        symbol [ Graphics %tmp.182 138 77 85 ];
-        %tmp.182 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.183 138 86 105 ];
-        %tmp.183 = getv %tmp.182 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.173 %tmp.174(%tmp.177, %tmp.178, %tmp.180, %tmp.181, %tmp.183);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 141 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
-        %connOk.8 = local;
-        symbol [ connOk %connOk.8 141 12 18 ];
-        symbol [ Storage %tmp.184 141 21 28 ];
-        %tmp.184 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.185 141 29 37 ];
-        %tmp.185 = getv function %tmp.184 :getValue;
-        %tmp.186 = "connection_ok";
-        %tmp.187 = invoke %tmp.184 %tmp.185(%tmp.186);
-        lputv %connOk.8 %tmp.187;
-        symbol [ connOk %connOk.8 141 12 18 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 142 8 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_start" "D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop" ]
-        %pings.9 = local;
-        symbol [ pings %pings.9 142 12 17 ];
-        symbol [ Storage %tmp.188 142 21 28 ];
-        %tmp.188 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.189 142 29 37 ];
-        %tmp.189 = getv function %tmp.188 :getValue;
-        %tmp.190 = "ping_count";
-        %tmp.191 = invoke %tmp.188 %tmp.189(%tmp.190);
-        lputv %pings.9 %tmp.191;
-        symbol [ pings %pings.9 142 12 17 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 143 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_stmt:
-        %tmp.192 = lgetv %pings.9;
-        symbol [ pings %tmp.192 143 12 17 ];
-        %tmp.193 = null;
-        %tmp.194 = eq %tmp.192 %tmp.193;
-        bf %tmp.194 @D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_143_27_143_40_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 143 29 ]
-        %tmp.195 = 0;
-        lputv %pings.9 %tmp.195;
-        symbol [ pings %pings.9 143 29 34 ];
-D__TestingApplication_source_TestingApplicationView_mc_143_27_143_40_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_143_8_143_40_if_end:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 144 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_stmt:
-D__TestingApplication_source_TestingApplicationView_mc_144_12_144_40_begin:
-        %tmp.196 = lgetv %connOk.8;
-        symbol [ connOk %tmp.196 144 12 18 ];
-        %tmp.197 = null;
-        %tmp.198 = ne %tmp.196 %tmp.197;
-        bf %tmp.198 @D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_else_false;
-D__TestingApplication_source_TestingApplicationView_mc_144_30_144_40_true:
-        %tmp.199 = lgetv %connOk.8;
-        symbol [ connOk %tmp.199 144 30 36 ];
+        symbol [ COLOR_WHITE %tmp.37 118 29 40 ];
+        %tmp.37 = getv %tmp.36 :COLOR_WHITE;
+        symbol [ Graphics %tmp.38 118 42 50 ];
+        %tmp.38 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.39 118 51 68 ];
+        %tmp.39 = getv %tmp.38 :COLOR_TRANSPARENT;
+        invoke %tmp.34 %tmp.35(%tmp.37, %tmp.39);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 120 8 ]
+        %tmp.40 = lgetv %dc;
+        symbol [ dc %tmp.40 120 8 10 ];
+        symbol [ setColor %tmp.41 120 11 19 ];
+        %tmp.41 = getv function %tmp.40 :setColor;
+        symbol [ Graphics %tmp.42 120 20 28 ];
+        %tmp.42 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.43 120 29 40 ];
+        %tmp.43 = getv %tmp.42 :COLOR_WHITE;
+        symbol [ Graphics %tmp.44 120 42 50 ];
+        %tmp.44 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.45 120 51 68 ];
+        %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+        invoke %tmp.40 %tmp.41(%tmp.43, %tmp.45);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 121 8 ]
+        %tmp.46 = lgetv %dc;
+        symbol [ dc %tmp.46 121 8 10 ];
+        symbol [ fillCircle %tmp.47 121 11 21 ];
+        %tmp.47 = getv function %tmp.46 :fillCircle;
+        %tmp.48 = lgetv %cx.4;
+        symbol [ cx %tmp.48 121 22 24 ];
+        %tmp.49 = 10;
+        %tmp.50 = sub %tmp.48 %tmp.49;
+        %tmp.51 = 54;
+        %tmp.52 = 10.06;
+        invoke %tmp.46 %tmp.47(%tmp.50, %tmp.51, %tmp.52);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 122 8 ]
+        %tmp.53 = lgetv %dc;
+        symbol [ dc %tmp.53 122 8 10 ];
+        symbol [ fillCircle %tmp.54 122 11 21 ];
+        %tmp.54 = getv function %tmp.53 :fillCircle;
+        %tmp.55 = lgetv %cx.4;
+        symbol [ cx %tmp.55 122 22 24 ];
+        %tmp.56 = 10;
+        %tmp.57 = add %tmp.55 %tmp.56;
+        %tmp.58 = 54;
+        %tmp.59 = 10.06;
+        invoke %tmp.53 %tmp.54(%tmp.57, %tmp.58, %tmp.59);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 123 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
+        %heartPoints.5 = local;
+        symbol [ heartPoints %heartPoints.5 123 12 23 ];
+        %tmp.60 = newa 3;
+        %tmp.61 = newa 2;
+        %tmp.62 = lgetv %cx.4;
+        symbol [ cx %tmp.62 124 13 15 ];
+        %tmp.63 = 20;
+        %tmp.64 = sub %tmp.62 %tmp.63;
+        %tmp.65 = dup %tmp.61;
+        %tmp.66 = aputv %tmp.65 0 %tmp.64;
+        %tmp.67 = 55.3;
+        %tmp.68 = dup %tmp.66;
+        %tmp.69 = aputv %tmp.68 1 %tmp.67;
+        %tmp.70 = dup %tmp.60;
+        %tmp.71 = aputv %tmp.70 0 %tmp.69;
+        %tmp.72 = newa 2;
+        %tmp.73 = lgetv %cx.4;
+        symbol [ cx %tmp.73 125 13 15 ];
+        %tmp.74 = 20;
+        %tmp.75 = add %tmp.73 %tmp.74;
+        %tmp.76 = dup %tmp.72;
+        %tmp.77 = aputv %tmp.76 0 %tmp.75;
+        %tmp.78 = 55.3;
+        %tmp.79 = dup %tmp.77;
+        %tmp.80 = aputv %tmp.79 1 %tmp.78;
+        %tmp.81 = dup %tmp.71;
+        %tmp.82 = aputv %tmp.81 1 %tmp.80;
+        %tmp.83 = newa 2;
+        %tmp.84 = lgetv %cx.4;
+        symbol [ cx %tmp.84 126 13 15 ];
+        %tmp.85 = dup %tmp.83;
+        %tmp.86 = aputv %tmp.85 0 %tmp.84;
+        %tmp.87 = 78;
+        %tmp.88 = dup %tmp.86;
+        %tmp.89 = aputv %tmp.88 1 %tmp.87;
+        %tmp.90 = dup %tmp.82;
+        %tmp.91 = aputv %tmp.90 2 %tmp.89;
+        lputv %heartPoints.5 %tmp.91;
+        symbol [ heartPoints %heartPoints.5 123 12 23 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 128 8 ]
+        %tmp.92 = lgetv %dc;
+        symbol [ dc %tmp.92 128 8 10 ];
+        symbol [ fillPolygon %tmp.93 128 11 22 ];
+        %tmp.93 = getv function %tmp.92 :fillPolygon;
+        %tmp.94 = lgetv %heartPoints.5;
+        symbol [ heartPoints %tmp.94 128 23 34 ];
+        invoke %tmp.92 %tmp.93(%tmp.94);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 131 0 ]
+        %tmp.95 = lgetv %dc;
+        symbol [ dc %tmp.95 131 0 2 ];
+        symbol [ setColor %tmp.96 131 3 11 ];
+        %tmp.96 = getv function %tmp.95 :setColor;
+        %tmp.97 = 0xFF2D55;
+        symbol [ Graphics %tmp.98 131 22 30 ];
+        %tmp.98 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.99 131 31 48 ];
+        %tmp.99 = getv %tmp.98 :COLOR_TRANSPARENT;
+        invoke %tmp.95 %tmp.96(%tmp.97, %tmp.99);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 134 0 ]
+        %tmp.100 = lgetv %dc;
+        symbol [ dc %tmp.100 134 0 2 ];
+        symbol [ fillPolygon %tmp.101 134 3 14 ];
+        %tmp.101 = getv function %tmp.100 :fillPolygon;
+        %tmp.102 = newa 4;
+        %tmp.103 = newa 2;
+        %tmp.104 = lgetv %cx.4;
+        symbol [ cx %tmp.104 135 5 7 ];
+        %tmp.105 = 21;
+        %tmp.106 = add %tmp.104 %tmp.105;
+        %tmp.107 = dup %tmp.103;
+        %tmp.108 = aputv %tmp.107 0 %tmp.106;
+        %tmp.109 = 54;
+        %tmp.110 = dup %tmp.108;
+        %tmp.111 = aputv %tmp.110 1 %tmp.109;
+        %tmp.112 = dup %tmp.102;
+        %tmp.113 = aputv %tmp.112 0 %tmp.111;
+        %tmp.114 = newa 2;
+        %tmp.115 = lgetv %cx.4;
+        symbol [ cx %tmp.115 136 5 7 ];
+        %tmp.116 = 30;
+        %tmp.117 = add %tmp.115 %tmp.116;
+        %tmp.118 = dup %tmp.114;
+        %tmp.119 = aputv %tmp.118 0 %tmp.117;
+        %tmp.120 = 54;
+        %tmp.121 = dup %tmp.119;
+        %tmp.122 = aputv %tmp.121 1 %tmp.120;
+        %tmp.123 = dup %tmp.113;
+        %tmp.124 = aputv %tmp.123 1 %tmp.122;
+        %tmp.125 = newa 2;
+        %tmp.126 = lgetv %cx.4;
+        symbol [ cx %tmp.126 137 5 7 ];
+        %tmp.127 = 30;
+        %tmp.128 = add %tmp.126 %tmp.127;
+        %tmp.129 = dup %tmp.125;
+        %tmp.130 = aputv %tmp.129 0 %tmp.128;
+        %tmp.131 = 78;
+        %tmp.132 = dup %tmp.130;
+        %tmp.133 = aputv %tmp.132 1 %tmp.131;
+        %tmp.134 = dup %tmp.124;
+        %tmp.135 = aputv %tmp.134 2 %tmp.133;
+        %tmp.136 = newa 2;
+        %tmp.137 = lgetv %cx.4;
+        symbol [ cx %tmp.137 138 5 7 ];
+        %tmp.138 = 1;
+        %tmp.139 = add %tmp.137 %tmp.138;
+        %tmp.140 = dup %tmp.136;
+        %tmp.141 = aputv %tmp.140 0 %tmp.139;
+        %tmp.142 = 78;
+        %tmp.143 = dup %tmp.141;
+        %tmp.144 = aputv %tmp.143 1 %tmp.142;
+        %tmp.145 = dup %tmp.135;
+        %tmp.146 = aputv %tmp.145 3 %tmp.144;
+        invoke %tmp.100 %tmp.101(%tmp.146);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 142 0 ]
+        %tmp.147 = lgetv %dc;
+        symbol [ dc %tmp.147 142 0 2 ];
+        symbol [ fillPolygon %tmp.148 142 3 14 ];
+        %tmp.148 = getv function %tmp.147 :fillPolygon;
+        %tmp.149 = newa 4;
+        %tmp.150 = newa 2;
+        %tmp.151 = lgetv %cx.4;
+        symbol [ cx %tmp.151 143 5 7 ];
+        %tmp.152 = 21;
+        %tmp.153 = sub %tmp.151 %tmp.152;
+        %tmp.154 = dup %tmp.150;
+        %tmp.155 = aputv %tmp.154 0 %tmp.153;
+        %tmp.156 = 54;
+        %tmp.157 = dup %tmp.155;
+        %tmp.158 = aputv %tmp.157 1 %tmp.156;
+        %tmp.159 = dup %tmp.149;
+        %tmp.160 = aputv %tmp.159 0 %tmp.158;
+        %tmp.161 = newa 2;
+        %tmp.162 = lgetv %cx.4;
+        symbol [ cx %tmp.162 144 5 7 ];
+        %tmp.163 = 30;
+        %tmp.164 = sub %tmp.162 %tmp.163;
+        %tmp.165 = dup %tmp.161;
+        %tmp.166 = aputv %tmp.165 0 %tmp.164;
+        %tmp.167 = 54;
+        %tmp.168 = dup %tmp.166;
+        %tmp.169 = aputv %tmp.168 1 %tmp.167;
+        %tmp.170 = dup %tmp.160;
+        %tmp.171 = aputv %tmp.170 1 %tmp.169;
+        %tmp.172 = newa 2;
+        %tmp.173 = lgetv %cx.4;
+        symbol [ cx %tmp.173 145 5 7 ];
+        %tmp.174 = 30;
+        %tmp.175 = sub %tmp.173 %tmp.174;
+        %tmp.176 = dup %tmp.172;
+        %tmp.177 = aputv %tmp.176 0 %tmp.175;
+        %tmp.178 = 78;
+        %tmp.179 = dup %tmp.177;
+        %tmp.180 = aputv %tmp.179 1 %tmp.178;
+        %tmp.181 = dup %tmp.171;
+        %tmp.182 = aputv %tmp.181 2 %tmp.180;
+        %tmp.183 = newa 2;
+        %tmp.184 = lgetv %cx.4;
+        symbol [ cx %tmp.184 146 5 7 ];
+        %tmp.185 = 1;
+        %tmp.186 = sub %tmp.184 %tmp.185;
+        %tmp.187 = dup %tmp.183;
+        %tmp.188 = aputv %tmp.187 0 %tmp.186;
+        %tmp.189 = 78;
+        %tmp.190 = dup %tmp.188;
+        %tmp.191 = aputv %tmp.190 1 %tmp.189;
+        %tmp.192 = dup %tmp.182;
+        %tmp.193 = aputv %tmp.192 3 %tmp.191;
+        invoke %tmp.147 %tmp.148(%tmp.193);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 150 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
+        %hrStr.6 = local;
+        symbol [ hrStr %hrStr.6 150 12 17 ];
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_begin:
+        symbol [ _heartRate %tmp.195 150 21 31 ];
+        %tmp.195 = getv ? :_heartRate;
+        %tmp.196 = null;
+        %tmp.197 = ne %tmp.195 %tmp.196;
+        bf %tmp.197 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_else_false;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_true:
+        symbol [ _heartRate %tmp.199 150 43 53 ];
+        %tmp.199 = getv ? :_heartRate;
         %tmp.200 = as %tmp.199 { (!Null) };
-        %tmp.201 = true;
-        %tmp.202 = eq %tmp.200 %tmp.201;
+        symbol [ toString %tmp.201 150 54 62 ];
+        %tmp.201 = getv function %tmp.200 :toString;
+        %tmp.202 = invoke %tmp.200 %tmp.201();
         push %tmp.202;
-D__TestingApplication_source_TestingApplicationView_mc_144_30_144_40_end:
-        %tmp.203 = phi [%tmp.198 @D__TestingApplication_source_TestingApplicationView_mc_144_12_144_40_begin] [%tmp.202 @D__TestingApplication_source_TestingApplicationView_mc_144_30_144_40_true] [%tmp.203 @D__TestingApplication_source_TestingApplicationView_mc_144_30_144_40_end];
-        bf %tmp.203 @D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_else_false;
-D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_144_46_148_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 145 12 ]
-        %tmp.204 = lgetv %dc;
-        symbol [ dc %tmp.204 145 12 14 ];
-        symbol [ setColor %tmp.205 145 15 23 ];
-        %tmp.205 = getv function %tmp.204 :setColor;
-        symbol [ Graphics %tmp.206 145 24 32 ];
-        %tmp.206 = getm $.Toybox.Graphics;
-        symbol [ COLOR_GREEN %tmp.207 145 33 44 ];
-        %tmp.207 = getv %tmp.206 :COLOR_GREEN;
-        symbol [ Graphics %tmp.208 145 46 54 ];
-        %tmp.208 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.209 145 55 72 ];
-        %tmp.209 = getv %tmp.208 :COLOR_TRANSPARENT;
-        invoke %tmp.204 %tmp.205(%tmp.207, %tmp.209);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 146 12 ]
-        %tmp.210 = lgetv %dc;
-        symbol [ dc %tmp.210 146 12 14 ];
-        symbol [ drawText %tmp.211 146 15 23 ];
-        %tmp.211 = getv function %tmp.210 :drawText;
-        %tmp.212 = lgetv %w.1;
-        symbol [ w %tmp.212 146 24 25 ];
-        %tmp.213 = 2;
-        %tmp.214 = div %tmp.212 %tmp.213;
-        %tmp.215 = 315;
-        symbol [ Graphics %tmp.216 146 34 42 ];
-        %tmp.216 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.217 146 43 53 ];
-        %tmp.217 = getv %tmp.216 :FONT_XTINY;
-        %tmp.218 = "connection OK (";
-        %tmp.219 = lgetv %pings.9;
-        symbol [ pings %tmp.219 147 36 41 ];
-        %tmp.220 = add %tmp.218 %tmp.219;
-        %tmp.221 = ")";
-        %tmp.222 = add %tmp.220 %tmp.221;
-        symbol [ Graphics %tmp.223 147 49 57 ];
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_else_false:
+        %tmp.203 = "--";
+        push %tmp.203;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_end:
+        %tmp.204 = phi [%tmp.197 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_begin] [%tmp.202 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_true] [%tmp.203 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_else_false] [%tmp.204 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_150_20_150_67_end];
+        lputv %hrStr.6 %tmp.204;
+        symbol [ hrStr %hrStr.6 150 12 17 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 151 8 ]
+        %tmp.205 = lgetv %dc;
+        symbol [ dc %tmp.205 151 8 10 ];
+        symbol [ setColor %tmp.206 151 11 19 ];
+        %tmp.206 = getv function %tmp.205 :setColor;
+        symbol [ Graphics %tmp.207 151 20 28 ];
+        %tmp.207 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.208 151 29 40 ];
+        %tmp.208 = getv %tmp.207 :COLOR_WHITE;
+        symbol [ Graphics %tmp.209 151 42 50 ];
+        %tmp.209 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.210 151 51 68 ];
+        %tmp.210 = getv %tmp.209 :COLOR_TRANSPARENT;
+        invoke %tmp.205 %tmp.206(%tmp.208, %tmp.210);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 152 7 ]
+        %tmp.211 = lgetv %dc;
+        symbol [ dc %tmp.211 152 7 9 ];
+        symbol [ drawText %tmp.212 152 10 18 ];
+        %tmp.212 = getv function %tmp.211 :drawText;
+        %tmp.213 = lgetv %cx.4;
+        symbol [ cx %tmp.213 152 19 21 ];
+        %tmp.214 = 90;
+        symbol [ Graphics %tmp.215 152 27 35 ];
+        %tmp.215 = getm $.Toybox.Graphics;
+        symbol [ FONT_NUMBER_MILD %tmp.216 152 36 52 ];
+        %tmp.216 = getv %tmp.215 :FONT_NUMBER_MILD;
+        %tmp.217 = lgetv %hrStr.6;
+        symbol [ hrStr %tmp.217 152 54 59 ];
+        symbol [ Graphics %tmp.218 153 8 16 ];
+        %tmp.218 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.219 153 17 36 ];
+        %tmp.219 = getv %tmp.218 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.211 %tmp.212(%tmp.213, %tmp.214, %tmp.216, %tmp.217, %tmp.219);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 156 8 ]
+        %tmp.220 = lgetv %dc;
+        symbol [ dc %tmp.220 156 8 10 ];
+        symbol [ setColor %tmp.221 156 11 19 ];
+        %tmp.221 = getv function %tmp.220 :setColor;
+        %tmp.222 = 0xAAAAAA;
+        symbol [ Graphics %tmp.223 156 30 38 ];
         %tmp.223 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.224 147 58 77 ];
-        %tmp.224 = getv %tmp.223 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.210 %tmp.211(%tmp.214, %tmp.215, %tmp.217, %tmp.222, %tmp.224);
-D__TestingApplication_source_TestingApplicationView_mc_144_46_148_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_else_false:
-D__TestingApplication_source_TestingApplicationView_mc_148_15_152_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 149 12 ]
+        symbol [ COLOR_TRANSPARENT %tmp.224 156 39 56 ];
+        %tmp.224 = getv %tmp.223 :COLOR_TRANSPARENT;
+        invoke %tmp.220 %tmp.221(%tmp.222, %tmp.224);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 157 8 ]
         %tmp.225 = lgetv %dc;
-        symbol [ dc %tmp.225 149 12 14 ];
-        symbol [ setColor %tmp.226 149 15 23 ];
-        %tmp.226 = getv function %tmp.225 :setColor;
-        symbol [ Graphics %tmp.227 149 24 32 ];
-        %tmp.227 = getm $.Toybox.Graphics;
-        symbol [ COLOR_ORANGE %tmp.228 149 33 45 ];
-        %tmp.228 = getv %tmp.227 :COLOR_ORANGE;
-        symbol [ Graphics %tmp.229 149 47 55 ];
+        symbol [ dc %tmp.225 157 8 10 ];
+        symbol [ drawText %tmp.226 157 11 19 ];
+        %tmp.226 = getv function %tmp.225 :drawText;
+        %tmp.227 = lgetv %cx.4;
+        symbol [ cx %tmp.227 157 20 22 ];
+        %tmp.228 = 165;
+        symbol [ Graphics %tmp.229 157 29 37 ];
         %tmp.229 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.230 149 56 73 ];
-        %tmp.230 = getv %tmp.229 :COLOR_TRANSPARENT;
-        invoke %tmp.225 %tmp.226(%tmp.228, %tmp.230);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 150 12 ]
-        %tmp.231 = lgetv %dc;
-        symbol [ dc %tmp.231 150 12 14 ];
-        symbol [ drawText %tmp.232 150 15 23 ];
-        %tmp.232 = getv function %tmp.231 :drawText;
-        %tmp.233 = lgetv %w.1;
-        symbol [ w %tmp.233 150 24 25 ];
-        %tmp.234 = 2;
-        %tmp.235 = div %tmp.233 %tmp.234;
-        %tmp.236 = 315;
-        symbol [ Graphics %tmp.237 150 34 42 ];
+        symbol [ FONT_XTINY %tmp.230 157 38 48 ];
+        %tmp.230 = getv %tmp.229 :FONT_XTINY;
+        %tmp.231 = "BPM";
+        symbol [ Graphics %tmp.232 157 57 65 ];
+        %tmp.232 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.233 157 66 85 ];
+        %tmp.233 = getv %tmp.232 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.225 %tmp.226(%tmp.227, %tmp.228, %tmp.230, %tmp.231, %tmp.233);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 160 8 ]
+        %tmp.234 = lgetv %dc;
+        symbol [ dc %tmp.234 160 8 10 ];
+        symbol [ setColor %tmp.235 160 11 19 ];
+        %tmp.235 = getv function %tmp.234 :setColor;
+        %tmp.236 = 0xFF2D55;
+        symbol [ Graphics %tmp.237 160 30 38 ];
         %tmp.237 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.238 150 43 53 ];
-        %tmp.238 = getv %tmp.237 :FONT_XTINY;
-        %tmp.239 = "no connection (";
-        %tmp.240 = lgetv %pings.9;
-        symbol [ pings %tmp.240 151 36 41 ];
-        %tmp.241 = add %tmp.239 %tmp.240;
-        %tmp.242 = ")";
-        %tmp.243 = add %tmp.241 %tmp.242;
-        symbol [ Graphics %tmp.244 151 49 57 ];
-        %tmp.244 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.245 151 58 77 ];
-        %tmp.245 = getv %tmp.244 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.231 %tmp.232(%tmp.235, %tmp.236, %tmp.238, %tmp.243, %tmp.245);
-D__TestingApplication_source_TestingApplicationView_mc_148_15_152_8_stop:
-D__TestingApplication_source_TestingApplicationView_mc_144_8_152_8_if_end:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 155 8 ]
-D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_stmt:
-        symbol [ _backHint %tmp.247 155 12 21 ];
-        %tmp.247 = getv ? :_backHint;
-        %tmp.248 = 0;
-        %tmp.249 = gt %tmp.247 %tmp.248;
-        bf %tmp.249 @D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_else_false;
-D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_true:
-D__TestingApplication_source_TestingApplicationView_mc_155_27_160_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 156 12 ]
-        [ "D__TestingApplication_source_TestingApplicationView_mc_155_27_160_8_start" "D__TestingApplication_source_TestingApplicationView_mc_155_27_160_8_stop" ]
-        %remaining.10 = local;
-        symbol [ remaining %remaining.10 156 16 25 ];
-        %tmp.250 = 3;
-        symbol [ _backHint %tmp.252 156 32 41 ];
-        %tmp.252 = getv ? :_backHint;
-        %tmp.253 = sub %tmp.250 %tmp.252;
-        lputv %remaining.10 %tmp.253;
-        symbol [ remaining %remaining.10 156 16 25 ];
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 157 12 ]
-        %tmp.254 = lgetv %dc;
-        symbol [ dc %tmp.254 157 12 14 ];
-        symbol [ setColor %tmp.255 157 15 23 ];
-        %tmp.255 = getv function %tmp.254 :setColor;
-        symbol [ Graphics %tmp.256 157 24 32 ];
-        %tmp.256 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.257 157 33 45 ];
-        %tmp.257 = getv %tmp.256 :COLOR_YELLOW;
-        symbol [ Graphics %tmp.258 157 47 55 ];
-        %tmp.258 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.259 157 56 73 ];
-        %tmp.259 = getv %tmp.258 :COLOR_TRANSPARENT;
-        invoke %tmp.254 %tmp.255(%tmp.257, %tmp.259);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 158 12 ]
-        %tmp.260 = lgetv %dc;
-        symbol [ dc %tmp.260 158 12 14 ];
-        symbol [ drawText %tmp.261 158 15 23 ];
-        %tmp.261 = getv function %tmp.260 :drawText;
-        %tmp.262 = lgetv %w.1;
-        symbol [ w %tmp.262 158 24 25 ];
-        %tmp.263 = 2;
-        %tmp.264 = div %tmp.262 %tmp.263;
-        %tmp.265 = lgetv %h.2;
-        symbol [ h %tmp.265 158 29 30 ];
-        %tmp.266 = 60;
-        %tmp.267 = sub %tmp.265 %tmp.266;
-        symbol [ Graphics %tmp.268 158 37 45 ];
-        %tmp.268 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.269 158 46 56 ];
-        %tmp.269 = getv %tmp.268 :FONT_XTINY;
-        %tmp.270 = "press back ";
-        %tmp.271 = lgetv %remaining.10;
-        symbol [ remaining %tmp.271 159 32 41 ];
-        %tmp.272 = add %tmp.270 %tmp.271;
-        %tmp.273 = "x to stop";
-        %tmp.274 = add %tmp.272 %tmp.273;
-        symbol [ Graphics %tmp.275 159 57 65 ];
-        %tmp.275 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.276 159 66 85 ];
-        %tmp.276 = getv %tmp.275 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.260 %tmp.261(%tmp.264, %tmp.267, %tmp.269, %tmp.274, %tmp.276);
-D__TestingApplication_source_TestingApplicationView_mc_155_27_160_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_end;
-D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_else_false:
-D__TestingApplication_source_TestingApplicationView_mc_160_15_164_8_start:
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 161 12 ]
-        %tmp.277 = lgetv %dc;
-        symbol [ dc %tmp.277 161 12 14 ];
-        symbol [ setColor %tmp.278 161 15 23 ];
-        %tmp.278 = getv function %tmp.277 :setColor;
-        symbol [ Graphics %tmp.279 161 24 32 ];
-        %tmp.279 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.280 161 33 46 ];
-        %tmp.280 = getv %tmp.279 :COLOR_DK_GRAY;
-        symbol [ Graphics %tmp.281 161 48 56 ];
-        %tmp.281 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.282 161 57 74 ];
-        %tmp.282 = getv %tmp.281 :COLOR_TRANSPARENT;
-        invoke %tmp.277 %tmp.278(%tmp.280, %tmp.282);
-[ "D:\TestingApplication\source\TestingApplicationView.mc" 162 12 ]
-        %tmp.283 = lgetv %dc;
-        symbol [ dc %tmp.283 162 12 14 ];
-        symbol [ drawText %tmp.284 162 15 23 ];
-        %tmp.284 = getv function %tmp.283 :drawText;
-        %tmp.285 = lgetv %w.1;
-        symbol [ w %tmp.285 162 24 25 ];
-        %tmp.286 = 2;
-        %tmp.287 = div %tmp.285 %tmp.286;
-        %tmp.288 = lgetv %h.2;
-        symbol [ h %tmp.288 162 29 30 ];
-        %tmp.289 = 60;
-        %tmp.290 = sub %tmp.288 %tmp.289;
-        symbol [ Graphics %tmp.291 162 37 45 ];
-        %tmp.291 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.292 162 46 56 ];
-        %tmp.292 = getv %tmp.291 :FONT_XTINY;
-        %tmp.293 = "back 3x = stop & save";
-        symbol [ Graphics %tmp.294 163 41 49 ];
-        %tmp.294 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.295 163 50 69 ];
-        %tmp.295 = getv %tmp.294 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.283 %tmp.284(%tmp.287, %tmp.290, %tmp.292, %tmp.293, %tmp.295);
-D__TestingApplication_source_TestingApplicationView_mc_160_15_164_8_stop:
-D__TestingApplication_source_TestingApplicationView_mc_155_8_164_8_if_end:
-D__TestingApplication_source_TestingApplicationView_mc_96_49_165_4_stop:
+        symbol [ COLOR_TRANSPARENT %tmp.238 160 39 56 ];
+        %tmp.238 = getv %tmp.237 :COLOR_TRANSPARENT;
+        invoke %tmp.234 %tmp.235(%tmp.236, %tmp.238);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 161 8 ]
+        %tmp.239 = lgetv %dc;
+        symbol [ dc %tmp.239 161 8 10 ];
+        symbol [ fillRectangle %tmp.240 161 11 24 ];
+        %tmp.240 = getv function %tmp.239 :fillRectangle;
+        %tmp.241 = lgetv %cx.4;
+        symbol [ cx %tmp.241 161 25 27 ];
+        %tmp.242 = 60;
+        %tmp.243 = sub %tmp.241 %tmp.242;
+        %tmp.244 = 195;
+        %tmp.245 = 120;
+        %tmp.246 = 2;
+        invoke %tmp.239 %tmp.240(%tmp.243, %tmp.244, %tmp.245, %tmp.246);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 165 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
+        %dateStr.7 = local;
+        symbol [ dateStr %dateStr.7 165 12 19 ];
+        %tmp.247 = lgetv %now.3;
+        symbol [ now %tmp.247 165 22 25 ];
+        symbol [ year %tmp.248 165 26 30 ];
+        %tmp.248 = getv %tmp.247 :year;
+        symbol [ format %tmp.249 165 31 37 ];
+        %tmp.249 = getv function %tmp.248 :format;
+        %tmp.250 = "%04d";
+        %tmp.251 = invoke %tmp.248 %tmp.249(%tmp.250);
+        %tmp.252 = " - ";
+        %tmp.253 = add %tmp.251 %tmp.252;
+        %tmp.254 = lgetv %now.3;
+        symbol [ now %tmp.254 166 14 17 ];
+        symbol [ month %tmp.255 166 18 23 ];
+        %tmp.255 = getv %tmp.254 :month;
+        symbol [ format %tmp.256 166 24 30 ];
+        %tmp.256 = getv function %tmp.255 :format;
+        %tmp.257 = "%02d";
+        %tmp.258 = invoke %tmp.255 %tmp.256(%tmp.257);
+        %tmp.259 = add %tmp.253 %tmp.258;
+        %tmp.260 = " - ";
+        %tmp.261 = add %tmp.259 %tmp.260;
+        %tmp.262 = lgetv %now.3;
+        symbol [ now %tmp.262 167 14 17 ];
+        symbol [ day %tmp.263 167 18 21 ];
+        %tmp.263 = getv %tmp.262 :day;
+        symbol [ format %tmp.264 167 22 28 ];
+        %tmp.264 = getv function %tmp.263 :format;
+        %tmp.265 = "%02d";
+        %tmp.266 = invoke %tmp.263 %tmp.264(%tmp.265);
+        %tmp.267 = add %tmp.261 %tmp.266;
+        lputv %dateStr.7 %tmp.267;
+        symbol [ dateStr %dateStr.7 165 12 19 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 169 8 ]
+        %tmp.268 = lgetv %dc;
+        symbol [ dc %tmp.268 169 8 10 ];
+        symbol [ setColor %tmp.269 169 11 19 ];
+        %tmp.269 = getv function %tmp.268 :setColor;
+        %tmp.270 = 0xFFB3C1;
+        symbol [ Graphics %tmp.271 169 30 38 ];
+        %tmp.271 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.272 169 39 56 ];
+        %tmp.272 = getv %tmp.271 :COLOR_TRANSPARENT;
+        invoke %tmp.268 %tmp.269(%tmp.270, %tmp.272);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 170 8 ]
+        %tmp.273 = lgetv %dc;
+        symbol [ dc %tmp.273 170 8 10 ];
+        symbol [ drawText %tmp.274 170 11 19 ];
+        %tmp.274 = getv function %tmp.273 :drawText;
+        %tmp.275 = lgetv %cx.4;
+        symbol [ cx %tmp.275 170 20 22 ];
+        %tmp.276 = 200;
+        symbol [ Graphics %tmp.277 170 29 37 ];
+        %tmp.277 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.278 170 38 48 ];
+        %tmp.278 = getv %tmp.277 :FONT_SMALL;
+        %tmp.279 = lgetv %dateStr.7;
+        symbol [ dateStr %tmp.279 170 50 57 ];
+        symbol [ Graphics %tmp.280 171 12 20 ];
+        %tmp.280 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.281 171 21 40 ];
+        %tmp.281 = getv %tmp.280 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.273 %tmp.274(%tmp.275, %tmp.276, %tmp.278, %tmp.279, %tmp.281);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 175 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
+        %timeStr.8 = local;
+        symbol [ timeStr %timeStr.8 175 12 19 ];
+        %tmp.282 = lgetv %now.3;
+        symbol [ now %tmp.282 175 22 25 ];
+        symbol [ hour %tmp.283 175 26 30 ];
+        %tmp.283 = getv %tmp.282 :hour;
+        symbol [ format %tmp.284 175 31 37 ];
+        %tmp.284 = getv function %tmp.283 :format;
+        %tmp.285 = "%02d";
+        %tmp.286 = invoke %tmp.283 %tmp.284(%tmp.285);
+        %tmp.287 = ":";
+        %tmp.288 = add %tmp.286 %tmp.287;
+        %tmp.289 = lgetv %now.3;
+        symbol [ now %tmp.289 175 54 57 ];
+        symbol [ min %tmp.290 175 58 61 ];
+        %tmp.290 = getv %tmp.289 :min;
+        symbol [ format %tmp.291 175 62 68 ];
+        %tmp.291 = getv function %tmp.290 :format;
+        %tmp.292 = "%02d";
+        %tmp.293 = invoke %tmp.290 %tmp.291(%tmp.292);
+        %tmp.294 = add %tmp.288 %tmp.293;
+        lputv %timeStr.8 %tmp.294;
+        symbol [ timeStr %timeStr.8 175 12 19 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 176 8 ]
+        %tmp.295 = lgetv %dc;
+        symbol [ dc %tmp.295 176 8 10 ];
+        symbol [ setColor %tmp.296 176 11 19 ];
+        %tmp.296 = getv function %tmp.295 :setColor;
+        symbol [ Graphics %tmp.297 176 20 28 ];
+        %tmp.297 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.298 176 29 40 ];
+        %tmp.298 = getv %tmp.297 :COLOR_WHITE;
+        symbol [ Graphics %tmp.299 176 42 50 ];
+        %tmp.299 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.300 176 51 68 ];
+        %tmp.300 = getv %tmp.299 :COLOR_TRANSPARENT;
+        invoke %tmp.295 %tmp.296(%tmp.298, %tmp.300);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 177 8 ]
+        %tmp.301 = lgetv %dc;
+        symbol [ dc %tmp.301 177 8 10 ];
+        symbol [ drawText %tmp.302 177 11 19 ];
+        %tmp.302 = getv function %tmp.301 :drawText;
+        %tmp.303 = lgetv %cx.4;
+        symbol [ cx %tmp.303 177 20 22 ];
+        %tmp.304 = 230;
+        symbol [ Graphics %tmp.305 177 29 37 ];
+        %tmp.305 = getm $.Toybox.Graphics;
+        symbol [ FONT_NUMBER_MEDIUM %tmp.306 177 38 56 ];
+        %tmp.306 = getv %tmp.305 :FONT_NUMBER_MEDIUM;
+        %tmp.307 = lgetv %timeStr.8;
+        symbol [ timeStr %tmp.307 177 58 65 ];
+        symbol [ Graphics %tmp.308 178 12 20 ];
+        %tmp.308 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.309 178 21 40 ];
+        %tmp.309 = getv %tmp.308 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.301 %tmp.302(%tmp.303, %tmp.304, %tmp.306, %tmp.307, %tmp.309);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 181 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
+        %status.9 = local;
+        symbol [ status %status.9 181 12 18 ];
+        symbol [ Storage %tmp.310 181 21 28 ];
+        %tmp.310 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.311 181 29 37 ];
+        %tmp.311 = getv function %tmp.310 :getValue;
+        %tmp.312 = "session_status";
+        %tmp.313 = invoke %tmp.310 %tmp.311(%tmp.312);
+        lputv %status.9 %tmp.313;
+        symbol [ status %status.9 181 12 18 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 182 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
+        %dotColor.10 = local;
+        symbol [ dotColor %dotColor.10 182 12 20 ];
+        %tmp.314 = 0x555555;
+        lputv %dotColor.10 %tmp.314;
+        symbol [ dotColor %dotColor.10 182 12 20 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 183 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_8_187_8_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_12_183_55_begin:
+        %tmp.315 = lgetv %status.9;
+        symbol [ status %tmp.315 183 12 18 ];
+        %tmp.316 = null;
+        %tmp.317 = ne %tmp.315 %tmp.316;
+        bf %tmp.317 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_8_187_8_if_false;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_30_183_55_true:
+        %tmp.318 = lgetv %status.9;
+        symbol [ status %tmp.318 183 30 36 ];
+        %tmp.319 = as %tmp.318 { (!Null) };
+        symbol [ equals %tmp.320 183 37 43 ];
+        %tmp.320 = getv function %tmp.319 :equals;
+        %tmp.321 = "recording";
+        %tmp.322 = invoke %tmp.319 %tmp.320(%tmp.321);
+        push %tmp.322;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_30_183_55_end:
+        %tmp.323 = phi [%tmp.317 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_12_183_55_begin] [%tmp.322 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_30_183_55_true] [%tmp.323 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_30_183_55_end];
+        bf %tmp.323 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_8_187_8_if_false;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_8_187_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_58_185_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 184 12 ]
+        %tmp.324 = 0xFF2D55;
+        lputv %dotColor.10 %tmp.324;
+        symbol [ dotColor %dotColor.10 184 12 20 ];
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_58_185_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_8_187_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_8_187_8_if_false:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 185 15 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_15_187_8_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_19_185_58_begin:
+        %tmp.325 = lgetv %status.9;
+        symbol [ status %tmp.325 185 19 25 ];
+        %tmp.326 = null;
+        %tmp.327 = ne %tmp.325 %tmp.326;
+        bf %tmp.327 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_15_187_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_37_185_58_true:
+        %tmp.328 = lgetv %status.9;
+        symbol [ status %tmp.328 185 37 43 ];
+        %tmp.329 = as %tmp.328 { (!Null) };
+        symbol [ equals %tmp.330 185 44 50 ];
+        %tmp.330 = getv function %tmp.329 :equals;
+        %tmp.331 = "saved";
+        %tmp.332 = invoke %tmp.329 %tmp.330(%tmp.331);
+        push %tmp.332;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_37_185_58_end:
+        %tmp.333 = phi [%tmp.327 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_19_185_58_begin] [%tmp.332 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_37_185_58_true] [%tmp.333 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_37_185_58_end];
+        bf %tmp.333 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_15_187_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_15_187_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_61_187_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 186 12 ]
+        %tmp.334 = 0x30D158;
+        lputv %dotColor.10 %tmp.334;
+        symbol [ dotColor %dotColor.10 186 12 20 ];
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_61_187_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_15_187_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_185_15_187_8_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_183_8_187_8_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 188 8 ]
+        %tmp.335 = lgetv %dc;
+        symbol [ dc %tmp.335 188 8 10 ];
+        symbol [ setColor %tmp.336 188 11 19 ];
+        %tmp.336 = getv function %tmp.335 :setColor;
+        %tmp.337 = lgetv %dotColor.10;
+        symbol [ dotColor %tmp.337 188 20 28 ];
+        symbol [ Graphics %tmp.338 188 30 38 ];
+        %tmp.338 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.339 188 39 56 ];
+        %tmp.339 = getv %tmp.338 :COLOR_TRANSPARENT;
+        invoke %tmp.335 %tmp.336(%tmp.337, %tmp.339);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 189 8 ]
+        %tmp.340 = lgetv %dc;
+        symbol [ dc %tmp.340 189 8 10 ];
+        symbol [ fillCircle %tmp.341 189 11 21 ];
+        %tmp.341 = getv function %tmp.340 :fillCircle;
+        %tmp.342 = lgetv %cx.4;
+        symbol [ cx %tmp.342 189 22 24 ];
+        %tmp.343 = lgetv %h.2;
+        symbol [ h %tmp.343 189 26 27 ];
+        %tmp.344 = 55;
+        %tmp.345 = sub %tmp.343 %tmp.344;
+        %tmp.346 = 6;
+        invoke %tmp.340 %tmp.341(%tmp.342, %tmp.345, %tmp.346);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 192 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop" ]
+        %statusLabel.11 = local;
+        symbol [ statusLabel %statusLabel.11 192 12 23 ];
+        %tmp.347 = "not recording";
+        lputv %statusLabel.11 %tmp.347;
+        symbol [ statusLabel %statusLabel.11 192 12 23 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 193 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_8_194_84_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_12_193_55_begin:
+        %tmp.348 = lgetv %status.9;
+        symbol [ status %tmp.348 193 12 18 ];
+        %tmp.349 = null;
+        %tmp.350 = ne %tmp.348 %tmp.349;
+        bf %tmp.350 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_8_194_84_if_false;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_30_193_55_true:
+        %tmp.351 = lgetv %status.9;
+        symbol [ status %tmp.351 193 30 36 ];
+        %tmp.352 = as %tmp.351 { (!Null) };
+        symbol [ equals %tmp.353 193 37 43 ];
+        %tmp.353 = getv function %tmp.352 :equals;
+        %tmp.354 = "recording";
+        %tmp.355 = invoke %tmp.352 %tmp.353(%tmp.354);
+        push %tmp.355;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_30_193_55_end:
+        %tmp.356 = phi [%tmp.350 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_12_193_55_begin] [%tmp.355 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_30_193_55_true] [%tmp.356 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_30_193_55_end];
+        bf %tmp.356 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_8_194_84_if_false;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_8_194_84_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_58_193_87_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 193 60 ]
+        %tmp.357 = "recording";
+        lputv %statusLabel.11 %tmp.357;
+        symbol [ statusLabel %statusLabel.11 193 60 71 ];
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_58_193_87_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_8_194_84_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_8_194_84_if_false:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 194 13 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_13_194_84_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_17_194_56_begin:
+        %tmp.358 = lgetv %status.9;
+        symbol [ status %tmp.358 194 17 23 ];
+        %tmp.359 = null;
+        %tmp.360 = ne %tmp.358 %tmp.359;
+        bf %tmp.360 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_13_194_84_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_35_194_56_true:
+        %tmp.361 = lgetv %status.9;
+        symbol [ status %tmp.361 194 35 41 ];
+        %tmp.362 = as %tmp.361 { (!Null) };
+        symbol [ equals %tmp.363 194 42 48 ];
+        %tmp.363 = getv function %tmp.362 :equals;
+        %tmp.364 = "saved";
+        %tmp.365 = invoke %tmp.362 %tmp.363(%tmp.364);
+        push %tmp.365;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_35_194_56_end:
+        %tmp.366 = phi [%tmp.360 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_17_194_56_begin] [%tmp.365 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_35_194_56_true] [%tmp.366 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_35_194_56_end];
+        bf %tmp.366 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_13_194_84_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_13_194_84_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_59_194_84_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 194 61 ]
+        %tmp.367 = "saved";
+        lputv %statusLabel.11 %tmp.367;
+        symbol [ statusLabel %statusLabel.11 194 61 72 ];
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_59_194_84_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_13_194_84_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_194_13_194_84_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_193_8_194_84_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 195 8 ]
+        %tmp.368 = lgetv %dc;
+        symbol [ dc %tmp.368 195 8 10 ];
+        symbol [ setColor %tmp.369 195 11 19 ];
+        %tmp.369 = getv function %tmp.368 :setColor;
+        %tmp.370 = 0xAAAAAA;
+        symbol [ Graphics %tmp.371 195 30 38 ];
+        %tmp.371 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.372 195 39 56 ];
+        %tmp.372 = getv %tmp.371 :COLOR_TRANSPARENT;
+        invoke %tmp.368 %tmp.369(%tmp.370, %tmp.372);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 196 8 ]
+        %tmp.373 = lgetv %dc;
+        symbol [ dc %tmp.373 196 8 10 ];
+        symbol [ drawText %tmp.374 196 11 19 ];
+        %tmp.374 = getv function %tmp.373 :drawText;
+        %tmp.375 = lgetv %cx.4;
+        symbol [ cx %tmp.375 196 20 22 ];
+        %tmp.376 = lgetv %h.2;
+        symbol [ h %tmp.376 196 24 25 ];
+        %tmp.377 = 45;
+        %tmp.378 = sub %tmp.376 %tmp.377;
+        symbol [ Graphics %tmp.379 196 32 40 ];
+        %tmp.379 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.380 196 41 51 ];
+        %tmp.380 = getv %tmp.379 :FONT_XTINY;
+        %tmp.381 = lgetv %statusLabel.11;
+        symbol [ statusLabel %tmp.381 196 53 64 ];
+        symbol [ Graphics %tmp.382 197 12 20 ];
+        %tmp.382 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.383 197 21 40 ];
+        %tmp.383 = getv %tmp.382 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.373 %tmp.374(%tmp.375, %tmp.378, %tmp.380, %tmp.381, %tmp.383);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 200 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_200_8_205_8_if_stmt:
+        symbol [ _backHint %tmp.385 200 12 21 ];
+        %tmp.385 = getv ? :_backHint;
+        %tmp.386 = 0;
+        %tmp.387 = gt %tmp.385 %tmp.386;
+        bf %tmp.387 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_200_8_205_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_200_8_205_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_200_27_205_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 201 12 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_200_27_205_8_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_200_27_205_8_stop" ]
+        %remaining.12 = local;
+        symbol [ remaining %remaining.12 201 16 25 ];
+        %tmp.388 = 3;
+        symbol [ _backHint %tmp.390 201 32 41 ];
+        %tmp.390 = getv ? :_backHint;
+        %tmp.391 = sub %tmp.388 %tmp.390;
+        lputv %remaining.12 %tmp.391;
+        symbol [ remaining %remaining.12 201 16 25 ];
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 202 12 ]
+        %tmp.392 = lgetv %dc;
+        symbol [ dc %tmp.392 202 12 14 ];
+        symbol [ setColor %tmp.393 202 15 23 ];
+        %tmp.393 = getv function %tmp.392 :setColor;
+        %tmp.394 = 0xFFD60A;
+        symbol [ Graphics %tmp.395 202 34 42 ];
+        %tmp.395 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.396 202 43 60 ];
+        %tmp.396 = getv %tmp.395 :COLOR_TRANSPARENT;
+        invoke %tmp.392 %tmp.393(%tmp.394, %tmp.396);
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc" 203 12 ]
+        %tmp.397 = lgetv %dc;
+        symbol [ dc %tmp.397 203 12 14 ];
+        symbol [ drawText %tmp.398 203 15 23 ];
+        %tmp.398 = getv function %tmp.397 :drawText;
+        %tmp.399 = lgetv %cx.4;
+        symbol [ cx %tmp.399 203 24 26 ];
+        %tmp.400 = lgetv %h.2;
+        symbol [ h %tmp.400 203 28 29 ];
+        %tmp.401 = 25;
+        %tmp.402 = sub %tmp.400 %tmp.401;
+        symbol [ Graphics %tmp.403 203 36 44 ];
+        %tmp.403 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.404 203 45 55 ];
+        %tmp.404 = getv %tmp.403 :FONT_XTINY;
+        %tmp.405 = "back ";
+        %tmp.406 = lgetv %remaining.12;
+        symbol [ remaining %tmp.406 204 26 35 ];
+        %tmp.407 = add %tmp.405 %tmp.406;
+        %tmp.408 = "x to stop";
+        %tmp.409 = add %tmp.407 %tmp.408;
+        symbol [ Graphics %tmp.410 204 51 59 ];
+        %tmp.410 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.411 204 60 79 ];
+        %tmp.411 = getv %tmp.410 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.397 %tmp.398(%tmp.399, %tmp.402, %tmp.404, %tmp.409, %tmp.411);
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_200_27_205_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_200_8_205_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_200_8_205_8_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationView_mc_100_49_206_4_stop:
     }
 }
-[ @file = "D:\TestingApplication\source\TestingApplicationView.mc"; @line = 12; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationView.mc"; @line = 6; ]
 <init> {
 }

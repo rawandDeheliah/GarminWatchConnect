@@ -1,239 +1,254 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-    <manifest filename="D:\TestingApplication\manifest.xml"/>
+    <manifest filename="D:\GarminWatchConnect\TestingApplication\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="1" lineNum="228" parent="globals" pc="268435460" symbol="getApp"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="1" lineNum="229" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="2" lineNum="19" parent="globals/TestingApplicationView" pc="268435481" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="3" lineNum="16" parent="globals/TestingApplicationDelegate" pc="268435493" symbol="&lt;init&gt;"/>
-        <entry filename="d:\\TestingApplication\\gen\\006-B4625-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="5" lineNum="19" parent="globals/TestingApplicationApp" pc="268435525" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="6" lineNum="36" parent="globals/TestingApplicationView" pc="268435537" symbol="onShow"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="6" lineNum="37" parent="globals/TestingApplicationView" pc="268435539" symbol="onShow"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="6" lineNum="38" parent="globals/TestingApplicationView" pc="268435547" symbol="onShow"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="6" lineNum="39" parent="globals/TestingApplicationView" pc="268435554" symbol="onShow"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="7" lineNum="32" parent="globals/TestingApplicationView" pc="268435573" symbol="onLayout"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="7" lineNum="33" parent="globals/TestingApplicationView" pc="268435575" symbol="onLayout"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="8" lineNum="78" parent="globals/TestingApplicationView" pc="268435583" symbol="nextPage"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="8" lineNum="79" parent="globals/TestingApplicationView" pc="268435585" symbol="nextPage"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="8" lineNum="80" parent="globals/TestingApplicationView" pc="268435593" symbol="nextPage"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="63" parent="globals/TestingApplicationView" pc="268435608" symbol="onSensor"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="64" parent="globals/TestingApplicationView" pc="268435610" symbol="onSensor"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="65" parent="globals/TestingApplicationView" pc="268435632" symbol="onSensor"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="67" parent="globals/TestingApplicationView" pc="268435649" symbol="onSensor"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="68" parent="globals/TestingApplicationView" pc="268435671" symbol="onSensor"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="73" parent="globals/TestingApplicationView" pc="268435688" symbol="onSensor"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="74" parent="globals/TestingApplicationView" pc="268435696" symbol="onSensor"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="48" parent="globals/TestingApplicationView" pc="268435711" symbol="_registerListeners"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="49" parent="globals/TestingApplicationView" pc="268435713" symbol="_registerListeners"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="49" parent="globals/TestingApplicationView" pc="268435721" symbol="_registerListeners"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="50" parent="globals/TestingApplicationView" pc="268435725" symbol="_registerListeners"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="54" parent="globals/TestingApplicationView" pc="268435733" symbol="_registerListeners"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="58" parent="globals/TestingApplicationView" pc="268435751" symbol="_registerListeners"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="59" parent="globals/TestingApplicationView" pc="268435777" symbol="_registerListeners"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="11" lineNum="88" parent="globals/TestingApplicationView" pc="268435796" symbol="showBackHint"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="11" lineNum="89" parent="globals/TestingApplicationView" pc="268435798" symbol="showBackHint"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="11" lineNum="90" parent="globals/TestingApplicationView" pc="268435807" symbol="showBackHint"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="12" lineNum="27" parent="globals/TestingApplicationView" pc="268435819" symbol="initialize"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="12" lineNum="28" parent="globals/TestingApplicationView" pc="268435821" symbol="initialize"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="12" lineNum="29" parent="globals/TestingApplicationView" pc="268435833" symbol="initialize"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="13" lineNum="42" parent="globals/TestingApplicationView" pc="268435852" symbol="onHide"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="13" lineNum="43" parent="globals/TestingApplicationView" pc="268435854" symbol="onHide"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="13" lineNum="45" parent="globals/TestingApplicationView" pc="268435862" symbol="onHide"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="96" parent="globals/TestingApplicationView" pc="268435881" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="97" parent="globals/TestingApplicationView" pc="268435884" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="98" parent="globals/TestingApplicationView" pc="268435896" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="100" parent="globals/TestingApplicationView" pc="268435904" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="101" parent="globals/TestingApplicationView" pc="268435913" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="104" parent="globals/TestingApplicationView" pc="268435922" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="105" parent="globals/TestingApplicationView" pc="268435939" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="107" parent="globals/TestingApplicationView" pc="268435965" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="108" parent="globals/TestingApplicationView" pc="268435981" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="111" parent="globals/TestingApplicationView" pc="268436002" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="112" parent="globals/TestingApplicationView" pc="268436021" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="113" parent="globals/TestingApplicationView" pc="268436028" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="114" parent="globals/TestingApplicationView" pc="268436035" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="115" parent="globals/TestingApplicationView" pc="268436059" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="116" parent="globals/TestingApplicationView" pc="268436065" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="117" parent="globals/TestingApplicationView" pc="268436075" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="118" parent="globals/TestingApplicationView" pc="268436099" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="119" parent="globals/TestingApplicationView" pc="268436105" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="121" parent="globals/TestingApplicationView" pc="268436115" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="122" parent="globals/TestingApplicationView" pc="268436129" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="125" parent="globals/TestingApplicationView" pc="268436152" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="126" parent="globals/TestingApplicationView" pc="268436171" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="126" parent="globals/TestingApplicationView" pc="268436177" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="127" parent="globals/TestingApplicationView" pc="268436183" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="128" parent="globals/TestingApplicationView" pc="268436200" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="129" parent="globals/TestingApplicationView" pc="268436226" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="130" parent="globals/TestingApplicationView" pc="268436242" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="133" parent="globals/TestingApplicationView" pc="268436271" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="134" parent="globals/TestingApplicationView" pc="268436307" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="135" parent="globals/TestingApplicationView" pc="268436324" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="137" parent="globals/TestingApplicationView" pc="268436348" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="138" parent="globals/TestingApplicationView" pc="268436364" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="141" parent="globals/TestingApplicationView" pc="268436390" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="142" parent="globals/TestingApplicationView" pc="268436409" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="143" parent="globals/TestingApplicationView" pc="268436428" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="143" parent="globals/TestingApplicationView" pc="268436434" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="144" parent="globals/TestingApplicationView" pc="268436440" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="145" parent="globals/TestingApplicationView" pc="268436453" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="146" parent="globals/TestingApplicationView" pc="268436469" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="149" parent="globals/TestingApplicationView" pc="268436507" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="150" parent="globals/TestingApplicationView" pc="268436524" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="155" parent="globals/TestingApplicationView" pc="268436559" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="156" parent="globals/TestingApplicationView" pc="268436569" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="157" parent="globals/TestingApplicationView" pc="268436579" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="158" parent="globals/TestingApplicationView" pc="268436596" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="161" parent="globals/TestingApplicationView" pc="268436636" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="162" parent="globals/TestingApplicationView" pc="268436652" symbol="onUpdate"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="84" parent="globals/TestingApplicationView" pc="268436681" symbol="confirmExit"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="85" parent="globals/TestingApplicationView" pc="268436683" symbol="confirmExit"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="35" parent="globals/TestingApplicationDelegate" pc="268436697" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="36" parent="globals/TestingApplicationDelegate" pc="268436699" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="38" parent="globals/TestingApplicationDelegate" pc="268436714" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="39" parent="globals/TestingApplicationDelegate" pc="268436723" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="41" parent="globals/TestingApplicationDelegate" pc="268436755" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="42" parent="globals/TestingApplicationDelegate" pc="268436767" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="44" parent="globals/TestingApplicationDelegate" pc="268436798" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="46" parent="globals/TestingApplicationDelegate" pc="268436809" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="47" parent="globals/TestingApplicationDelegate" pc="268436821" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="51" parent="globals/TestingApplicationDelegate" pc="268436826" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="52" parent="globals/TestingApplicationDelegate" pc="268436845" symbol="onBack"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="17" lineNum="55" parent="globals/TestingApplicationDelegate" pc="268436847" symbol="resetBackCount"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="17" lineNum="56" parent="globals/TestingApplicationDelegate" pc="268436849" symbol="resetBackCount"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="17" lineNum="57" parent="globals/TestingApplicationDelegate" pc="268436857" symbol="resetBackCount"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="18" lineNum="22" parent="globals/TestingApplicationDelegate" pc="268436873" symbol="initialize"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="18" lineNum="23" parent="globals/TestingApplicationDelegate" pc="268436875" symbol="initialize"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="18" lineNum="24" parent="globals/TestingApplicationDelegate" pc="268436887" symbol="initialize"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="19" lineNum="28" parent="globals/TestingApplicationDelegate" pc="268436897" symbol="onTap"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="19" lineNum="29" parent="globals/TestingApplicationDelegate" pc="268436899" symbol="onTap"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="19" lineNum="30" parent="globals/TestingApplicationDelegate" pc="268436911" symbol="onTap"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="53" parent="globals/TestingApplicationApp" pc="268436913" symbol="onPoll"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="54" parent="globals/TestingApplicationApp" pc="268436916" symbol="onPoll"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="54" parent="globals/TestingApplicationApp" pc="268436934" symbol="onPoll"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="56" parent="globals/TestingApplicationApp" pc="268436938" symbol="onPoll"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="57" parent="globals/TestingApplicationApp" pc="268436962" symbol="onPoll"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="59" parent="globals/TestingApplicationApp" pc="268436999" symbol="onPoll"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="60" parent="globals/TestingApplicationApp" pc="268437008" symbol="onPoll"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="61" parent="globals/TestingApplicationApp" pc="268437026" symbol="onPoll"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="62" parent="globals/TestingApplicationApp" pc="268437033" symbol="onPoll"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="123" parent="globals/TestingApplicationApp" pc="268437044" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="124" parent="globals/TestingApplicationApp" pc="268437047" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="124" parent="globals/TestingApplicationApp" pc="268437063" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="125" parent="globals/TestingApplicationApp" pc="268437067" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="125" parent="globals/TestingApplicationApp" pc="268437090" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="128" parent="globals/TestingApplicationApp" pc="268437094" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="129" parent="globals/TestingApplicationApp" pc="268437119" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="136" parent="globals/TestingApplicationApp" pc="268437250" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="143" parent="globals/TestingApplicationApp" pc="268437307" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="143" parent="globals/TestingApplicationApp" pc="268437322" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="145" parent="globals/TestingApplicationApp" pc="268437337" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="146" parent="globals/TestingApplicationApp" pc="268437360" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="147" parent="globals/TestingApplicationApp" pc="268437383" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="148" parent="globals/TestingApplicationApp" pc="268437410" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="149" parent="globals/TestingApplicationApp" pc="268437414" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="150" parent="globals/TestingApplicationApp" pc="268437422" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="151" parent="globals/TestingApplicationApp" pc="268437443" symbol="_startFitSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="22" lineNum="118" parent="globals/TestingApplicationApp" pc="268437479" symbol="saveAndExit"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="22" lineNum="119" parent="globals/TestingApplicationApp" pc="268437481" symbol="saveAndExit"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="22" lineNum="120" parent="globals/TestingApplicationApp" pc="268437491" symbol="saveAndExit"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="171" parent="globals/TestingApplicationApp" pc="268437503" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="172" parent="globals/TestingApplicationApp" pc="268437506" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="172" parent="globals/TestingApplicationApp" pc="268437515" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="174" parent="globals/TestingApplicationApp" pc="268437519" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="175" parent="globals/TestingApplicationApp" pc="268437535" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="176" parent="globals/TestingApplicationApp" pc="268437541" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="177" parent="globals/TestingApplicationApp" pc="268437564" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="178" parent="globals/TestingApplicationApp" pc="268437595" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="180" parent="globals/TestingApplicationApp" pc="268437630" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="181" parent="globals/TestingApplicationApp" pc="268437653" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="182" parent="globals/TestingApplicationApp" pc="268437684" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="185" parent="globals/TestingApplicationApp" pc="268437728" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="186" parent="globals/TestingApplicationApp" pc="268437747" symbol="_saveLoggerStats"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="24" lineNum="221" parent="globals/TestingApplicationApp" pc="268437786" symbol="getInitialView"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="24" lineNum="222" parent="globals/TestingApplicationApp" pc="268437789" symbol="getInitialView"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="24" lineNum="223" parent="globals/TestingApplicationApp" pc="268437809" symbol="getInitialView"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="39" parent="globals/TestingApplicationApp" pc="268437842" symbol="onStart"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="40" parent="globals/TestingApplicationApp" pc="268437844" symbol="onStart"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="41" parent="globals/TestingApplicationApp" pc="268437862" symbol="onStart"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="42" parent="globals/TestingApplicationApp" pc="268437869" symbol="onStart"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="43" parent="globals/TestingApplicationApp" pc="268437876" symbol="onStart"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="44" parent="globals/TestingApplicationApp" pc="268437883" symbol="onStart"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="47" parent="globals/TestingApplicationApp" pc="268437917" symbol="onStart"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="48" parent="globals/TestingApplicationApp" pc="268437946" symbol="onStart"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="49" parent="globals/TestingApplicationApp" pc="268437977" symbol="onStart"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="190" parent="globals/TestingApplicationApp" pc="268437996" symbol="_sendHeartbeat"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="191" parent="globals/TestingApplicationApp" pc="268437999" symbol="_sendHeartbeat"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="191" parent="globals/TestingApplicationApp" pc="268438015" symbol="_sendHeartbeat"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="192" parent="globals/TestingApplicationApp" pc="268438019" symbol="_sendHeartbeat"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="196" parent="globals/TestingApplicationApp" pc="268438041" symbol="_sendHeartbeat"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="197" parent="globals/TestingApplicationApp" pc="268438061" symbol="_sendHeartbeat"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="198" parent="globals/TestingApplicationApp" pc="268438085" symbol="_sendHeartbeat"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="202" parent="globals/TestingApplicationApp" pc="268438121" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="206" parent="globals/TestingApplicationApp" pc="268438123" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="207" parent="globals/TestingApplicationApp" pc="268438138" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="208" parent="globals/TestingApplicationApp" pc="268438161" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="209" parent="globals/TestingApplicationApp" pc="268438181" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="210" parent="globals/TestingApplicationApp" pc="268438190" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="211" parent="globals/TestingApplicationApp" pc="268438209" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="212" parent="globals/TestingApplicationApp" pc="268438230" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="213" parent="globals/TestingApplicationApp" pc="268438238" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="214" parent="globals/TestingApplicationApp" pc="268438257" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="216" parent="globals/TestingApplicationApp" pc="268438278" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="217" parent="globals/TestingApplicationApp" pc="268438297" symbol="onHeartbeatResponse"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="91" parent="globals/TestingApplicationApp" pc="268438319" symbol="onRestartSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="92" parent="globals/TestingApplicationApp" pc="268438321" symbol="onRestartSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="93" parent="globals/TestingApplicationApp" pc="268438329" symbol="onRestartSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="94" parent="globals/TestingApplicationApp" pc="268438347" symbol="onRestartSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="95" parent="globals/TestingApplicationApp" pc="268438354" symbol="onRestartSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="67" parent="globals/TestingApplicationApp" pc="268438362" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="68" parent="globals/TestingApplicationApp" pc="268438365" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="70" parent="globals/TestingApplicationApp" pc="268438372" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="72" parent="globals/TestingApplicationApp" pc="268438381" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="72" parent="globals/TestingApplicationApp" pc="268438395" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="73" parent="globals/TestingApplicationApp" pc="268438410" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="74" parent="globals/TestingApplicationApp" pc="268438422" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="75" parent="globals/TestingApplicationApp" pc="268438437" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="76" parent="globals/TestingApplicationApp" pc="268438460" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="77" parent="globals/TestingApplicationApp" pc="268438490" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="78" parent="globals/TestingApplicationApp" pc="268438509" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="80" parent="globals/TestingApplicationApp" pc="268438547" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="82" parent="globals/TestingApplicationApp" pc="268438558" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="85" parent="globals/TestingApplicationApp" pc="268438566" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="86" parent="globals/TestingApplicationApp" pc="268438595" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="87" parent="globals/TestingApplicationApp" pc="268438626" symbol="_rotateSession"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="155" parent="globals/TestingApplicationApp" pc="268438645" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="156" parent="globals/TestingApplicationApp" pc="268438648" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="156" parent="globals/TestingApplicationApp" pc="268438657" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="158" parent="globals/TestingApplicationApp" pc="268438661" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="162" parent="globals/TestingApplicationApp" pc="268438731" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="163" parent="globals/TestingApplicationApp" pc="268438754" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="164" parent="globals/TestingApplicationApp" pc="268438778" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="165" parent="globals/TestingApplicationApp" pc="268438797" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="166" parent="globals/TestingApplicationApp" pc="268438805" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="167" parent="globals/TestingApplicationApp" pc="268438828" symbol="_startSensorLogger"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="31" lineNum="35" parent="globals/TestingApplicationApp" pc="268438867" symbol="initialize"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="31" lineNum="36" parent="globals/TestingApplicationApp" pc="268438869" symbol="initialize"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="98" parent="globals/TestingApplicationApp" pc="268438882" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="99" parent="globals/TestingApplicationApp" pc="268438885" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="99" parent="globals/TestingApplicationApp" pc="268438894" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="99" parent="globals/TestingApplicationApp" pc="268438906" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="100" parent="globals/TestingApplicationApp" pc="268438917" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="100" parent="globals/TestingApplicationApp" pc="268438926" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="100" parent="globals/TestingApplicationApp" pc="268438938" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="102" parent="globals/TestingApplicationApp" pc="268438949" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="103" parent="globals/TestingApplicationApp" pc="268438956" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="105" parent="globals/TestingApplicationApp" pc="268438965" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="105" parent="globals/TestingApplicationApp" pc="268438979" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="106" parent="globals/TestingApplicationApp" pc="268438994" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="107" parent="globals/TestingApplicationApp" pc="268439006" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="108" parent="globals/TestingApplicationApp" pc="268439029" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="109" parent="globals/TestingApplicationApp" pc="268439053" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="110" parent="globals/TestingApplicationApp" pc="268439072" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="113" parent="globals/TestingApplicationApp" pc="268439113" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="114" parent="globals/TestingApplicationApp" pc="268439121" symbol="onStop"/>
-        <entry filename="D:\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="115" parent="globals/TestingApplicationApp" pc="268439129" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="1" lineNum="228" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="1" lineNum="229" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="2" lineNum="17" parent="globals/TestingApplicationView" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="3" lineNum="16" parent="globals/TestingApplicationDelegate" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="d:\\GarminWatchConnect\\TestingApplication\\gen\\006-B4625-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="5" lineNum="19" parent="globals/TestingApplicationApp" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="6" lineNum="33" parent="globals/TestingApplicationView" pc="268435537" symbol="onShow"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="6" lineNum="34" parent="globals/TestingApplicationView" pc="268435539" symbol="onShow"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="6" lineNum="35" parent="globals/TestingApplicationView" pc="268435547" symbol="onShow"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="6" lineNum="36" parent="globals/TestingApplicationView" pc="268435554" symbol="onShow"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="7" lineNum="29" parent="globals/TestingApplicationView" pc="268435566" symbol="onLayout"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="7" lineNum="30" parent="globals/TestingApplicationView" pc="268435568" symbol="onLayout"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="8" lineNum="87" parent="globals/TestingApplicationView" pc="268435576" symbol="nextPage"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="8" lineNum="88" parent="globals/TestingApplicationView" pc="268435578" symbol="nextPage"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="8" lineNum="88" parent="globals/TestingApplicationView" pc="268435586" symbol="nextPage"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="58" parent="globals/TestingApplicationView" pc="268435601" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="59" parent="globals/TestingApplicationView" pc="268435604" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="63" parent="globals/TestingApplicationView" pc="268435607" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="64" parent="globals/TestingApplicationView" pc="268435619" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="65" parent="globals/TestingApplicationView" pc="268435636" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="66" parent="globals/TestingApplicationView" pc="268435650" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="67" parent="globals/TestingApplicationView" pc="268435653" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="69" parent="globals/TestingApplicationView" pc="268435686" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="72" parent="globals/TestingApplicationView" pc="268435717" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="74" parent="globals/TestingApplicationView" pc="268435723" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="75" parent="globals/TestingApplicationView" pc="268435735" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="76" parent="globals/TestingApplicationView" pc="268435752" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="77" parent="globals/TestingApplicationView" pc="268435766" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="79" parent="globals/TestingApplicationView" pc="268435793" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="81" parent="globals/TestingApplicationView" pc="268435817" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="84" parent="globals/TestingApplicationView" pc="268435851" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="9" lineNum="84" parent="globals/TestingApplicationView" pc="268435859" symbol="onHrPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="48" parent="globals/TestingApplicationView" pc="268435874" symbol="_registerListeners"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="49" parent="globals/TestingApplicationView" pc="268435876" symbol="_registerListeners"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="49" parent="globals/TestingApplicationView" pc="268435884" symbol="_registerListeners"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="50" parent="globals/TestingApplicationView" pc="268435888" symbol="_registerListeners"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="53" parent="globals/TestingApplicationView" pc="268435896" symbol="_registerListeners"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="54" parent="globals/TestingApplicationView" pc="268435925" symbol="_registerListeners"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="10" lineNum="55" parent="globals/TestingApplicationView" pc="268435957" symbol="_registerListeners"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="11" lineNum="95" parent="globals/TestingApplicationView" pc="268435976" symbol="showBackHint"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="11" lineNum="96" parent="globals/TestingApplicationView" pc="268435978" symbol="showBackHint"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="11" lineNum="97" parent="globals/TestingApplicationView" pc="268435987" symbol="showBackHint"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="12" lineNum="25" parent="globals/TestingApplicationView" pc="268435999" symbol="initialize"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="12" lineNum="26" parent="globals/TestingApplicationView" pc="268436001" symbol="initialize"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="13" lineNum="39" parent="globals/TestingApplicationView" pc="268436014" symbol="onHide"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="13" lineNum="40" parent="globals/TestingApplicationView" pc="268436016" symbol="onHide"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="13" lineNum="41" parent="globals/TestingApplicationView" pc="268436024" symbol="onHide"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="13" lineNum="42" parent="globals/TestingApplicationView" pc="268436033" symbol="onHide"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="13" lineNum="43" parent="globals/TestingApplicationView" pc="268436045" symbol="onHide"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="13" lineNum="44" parent="globals/TestingApplicationView" pc="268436053" symbol="onHide"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="100" parent="globals/TestingApplicationView" pc="268436065" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="101" parent="globals/TestingApplicationView" pc="268436068" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="102" parent="globals/TestingApplicationView" pc="268436077" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="105" parent="globals/TestingApplicationView" pc="268436086" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="106" parent="globals/TestingApplicationView" pc="268436104" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="109" parent="globals/TestingApplicationView" pc="268436112" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="113" parent="globals/TestingApplicationView" pc="268436137" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="114" parent="globals/TestingApplicationView" pc="268436144" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="115" parent="globals/TestingApplicationView" pc="268436161" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="118" parent="globals/TestingApplicationView" pc="268436177" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="120" parent="globals/TestingApplicationView" pc="268436194" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="121" parent="globals/TestingApplicationView" pc="268436211" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="122" parent="globals/TestingApplicationView" pc="268436233" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="123" parent="globals/TestingApplicationView" pc="268436255" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="128" parent="globals/TestingApplicationView" pc="268436309" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="131" parent="globals/TestingApplicationView" pc="268436321" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="134" parent="globals/TestingApplicationView" pc="268436338" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="142" parent="globals/TestingApplicationView" pc="268436420" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="150" parent="globals/TestingApplicationView" pc="268436502" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="151" parent="globals/TestingApplicationView" pc="268436532" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="152" parent="globals/TestingApplicationView" pc="268436549" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="156" parent="globals/TestingApplicationView" pc="268436569" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="157" parent="globals/TestingApplicationView" pc="268436586" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="160" parent="globals/TestingApplicationView" pc="268436609" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="161" parent="globals/TestingApplicationView" pc="268436626" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="165" parent="globals/TestingApplicationView" pc="268436648" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="169" parent="globals/TestingApplicationView" pc="268436721" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="170" parent="globals/TestingApplicationView" pc="268436738" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="175" parent="globals/TestingApplicationView" pc="268436759" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="176" parent="globals/TestingApplicationView" pc="268436806" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="177" parent="globals/TestingApplicationView" pc="268436823" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="181" parent="globals/TestingApplicationView" pc="268436844" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="182" parent="globals/TestingApplicationView" pc="268436863" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="183" parent="globals/TestingApplicationView" pc="268436869" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="184" parent="globals/TestingApplicationView" pc="268436893" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="185" parent="globals/TestingApplicationView" pc="268436903" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="186" parent="globals/TestingApplicationView" pc="268436927" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="188" parent="globals/TestingApplicationView" pc="268436936" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="189" parent="globals/TestingApplicationView" pc="268436950" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="192" parent="globals/TestingApplicationView" pc="268436969" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="193" parent="globals/TestingApplicationView" pc="268436976" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="193" parent="globals/TestingApplicationView" pc="268437000" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="194" parent="globals/TestingApplicationView" pc="268437010" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="194" parent="globals/TestingApplicationView" pc="268437034" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="195" parent="globals/TestingApplicationView" pc="268437044" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="196" parent="globals/TestingApplicationView" pc="268437061" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="200" parent="globals/TestingApplicationView" pc="268437083" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="201" parent="globals/TestingApplicationView" pc="268437093" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="202" parent="globals/TestingApplicationView" pc="268437103" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="14" lineNum="203" parent="globals/TestingApplicationView" pc="268437120" symbol="onUpdate"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="91" parent="globals/TestingApplicationView" pc="268437158" symbol="confirmExit"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationView.mc" id="15" lineNum="92" parent="globals/TestingApplicationView" pc="268437160" symbol="confirmExit"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="35" parent="globals/TestingApplicationDelegate" pc="268437174" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="36" parent="globals/TestingApplicationDelegate" pc="268437176" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="38" parent="globals/TestingApplicationDelegate" pc="268437191" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="39" parent="globals/TestingApplicationDelegate" pc="268437200" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="41" parent="globals/TestingApplicationDelegate" pc="268437232" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="42" parent="globals/TestingApplicationDelegate" pc="268437244" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="44" parent="globals/TestingApplicationDelegate" pc="268437275" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="46" parent="globals/TestingApplicationDelegate" pc="268437286" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="47" parent="globals/TestingApplicationDelegate" pc="268437298" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="51" parent="globals/TestingApplicationDelegate" pc="268437303" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="16" lineNum="52" parent="globals/TestingApplicationDelegate" pc="268437322" symbol="onBack"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="17" lineNum="55" parent="globals/TestingApplicationDelegate" pc="268437324" symbol="resetBackCount"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="17" lineNum="56" parent="globals/TestingApplicationDelegate" pc="268437326" symbol="resetBackCount"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="17" lineNum="57" parent="globals/TestingApplicationDelegate" pc="268437334" symbol="resetBackCount"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="18" lineNum="22" parent="globals/TestingApplicationDelegate" pc="268437350" symbol="initialize"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="18" lineNum="23" parent="globals/TestingApplicationDelegate" pc="268437352" symbol="initialize"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="18" lineNum="24" parent="globals/TestingApplicationDelegate" pc="268437364" symbol="initialize"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="19" lineNum="28" parent="globals/TestingApplicationDelegate" pc="268437374" symbol="onTap"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="19" lineNum="29" parent="globals/TestingApplicationDelegate" pc="268437376" symbol="onTap"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationDelegate.mc" id="19" lineNum="30" parent="globals/TestingApplicationDelegate" pc="268437388" symbol="onTap"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="53" parent="globals/TestingApplicationApp" pc="268437390" symbol="onPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="54" parent="globals/TestingApplicationApp" pc="268437393" symbol="onPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="54" parent="globals/TestingApplicationApp" pc="268437411" symbol="onPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="56" parent="globals/TestingApplicationApp" pc="268437415" symbol="onPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="57" parent="globals/TestingApplicationApp" pc="268437439" symbol="onPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="59" parent="globals/TestingApplicationApp" pc="268437476" symbol="onPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="60" parent="globals/TestingApplicationApp" pc="268437485" symbol="onPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="61" parent="globals/TestingApplicationApp" pc="268437503" symbol="onPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="20" lineNum="62" parent="globals/TestingApplicationApp" pc="268437510" symbol="onPoll"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="123" parent="globals/TestingApplicationApp" pc="268437521" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="124" parent="globals/TestingApplicationApp" pc="268437524" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="124" parent="globals/TestingApplicationApp" pc="268437540" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="125" parent="globals/TestingApplicationApp" pc="268437544" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="125" parent="globals/TestingApplicationApp" pc="268437567" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="128" parent="globals/TestingApplicationApp" pc="268437571" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="129" parent="globals/TestingApplicationApp" pc="268437596" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="136" parent="globals/TestingApplicationApp" pc="268437727" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="143" parent="globals/TestingApplicationApp" pc="268437784" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="143" parent="globals/TestingApplicationApp" pc="268437799" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="145" parent="globals/TestingApplicationApp" pc="268437814" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="146" parent="globals/TestingApplicationApp" pc="268437837" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="147" parent="globals/TestingApplicationApp" pc="268437860" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="148" parent="globals/TestingApplicationApp" pc="268437887" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="149" parent="globals/TestingApplicationApp" pc="268437891" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="150" parent="globals/TestingApplicationApp" pc="268437899" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="21" lineNum="151" parent="globals/TestingApplicationApp" pc="268437920" symbol="_startFitSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="22" lineNum="118" parent="globals/TestingApplicationApp" pc="268437956" symbol="saveAndExit"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="22" lineNum="119" parent="globals/TestingApplicationApp" pc="268437958" symbol="saveAndExit"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="22" lineNum="120" parent="globals/TestingApplicationApp" pc="268437968" symbol="saveAndExit"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="171" parent="globals/TestingApplicationApp" pc="268437980" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="172" parent="globals/TestingApplicationApp" pc="268437983" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="172" parent="globals/TestingApplicationApp" pc="268437992" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="174" parent="globals/TestingApplicationApp" pc="268437996" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="175" parent="globals/TestingApplicationApp" pc="268438012" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="176" parent="globals/TestingApplicationApp" pc="268438018" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="177" parent="globals/TestingApplicationApp" pc="268438041" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="178" parent="globals/TestingApplicationApp" pc="268438072" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="180" parent="globals/TestingApplicationApp" pc="268438107" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="181" parent="globals/TestingApplicationApp" pc="268438130" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="182" parent="globals/TestingApplicationApp" pc="268438161" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="185" parent="globals/TestingApplicationApp" pc="268438205" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="23" lineNum="186" parent="globals/TestingApplicationApp" pc="268438224" symbol="_saveLoggerStats"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="24" lineNum="221" parent="globals/TestingApplicationApp" pc="268438263" symbol="getInitialView"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="24" lineNum="222" parent="globals/TestingApplicationApp" pc="268438266" symbol="getInitialView"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="24" lineNum="223" parent="globals/TestingApplicationApp" pc="268438286" symbol="getInitialView"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="39" parent="globals/TestingApplicationApp" pc="268438319" symbol="onStart"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="40" parent="globals/TestingApplicationApp" pc="268438321" symbol="onStart"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="41" parent="globals/TestingApplicationApp" pc="268438339" symbol="onStart"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="42" parent="globals/TestingApplicationApp" pc="268438346" symbol="onStart"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="43" parent="globals/TestingApplicationApp" pc="268438353" symbol="onStart"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="44" parent="globals/TestingApplicationApp" pc="268438360" symbol="onStart"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="47" parent="globals/TestingApplicationApp" pc="268438394" symbol="onStart"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="48" parent="globals/TestingApplicationApp" pc="268438423" symbol="onStart"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="25" lineNum="49" parent="globals/TestingApplicationApp" pc="268438454" symbol="onStart"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="190" parent="globals/TestingApplicationApp" pc="268438473" symbol="_sendHeartbeat"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="191" parent="globals/TestingApplicationApp" pc="268438476" symbol="_sendHeartbeat"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="191" parent="globals/TestingApplicationApp" pc="268438492" symbol="_sendHeartbeat"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="192" parent="globals/TestingApplicationApp" pc="268438496" symbol="_sendHeartbeat"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="196" parent="globals/TestingApplicationApp" pc="268438518" symbol="_sendHeartbeat"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="197" parent="globals/TestingApplicationApp" pc="268438538" symbol="_sendHeartbeat"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="26" lineNum="198" parent="globals/TestingApplicationApp" pc="268438562" symbol="_sendHeartbeat"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="202" parent="globals/TestingApplicationApp" pc="268438598" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="206" parent="globals/TestingApplicationApp" pc="268438600" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="207" parent="globals/TestingApplicationApp" pc="268438615" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="208" parent="globals/TestingApplicationApp" pc="268438638" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="209" parent="globals/TestingApplicationApp" pc="268438658" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="210" parent="globals/TestingApplicationApp" pc="268438667" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="211" parent="globals/TestingApplicationApp" pc="268438686" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="212" parent="globals/TestingApplicationApp" pc="268438707" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="213" parent="globals/TestingApplicationApp" pc="268438715" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="214" parent="globals/TestingApplicationApp" pc="268438734" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="216" parent="globals/TestingApplicationApp" pc="268438755" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="27" lineNum="217" parent="globals/TestingApplicationApp" pc="268438774" symbol="onHeartbeatResponse"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="91" parent="globals/TestingApplicationApp" pc="268438796" symbol="onRestartSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="92" parent="globals/TestingApplicationApp" pc="268438798" symbol="onRestartSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="93" parent="globals/TestingApplicationApp" pc="268438806" symbol="onRestartSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="94" parent="globals/TestingApplicationApp" pc="268438824" symbol="onRestartSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="28" lineNum="95" parent="globals/TestingApplicationApp" pc="268438831" symbol="onRestartSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="67" parent="globals/TestingApplicationApp" pc="268438839" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="68" parent="globals/TestingApplicationApp" pc="268438842" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="70" parent="globals/TestingApplicationApp" pc="268438849" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="72" parent="globals/TestingApplicationApp" pc="268438858" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="72" parent="globals/TestingApplicationApp" pc="268438872" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="73" parent="globals/TestingApplicationApp" pc="268438887" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="74" parent="globals/TestingApplicationApp" pc="268438899" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="75" parent="globals/TestingApplicationApp" pc="268438914" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="76" parent="globals/TestingApplicationApp" pc="268438937" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="77" parent="globals/TestingApplicationApp" pc="268438967" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="78" parent="globals/TestingApplicationApp" pc="268438986" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="80" parent="globals/TestingApplicationApp" pc="268439024" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="82" parent="globals/TestingApplicationApp" pc="268439035" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="85" parent="globals/TestingApplicationApp" pc="268439043" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="86" parent="globals/TestingApplicationApp" pc="268439072" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="29" lineNum="87" parent="globals/TestingApplicationApp" pc="268439103" symbol="_rotateSession"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="155" parent="globals/TestingApplicationApp" pc="268439122" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="156" parent="globals/TestingApplicationApp" pc="268439125" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="156" parent="globals/TestingApplicationApp" pc="268439134" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="158" parent="globals/TestingApplicationApp" pc="268439138" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="162" parent="globals/TestingApplicationApp" pc="268439208" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="163" parent="globals/TestingApplicationApp" pc="268439231" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="164" parent="globals/TestingApplicationApp" pc="268439255" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="165" parent="globals/TestingApplicationApp" pc="268439274" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="166" parent="globals/TestingApplicationApp" pc="268439282" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="30" lineNum="167" parent="globals/TestingApplicationApp" pc="268439305" symbol="_startSensorLogger"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="31" lineNum="35" parent="globals/TestingApplicationApp" pc="268439344" symbol="initialize"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="31" lineNum="36" parent="globals/TestingApplicationApp" pc="268439346" symbol="initialize"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="98" parent="globals/TestingApplicationApp" pc="268439359" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="99" parent="globals/TestingApplicationApp" pc="268439362" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="99" parent="globals/TestingApplicationApp" pc="268439371" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="99" parent="globals/TestingApplicationApp" pc="268439383" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="100" parent="globals/TestingApplicationApp" pc="268439394" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="100" parent="globals/TestingApplicationApp" pc="268439403" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="100" parent="globals/TestingApplicationApp" pc="268439415" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="102" parent="globals/TestingApplicationApp" pc="268439426" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="103" parent="globals/TestingApplicationApp" pc="268439433" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="105" parent="globals/TestingApplicationApp" pc="268439442" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="105" parent="globals/TestingApplicationApp" pc="268439456" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="106" parent="globals/TestingApplicationApp" pc="268439471" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="107" parent="globals/TestingApplicationApp" pc="268439483" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="108" parent="globals/TestingApplicationApp" pc="268439506" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="109" parent="globals/TestingApplicationApp" pc="268439530" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="110" parent="globals/TestingApplicationApp" pc="268439549" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="113" parent="globals/TestingApplicationApp" pc="268439590" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="114" parent="globals/TestingApplicationApp" pc="268439598" symbol="onStop"/>
+        <entry filename="D:\\GarminWatchConnect\\TestingApplication\\source\\TestingApplicationApp.mc" id="32" lineNum="115" parent="globals/TestingApplicationApp" pc="268439606" symbol="onStop"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -252,7 +267,6 @@
         <entry id="7" object="true" symbol="TestingApplicationView"/>
         <entry field="true" id="26" symbol="_recordStartTs"/>
         <entry field="true" id="25" symbol="_pollTimer"/>
-        <entry field="true" id="8388962" symbol="temperature"/>
         <entry field="true" id="39" symbol="AppName"/>
         <entry id="4" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388631" module="true" symbol="Activity"/>
@@ -262,16 +276,18 @@
         <entry field="true" id="31" symbol="_session"/>
         <entry id="29" method="true" symbol="_saveLoggerStats"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="16" method="true" symbol="onHrPoll"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry field="true" id="22" symbol="_fileCount"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry field="true" id="12" symbol="_screenVisible"/>
+        <entry field="true" id="13" symbol="_screenVisible"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry id="21" method="true" symbol="resetBackCount"/>
         <entry id="17" method="true" symbol="showBackHint"/>
         <entry id="8389098" method="true" symbol="onTap"/>
         <entry id="8391852" symbol="gyroscope"/>
         <entry id="8390648" symbol="accelerometer"/>
+        <entry field="true" id="10" symbol="_hrTimer"/>
         <entry field="true" id="23" symbol="_heartbeatCount"/>
         <entry id="37" method="true" symbol="saveAndExit"/>
         <entry id="30" method="true" symbol="_sendHeartbeat"/>
@@ -279,7 +295,6 @@
         <entry field="true" id="24" symbol="_logger"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8389844" symbol="responseType"/>
-        <entry field="true" id="13" symbol="_temperature"/>
         <entry field="true" id="19" symbol="_backTimer"/>
         <entry id="6" object="true" symbol="TestingApplicationDelegate"/>
         <entry id="33" method="true" symbol="_startSensorLogger"/>
@@ -289,7 +304,6 @@
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="16" method="true" symbol="onSensor"/>
         <entry field="true" id="38" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
@@ -300,7 +314,6 @@
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry field="true" id="8" symbol="_backHint"/>
-        <entry field="true" id="8388960" symbol="heartRate"/>
         <entry field="true" id="20" symbol="_view"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
@@ -310,48 +323,54 @@
         <entry id="34" method="true" symbol="onHeartbeatResponse"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="11" method="true" symbol="_registerListeners"/>
+        <entry id="12" method="true" symbol="_registerListeners"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
         <entry field="true" id="18" symbol="_backCount"/>
         <entry id="15" method="true" symbol="nextPage"/>
-        <entry field="true" id="10" symbol="_listenerActive"/>
+        <entry field="true" id="11" symbol="_listenerActive"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry id="28" method="true" symbol="_rotateSession"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435582" name="dc" stackId="1" startPc="268435573"/>
-        <entry arg="true" endPc="268435710" name="info" stackId="1" startPc="268435608"/>
-        <entry arg="true" endPc="268435818" name="count" stackId="1" startPc="268435796"/>
-        <entry arg="true" endPc="268436680" name="dc" stackId="1" startPc="268435881"/>
-        <entry endPc="268436679" name="w" stackId="2" startPc="268435884"/>
-        <entry endPc="268436679" name="h" stackId="3" startPc="268435884"/>
-        <entry endPc="268436679" name="status" stackId="4" startPc="268435884"/>
-        <entry endPc="268436679" name="statusColor" stackId="5" startPc="268435884"/>
-        <entry endPc="268436679" name="statusText" stackId="6" startPc="268435884"/>
-        <entry endPc="268436679" name="files" stackId="7" startPc="268435884"/>
-        <entry endPc="268436679" name="hrStr" stackId="8" startPc="268435884"/>
-        <entry endPc="268436679" name="connOk" stackId="9" startPc="268435884"/>
-        <entry endPc="268436679" name="pings" stackId="10" startPc="268435884"/>
-        <entry endPc="268436632" name="remaining" stackId="11" startPc="268436569"/>
-        <entry arg="true" endPc="268436896" name="view" stackId="1" startPc="268436873"/>
-        <entry arg="true" endPc="268436912" name="evt" stackId="1" startPc="268436897"/>
-        <entry endPc="268437042" name="elapsed" stackId="1" startPc="268436916"/>
-        <entry endPc="268437403" name="now" stackId="1" startPc="268437094"/>
-        <entry endPc="268437403" name="name" stackId="2" startPc="268437094"/>
-        <entry endPc="268437472" name="ex" stackId="3" startPc="268437410"/>
-        <entry endPc="268437721" name="stats" stackId="1" startPc="268437519"/>
-        <entry endPc="268437779" name="ex" stackId="2" startPc="268437728"/>
-        <entry endPc="268437841" name="view" stackId="1" startPc="268437789"/>
-        <entry arg="true" endPc="268437995" name="state" stackId="1" startPc="268437842"/>
-        <entry endPc="268438119" name="options" stackId="1" startPc="268437999"/>
-        <entry endPc="268438119" name="params" stackId="2" startPc="268437999"/>
-        <entry arg="true" endPc="268438318" name="responseCode" stackId="1" startPc="268438121"/>
-        <entry arg="true" endPc="268438318" name="data" stackId="2" startPc="268438121"/>
-        <entry endPc="268438541" name="ex" stackId="1" startPc="268438490"/>
-        <entry endPc="268438860" name="ex" stackId="1" startPc="268438778"/>
-        <entry arg="true" endPc="268439147" name="state" stackId="1" startPc="268438882"/>
-        <entry endPc="268439104" name="ex" stackId="2" startPc="268439053"/>
+        <entry arg="true" endPc="268435575" name="dc" stackId="1" startPc="268435566"/>
+        <entry endPc="268435872" name="gotHr" stackId="1" startPc="268435604"/>
+        <entry endPc="268435679" name="actInfo" stackId="2" startPc="268435607"/>
+        <entry endPc="268435711" name="ex" stackId="3" startPc="268435686"/>
+        <entry endPc="268435810" name="sInfo" stackId="4" startPc="268435723"/>
+        <entry endPc="268435842" name="ex" stackId="5" startPc="268435817"/>
+        <entry arg="true" endPc="268435998" name="count" stackId="1" startPc="268435976"/>
+        <entry arg="true" endPc="268437157" name="dc" stackId="1" startPc="268436065"/>
+        <entry endPc="268437156" name="w" stackId="2" startPc="268436068"/>
+        <entry endPc="268437156" name="h" stackId="3" startPc="268436068"/>
+        <entry endPc="268437156" name="now" stackId="4" startPc="268436068"/>
+        <entry endPc="268437156" name="cx" stackId="5" startPc="268436068"/>
+        <entry endPc="268437156" name="heartPoints" stackId="6" startPc="268436068"/>
+        <entry endPc="268437156" name="hrStr" stackId="7" startPc="268436068"/>
+        <entry endPc="268437156" name="dateStr" stackId="8" startPc="268436068"/>
+        <entry endPc="268437156" name="timeStr" stackId="9" startPc="268436068"/>
+        <entry endPc="268437156" name="status" stackId="10" startPc="268436068"/>
+        <entry endPc="268437156" name="dotColor" stackId="11" startPc="268436068"/>
+        <entry endPc="268437156" name="statusLabel" stackId="12" startPc="268436068"/>
+        <entry endPc="268437153" name="remaining" stackId="13" startPc="268437093"/>
+        <entry arg="true" endPc="268437373" name="view" stackId="1" startPc="268437350"/>
+        <entry arg="true" endPc="268437389" name="evt" stackId="1" startPc="268437374"/>
+        <entry endPc="268437519" name="elapsed" stackId="1" startPc="268437393"/>
+        <entry endPc="268437880" name="now" stackId="1" startPc="268437571"/>
+        <entry endPc="268437880" name="name" stackId="2" startPc="268437571"/>
+        <entry endPc="268437949" name="ex" stackId="3" startPc="268437887"/>
+        <entry endPc="268438198" name="stats" stackId="1" startPc="268437996"/>
+        <entry endPc="268438256" name="ex" stackId="2" startPc="268438205"/>
+        <entry endPc="268438318" name="view" stackId="1" startPc="268438266"/>
+        <entry arg="true" endPc="268438472" name="state" stackId="1" startPc="268438319"/>
+        <entry endPc="268438596" name="options" stackId="1" startPc="268438476"/>
+        <entry endPc="268438596" name="params" stackId="2" startPc="268438476"/>
+        <entry arg="true" endPc="268438795" name="responseCode" stackId="1" startPc="268438598"/>
+        <entry arg="true" endPc="268438795" name="data" stackId="2" startPc="268438598"/>
+        <entry endPc="268439018" name="ex" stackId="1" startPc="268438967"/>
+        <entry endPc="268439337" name="ex" stackId="1" startPc="268439255"/>
+        <entry arg="true" endPc="268439624" name="state" stackId="1" startPc="268439359"/>
+        <entry endPc="268439581" name="ex" stackId="2" startPc="268439530"/>
     </localVars>
     <deviceInfo deviceVersion="2fd6344bcda9034f64198ee92abf3f1dc774e081" partNumber="006-B4625-00"/>
     <annotations>
@@ -383,51 +402,50 @@
         <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="TestingApplicationApp" startPc="268435525">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435572" name="onShow" parent="TestingApplicationView" startPc="268435537">
+        <functionEntry accessMode="public" endPc="268435565" name="onShow" parent="TestingApplicationView" startPc="268435537">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435582" name="onLayout" parent="TestingApplicationView" startPc="268435573">
+        <functionEntry accessMode="public" endPc="268435575" name="onLayout" parent="TestingApplicationView" startPc="268435566">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435607" name="nextPage" parent="TestingApplicationView" startPc="268435583">
+        <functionEntry accessMode="public" endPc="268435600" name="nextPage" parent="TestingApplicationView" startPc="268435576">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435710" name="onSensor" parent="TestingApplicationView" startPc="268435608">
-            <param id="info"/>
+        <functionEntry accessMode="public" endPc="268435873" name="onHrPoll" parent="TestingApplicationView" startPc="268435601">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435795" name="_registerListeners" parent="TestingApplicationView" startPc="268435711">
+        <functionEntry accessMode="public" endPc="268435975" name="_registerListeners" parent="TestingApplicationView" startPc="268435874">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435818" name="showBackHint" parent="TestingApplicationView" startPc="268435796">
+        <functionEntry accessMode="public" endPc="268435998" name="showBackHint" parent="TestingApplicationView" startPc="268435976">
             <param id="count"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435851" name="initialize" parent="TestingApplicationView" startPc="268435819">
+        <functionEntry accessMode="public" endPc="268436013" name="initialize" parent="TestingApplicationView" startPc="268435999">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435880" name="onHide" parent="TestingApplicationView" startPc="268435852">
+        <functionEntry accessMode="public" endPc="268436064" name="onHide" parent="TestingApplicationView" startPc="268436014">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436680" name="onUpdate" parent="TestingApplicationView" startPc="268435881">
+        <functionEntry accessMode="public" endPc="268437157" name="onUpdate" parent="TestingApplicationView" startPc="268436065">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436696" name="confirmExit" parent="TestingApplicationView" startPc="268436681">
+        <functionEntry accessMode="public" endPc="268437173" name="confirmExit" parent="TestingApplicationView" startPc="268437158">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436846" name="onBack" parent="TestingApplicationDelegate" startPc="268436697">
+        <functionEntry accessMode="public" endPc="268437323" name="onBack" parent="TestingApplicationDelegate" startPc="268437174">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436872" name="resetBackCount" parent="TestingApplicationDelegate" startPc="268436847">
+        <functionEntry accessMode="public" endPc="268437349" name="resetBackCount" parent="TestingApplicationDelegate" startPc="268437324">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436896" name="initialize" parent="TestingApplicationDelegate" startPc="268436873">
+        <functionEntry accessMode="public" endPc="268437373" name="initialize" parent="TestingApplicationDelegate" startPc="268437350">
             <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436912" name="onTap" parent="TestingApplicationDelegate" startPc="268436897">
+        <functionEntry accessMode="public" endPc="268437389" name="onTap" parent="TestingApplicationDelegate" startPc="268437374">
             <param id="evt"/>
             <documentation/>
         </functionEntry>
@@ -437,46 +455,46 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437043" name="onPoll" parent="TestingApplicationApp" startPc="268436913">
+        <functionEntry accessMode="public" endPc="268437520" name="onPoll" parent="TestingApplicationApp" startPc="268437390">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437478" name="_startFitSession" parent="TestingApplicationApp" startPc="268437044">
+        <functionEntry accessMode="public" endPc="268437955" name="_startFitSession" parent="TestingApplicationApp" startPc="268437521">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437502" name="saveAndExit" parent="TestingApplicationApp" startPc="268437479">
+        <functionEntry accessMode="public" endPc="268437979" name="saveAndExit" parent="TestingApplicationApp" startPc="268437956">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437785" name="_saveLoggerStats" parent="TestingApplicationApp" startPc="268437503">
+        <functionEntry accessMode="public" endPc="268438262" name="_saveLoggerStats" parent="TestingApplicationApp" startPc="268437980">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437841" name="getInitialView" parent="TestingApplicationApp" startPc="268437786">
+        <functionEntry accessMode="public" endPc="268438318" name="getInitialView" parent="TestingApplicationApp" startPc="268438263">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437995" name="onStart" parent="TestingApplicationApp" startPc="268437842">
+        <functionEntry accessMode="public" endPc="268438472" name="onStart" parent="TestingApplicationApp" startPc="268438319">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438120" name="_sendHeartbeat" parent="TestingApplicationApp" startPc="268437996">
+        <functionEntry accessMode="public" endPc="268438597" name="_sendHeartbeat" parent="TestingApplicationApp" startPc="268438473">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438318" name="onHeartbeatResponse" parent="TestingApplicationApp" startPc="268438121">
+        <functionEntry accessMode="public" endPc="268438795" name="onHeartbeatResponse" parent="TestingApplicationApp" startPc="268438598">
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438361" name="onRestartSession" parent="TestingApplicationApp" startPc="268438319">
+        <functionEntry accessMode="public" endPc="268438838" name="onRestartSession" parent="TestingApplicationApp" startPc="268438796">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438644" name="_rotateSession" parent="TestingApplicationApp" startPc="268438362">
+        <functionEntry accessMode="public" endPc="268439121" name="_rotateSession" parent="TestingApplicationApp" startPc="268438839">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438866" name="_startSensorLogger" parent="TestingApplicationApp" startPc="268438645">
+        <functionEntry accessMode="public" endPc="268439343" name="_startSensorLogger" parent="TestingApplicationApp" startPc="268439122">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438881" name="initialize" parent="TestingApplicationApp" startPc="268438867">
+        <functionEntry accessMode="public" endPc="268439358" name="initialize" parent="TestingApplicationApp" startPc="268439344">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439147" name="onStop" parent="TestingApplicationApp" startPc="268438882">
+        <functionEntry accessMode="public" endPc="268439624" name="onStop" parent="TestingApplicationApp" startPc="268439359">
             <param id="state"/>
             <documentation/>
         </functionEntry>

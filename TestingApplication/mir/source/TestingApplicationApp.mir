@@ -1,110 +1,110 @@
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Application,6,14,25]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Application,6,14,25]; ]
 import Toybox.Application;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Application,7,14,25]; @symbol_importdef<2> = [Storage,7,26,33]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Application,7,14,25]; @symbol_importdef<2> = [Storage,7,26,33]; ]
 import Toybox.Application.Storage;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [ActivityRecording,8,14,31]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [ActivityRecording,8,14,31]; ]
 import Toybox.ActivityRecording;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 9; @symbol_importdef<0> = [Toybox,9,7,13]; @symbol_importdef<1> = [Activity,9,14,22]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 9; @symbol_importdef<0> = [Toybox,9,7,13]; @symbol_importdef<1> = [Activity,9,14,22]; ]
 import Toybox.Activity;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 10; @symbol_importdef<0> = [Toybox,10,7,13]; @symbol_importdef<1> = [SensorLogging,10,14,27]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 10; @symbol_importdef<0> = [Toybox,10,7,13]; @symbol_importdef<1> = [SensorLogging,10,14,27]; ]
 import Toybox.SensorLogging;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 11; @symbol_importdef<0> = [Toybox,11,7,13]; @symbol_importdef<1> = [Lang,11,14,18]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 11; @symbol_importdef<0> = [Toybox,11,7,13]; @symbol_importdef<1> = [Lang,11,14,18]; ]
 import Toybox.Lang;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 12; @symbol_importdef<0> = [Toybox,12,7,13]; @symbol_importdef<1> = [WatchUi,12,14,21]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 12; @symbol_importdef<0> = [Toybox,12,7,13]; @symbol_importdef<1> = [WatchUi,12,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 13; @symbol_importdef<0> = [Toybox,13,7,13]; @symbol_importdef<1> = [System,13,14,20]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 13; @symbol_importdef<0> = [Toybox,13,7,13]; @symbol_importdef<1> = [System,13,14,20]; ]
 import Toybox.System;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 14; @symbol_importdef<0> = [Toybox,14,7,13]; @symbol_importdef<1> = [Time,14,14,18]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 14; @symbol_importdef<0> = [Toybox,14,7,13]; @symbol_importdef<1> = [Time,14,14,18]; ]
 import Toybox.Time;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 15; @symbol_importdef<0> = [Toybox,15,7,13]; @symbol_importdef<1> = [Time,15,14,18]; @symbol_importdef<2> = [Gregorian,15,19,28]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 15; @symbol_importdef<0> = [Toybox,15,7,13]; @symbol_importdef<1> = [Time,15,14,18]; @symbol_importdef<2> = [Gregorian,15,19,28]; ]
 import Toybox.Time.Gregorian;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 16; @symbol_importdef<0> = [Toybox,16,7,13]; @symbol_importdef<1> = [Timer,16,14,19]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 16; @symbol_importdef<0> = [Toybox,16,7,13]; @symbol_importdef<1> = [Timer,16,14,19]; ]
 import Toybox.Timer;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 17; @symbol_importdef<0> = [Toybox,17,7,13]; @symbol_importdef<1> = [Communications,17,14,28]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 17; @symbol_importdef<0> = [Toybox,17,7,13]; @symbol_importdef<1> = [Communications,17,14,28]; ]
 import Toybox.Communications;
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 19; @symbol_classdef = [TestingApplicationApp,19,6,27]; @symbol_extends<0> = [Application,19,36,47]; @symbol_extends<1> = [AppBase,19,48,55]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 19; @symbol_classdef = [TestingApplicationApp,19,6,27]; @symbol_extends<0> = [Application,19,36,47]; @symbol_extends<1> = [AppBase,19,48,55]; ]
 class TestingApplicationApp extends Application.AppBase {
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 19; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 19; ]
     <init> {
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 29 10 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 29 10 ]
         %tmp.1 = 60;
         %tmp.2 = 60;
         %tmp.3 = mul %tmp.1 %tmp.2;
         putv self :RECORD_SECS %tmp.3;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 30 10 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 30 10 ]
         %tmp.4 = 30;
         %tmp.5 = 1000;
         %tmp.6 = mul %tmp.4 %tmp.5;
         putv self :POLL_MS %tmp.6;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 31 10 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 31 10 ]
         %tmp.7 = 3;
         %tmp.8 = 1000;
         %tmp.9 = mul %tmp.7 %tmp.8;
         putv self :SAVE_GAP_MS %tmp.9;
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 19; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 19; ]
     static
     <init> {
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 21; @position = 8; @symbol_vardef = [_logger,21,8,15]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 21; @position = 8; @symbol_vardef = [_logger,21,8,15]; ]
     var _logger = null;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 22; @position = 8; @symbol_vardef = [_session,22,8,16]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 22; @position = 8; @symbol_vardef = [_session,22,8,16]; ]
     var _session = null;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 23; @position = 8; @symbol_vardef = [_pollTimer,23,8,18]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 23; @position = 8; @symbol_vardef = [_pollTimer,23,8,18]; ]
     var _pollTimer = null;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 24; @position = 8; @symbol_vardef = [_restartTimer,24,8,21]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 24; @position = 8; @symbol_vardef = [_restartTimer,24,8,21]; ]
     var _restartTimer = null;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 25; @position = 8; @symbol_vardef = [_fileCount,25,8,18]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 25; @position = 8; @symbol_vardef = [_fileCount,25,8,18]; ]
     var _fileCount = 0;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 26; @position = 8; @symbol_vardef = [_heartbeatCount,26,8,23]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 26; @position = 8; @symbol_vardef = [_heartbeatCount,26,8,23]; ]
     var _heartbeatCount = 0;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 27; @position = 8; @symbol_vardef = [_recordStartTs,27,8,22]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 27; @position = 8; @symbol_vardef = [_recordStartTs,27,8,22]; ]
     var _recordStartTs = null;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 29; @position = 10; @symbol_constdef = [RECORD_SECS,29,10,21]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 29; @position = 10; @symbol_constdef = [RECORD_SECS,29,10,21]; ]
     const RECORD_SECS;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 30; @position = 10; @symbol_constdef = [POLL_MS,30,10,17]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 30; @position = 10; @symbol_constdef = [POLL_MS,30,10,17]; ]
     const POLL_MS;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 31; @position = 10; @symbol_constdef = [SAVE_GAP_MS,31,10,21]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 31; @position = 10; @symbol_constdef = [SAVE_GAP_MS,31,10,21]; ]
     const SAVE_GAP_MS;
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 33; @position = 10; @symbol_constdef = [HEARTBEAT_URL,33,10,23]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 33; @position = 10; @symbol_constdef = [HEARTBEAT_URL,33,10,23]; ]
     const HEARTBEAT_URL = "https://httpbin.org/get";
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 35; @symbol_functiondef = [initialize,35,13,23]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 35; @symbol_functiondef = [initialize,35,13,23]; ]
     function initialize() as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_35_26_37_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 36 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_35_26_37_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 36 8 ]
         symbol [ AppBase %tmp.2 36 8 15 ];
         %tmp.2 = getv ? :AppBase;
         symbol [ initialize %tmp.3 36 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-D__TestingApplication_source_TestingApplicationApp_mc_35_26_37_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_35_26_37_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 39; @symbol_functiondef = [onStart,39,13,20]; @symbol_param<0> = [state,39,21,26]; @symbol_param<0>_type<0> = [Dictionary,39,30,40]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 39; @symbol_functiondef = [onStart,39,13,20]; @symbol_param<0> = [state,39,21,26]; @symbol_param<0>_type<0> = [Dictionary,39,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_39_51_50_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 40 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_39_51_50_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 40 8 ]
         symbol [ System %tmp.1 40 8 14 ];
         %tmp.1 = getm $.Toybox.System;
         symbol [ println %tmp.2 40 15 22 ];
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "[APP] Started";
         invoke %tmp.1 %tmp.2(%tmp.3);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 41 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 41 8 ]
         %tmp.4 = self;
         symbol [ _startSensorLogger %tmp.5 41 8 26 ];
         %tmp.5 = getv function %tmp.4 :_startSensorLogger;
         invoke %tmp.4 %tmp.5();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 42 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 42 8 ]
         %tmp.6 = self;
         symbol [ _startFitSession %tmp.7 42 8 24 ];
         %tmp.7 = getv function %tmp.6 :_startFitSession;
         invoke %tmp.6 %tmp.7();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 43 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 43 8 ]
         %tmp.8 = self;
         symbol [ _sendHeartbeat %tmp.9 43 8 22 ];
         %tmp.9 = getv function %tmp.8 :_sendHeartbeat;
         invoke %tmp.8 %tmp.9();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 44 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 44 8 ]
         symbol [ Storage %tmp.10 44 8 15 ];
         %tmp.10 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.11 44 16 24 ];
@@ -119,7 +119,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_39_51_50_4_start:
         %tmp.16 = getv function %tmp.15 :value;
         %tmp.17 = invoke %tmp.15 %tmp.16();
         invoke %tmp.10 %tmp.11(%tmp.12, %tmp.17);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 47 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 47 8 ]
         symbol [ Timer %tmp.20 47 25 30 ];
         %tmp.20 = getm $.Toybox.Timer;
         symbol [ Timer %tmp.21 47 31 36 ];
@@ -127,7 +127,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_39_51_50_4_start:
         %tmp.18 = newc %tmp.21 ();
         symbol [ _pollTimer ? 47 8 18 ];
         putv self :_pollTimer %tmp.18;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 48 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 48 8 ]
         symbol [ _pollTimer %tmp.23 48 8 18 ];
         %tmp.23 = getv ? :_pollTimer;
         symbol [ start %tmp.24 48 19 24 ];
@@ -142,44 +142,44 @@ D__TestingApplication_source_TestingApplicationApp_mc_39_51_50_4_start:
         %tmp.31 = getv ? :POLL_MS;
         %tmp.32 = true;
         invoke %tmp.23 %tmp.24(%tmp.29, %tmp.31, %tmp.32);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 49 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 49 8 ]
         symbol [ System %tmp.33 49 8 14 ];
         %tmp.33 = getm $.Toybox.System;
         symbol [ println %tmp.34 49 15 22 ];
         %tmp.34 = getv function %tmp.33 :println;
         %tmp.35 = "[TIMER] Poll timer started (30s)";
         invoke %tmp.33 %tmp.34(%tmp.35);
-D__TestingApplication_source_TestingApplicationApp_mc_39_51_50_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_39_51_50_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 53; @symbol_functiondef = [onPoll,53,13,19]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 53; @symbol_functiondef = [onPoll,53,13,19]; ]
     function onPoll() as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_53_30_64_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 54 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_stmt:
-D__TestingApplication_source_TestingApplicationApp_mc_54_12_54_50_begin:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_53_30_64_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 54 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_12_54_50_begin:
         symbol [ _recordStartTs %tmp.2 54 12 26 ];
         %tmp.2 = getv ? :_recordStartTs;
         %tmp.3 = null;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bt %tmp.4 @D__TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_true;
-D__TestingApplication_source_TestingApplicationApp_mc_54_38_54_50_false:
+        bt %tmp.4 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_true;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_38_54_50_false:
         symbol [ _session %tmp.6 54 38 46 ];
         %tmp.6 = getv ? :_session;
         %tmp.7 = null;
         %tmp.8 = eq %tmp.6 %tmp.7;
         push %tmp.8;
-D__TestingApplication_source_TestingApplicationApp_mc_54_38_54_50_end:
-        %tmp.9 = phi [%tmp.4 @D__TestingApplication_source_TestingApplicationApp_mc_54_12_54_50_begin] [%tmp.8 @D__TestingApplication_source_TestingApplicationApp_mc_54_38_54_50_false] [%tmp.9 @D__TestingApplication_source_TestingApplicationApp_mc_54_38_54_50_end];
-        bf %tmp.9 @D__TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_54_56_54_66_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 54 58 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_38_54_50_end:
+        %tmp.9 = phi [%tmp.4 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_12_54_50_begin] [%tmp.8 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_38_54_50_false] [%tmp.9 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_38_54_50_end];
+        bf %tmp.9 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_56_54_66_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 54 58 ]
         ret ?;
-D__TestingApplication_source_TestingApplicationApp_mc_54_56_54_66_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 56 8 ]
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_53_30_64_4_start" "D__TestingApplication_source_TestingApplicationApp_mc_53_30_64_4_stop" ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_56_54_66_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 56 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_53_30_64_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_53_30_64_4_stop" ]
         %elapsed.1 = local;
         symbol [ elapsed %elapsed.1 56 12 19 ];
         symbol [ Time %tmp.10 56 22 26 ];
@@ -195,7 +195,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_end:
         %tmp.17 = sub %tmp.14 %tmp.16;
         lputv %elapsed.1 %tmp.17;
         symbol [ elapsed %elapsed.1 56 12 19 ];
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 57 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 57 8 ]
         symbol [ System %tmp.18 57 8 14 ];
         %tmp.18 = getm $.Toybox.System;
         symbol [ println %tmp.19 57 15 22 ];
@@ -212,92 +212,92 @@ D__TestingApplication_source_TestingApplicationApp_mc_54_8_54_66_if_end:
         %tmp.28 = "s";
         %tmp.29 = add %tmp.27 %tmp.28;
         invoke %tmp.18 %tmp.19(%tmp.29);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 59 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_stmt:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 59 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_stmt:
         %tmp.30 = lgetv %elapsed.1;
         symbol [ elapsed %tmp.30 59 12 19 ];
         symbol [ RECORD_SECS %tmp.32 59 23 34 ];
         %tmp.32 = getv ? :RECORD_SECS;
         %tmp.33 = gte %tmp.30 %tmp.32;
-        bf %tmp.33 @D__TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_59_36_63_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 60 12 ]
+        bf %tmp.33 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_59_36_63_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 60 12 ]
         symbol [ System %tmp.34 60 12 18 ];
         %tmp.34 = getm $.Toybox.System;
         symbol [ println %tmp.35 60 19 26 ];
         %tmp.35 = getv function %tmp.34 :println;
         %tmp.36 = "[POLL] 1 hour reached — rotating session";
         invoke %tmp.34 %tmp.35(%tmp.36);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 61 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 61 12 ]
         %tmp.37 = self;
         symbol [ _sendHeartbeat %tmp.38 61 12 26 ];
         %tmp.38 = getv function %tmp.37 :_sendHeartbeat;
         invoke %tmp.37 %tmp.38();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 62 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 62 12 ]
         %tmp.39 = self;
         symbol [ _rotateSession %tmp.40 62 12 26 ];
         %tmp.40 = getv function %tmp.39 :_rotateSession;
         invoke %tmp.39 %tmp.40();
-D__TestingApplication_source_TestingApplicationApp_mc_59_36_63_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_end:
-D__TestingApplication_source_TestingApplicationApp_mc_53_30_64_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_59_36_63_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_59_8_63_8_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_53_30_64_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 67; @symbol_functiondef = [_rotateSession,67,13,27]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 67; @symbol_functiondef = [_rotateSession,67,13,27]; ]
     function _rotateSession() as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_67_38_88_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 68 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_67_38_88_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 68 8 ]
         %tmp.1 = self;
         symbol [ _saveLoggerStats %tmp.2 68 8 24 ];
         %tmp.2 = getv function %tmp.1 :_saveLoggerStats;
         invoke %tmp.1 %tmp.2();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 70 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_stmt:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 70 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_stmt:
         symbol [ _session %tmp.4 70 12 20 ];
         %tmp.4 = getv ? :_session;
         %tmp.5 = null;
         %tmp.6 = ne %tmp.4 %tmp.5;
-        bf %tmp.6 @D__TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_70_30_81_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 71 12 ]
-        try @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_beginTry @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_endTry @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_catch @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
-D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_beginTry:
-D__TestingApplication_source_TestingApplicationApp_mc_71_16_77_12_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 72 16 ]
-D__TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_stmt:
+        bf %tmp.6 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_70_30_81_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 71 12 ]
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_beginTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_endTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_beginTry:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_16_77_12_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 72 16 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_stmt:
         symbol [ _session %tmp.8 72 20 28 ];
         %tmp.8 = getv ? :_session;
         %tmp.9 = as %tmp.8 { (!Null) };
         symbol [ isRecording %tmp.10 72 29 40 ];
         %tmp.10 = getv function %tmp.9 :isRecording;
         %tmp.11 = invoke %tmp.9 %tmp.10();
-        bf %tmp.11 @D__TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_72_44_72_63_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 72 46 ]
+        bf %tmp.11 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_72_44_72_63_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 72 46 ]
         symbol [ _session %tmp.13 72 46 54 ];
         %tmp.13 = getv ? :_session;
         symbol [ stop %tmp.14 72 55 59 ];
         %tmp.14 = getv function %tmp.13 :stop;
         invoke %tmp.13 %tmp.14();
-D__TestingApplication_source_TestingApplicationApp_mc_72_44_72_63_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 73 16 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_72_44_72_63_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 73 16 ]
         symbol [ _session %tmp.16 73 16 24 ];
         %tmp.16 = getv ? :_session;
         symbol [ save %tmp.17 73 25 29 ];
         %tmp.17 = getv function %tmp.16 :save;
         invoke %tmp.16 %tmp.17();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 74 16 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 74 16 ]
         symbol [ _fileCount %tmp.20 74 16 26 ];
         %tmp.20 = getv ? :_fileCount;
         %tmp.21 = add %tmp.20 1;
         symbol [ _fileCount ? 74 16 26 ];
         putv self :_fileCount dup %tmp.21;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 75 16 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 75 16 ]
         symbol [ Storage %tmp.22 75 16 23 ];
         %tmp.22 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.23 75 24 32 ];
@@ -306,7 +306,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_end:
         symbol [ _fileCount %tmp.26 75 48 58 ];
         %tmp.26 = getv ? :_fileCount;
         invoke %tmp.22 %tmp.23(%tmp.24, %tmp.26);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 76 16 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 76 16 ]
         symbol [ System %tmp.27 76 16 22 ];
         %tmp.27 = getm $.Toybox.System;
         symbol [ println %tmp.28 76 23 30 ];
@@ -316,30 +316,30 @@ D__TestingApplication_source_TestingApplicationApp_mc_72_16_72_63_if_end:
         %tmp.31 = getv ? :_fileCount;
         %tmp.32 = add %tmp.29 %tmp.31;
         invoke %tmp.27 %tmp.28(%tmp.32);
-D__TestingApplication_source_TestingApplicationApp_mc_71_16_77_12_stop:
-D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_endTry:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_end;
-D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_catch:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_16_77_12_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_endTry:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_catch:
         %tmp.33 = exception;
         push %tmp.33;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 77 14 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 77 14 ]
         %tmp.34 = dup %tmp.33;
         symbol [ Lang %tmp.35 77 35 39 ];
         %tmp.35 = getm $.Toybox.Lang;
         symbol [ Exception %tmp.36 77 40 49 ];
         %tmp.36 = getv %tmp.35 :Exception;
         %tmp.37 = isa %tmp.34 %tmp.36;
-        bf %tmp.37 @D__TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next;
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_catch" "D__TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next" ]
+        bf %tmp.37 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next;
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_catch" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next" ]
         %ex.1 = local;
         symbol [ ex %ex.1 77 21 23 ];
         %tmp.38 = dup %tmp.33;
         %tmp.39 = as %tmp.38 Lang.Exception;
         lputv %ex.1 %tmp.39;
         symbol [ ex %ex.1 77 21 23 ];
-D__TestingApplication_source_TestingApplicationApp_mc_77_51_79_12_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 78 16 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_77_51_79_12_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 78 16 ]
         symbol [ System %tmp.40 78 16 22 ];
         %tmp.40 = getm $.Toybox.System;
         symbol [ println %tmp.41 78 23 30 ];
@@ -352,29 +352,29 @@ D__TestingApplication_source_TestingApplicationApp_mc_77_51_79_12_start:
         %tmp.45 = invoke %tmp.43 %tmp.44();
         %tmp.46 = add %tmp.42 %tmp.45;
         invoke %tmp.40 %tmp.41(%tmp.46);
-D__TestingApplication_source_TestingApplicationApp_mc_77_51_79_12_stop:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_77_51_79_12_stop:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
         pop;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_end;
-D__TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next:
-        try @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_catch @D__TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next @D__TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next:
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_77_14_79_12_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally;
         throw %tmp.33;
-D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_finally:
         jsrret;
-D__TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 80 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_71_12_79_12_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 80 12 ]
         %tmp.47 = null;
         symbol [ _session ? 80 12 20 ];
         putv self :_session %tmp.47;
-D__TestingApplication_source_TestingApplicationApp_mc_70_30_81_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 82 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_70_30_81_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 82 8 ]
         %tmp.48 = null;
         symbol [ _logger ? 82 8 15 ];
         putv self :_logger %tmp.48;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 85 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 85 8 ]
         symbol [ Timer %tmp.51 85 28 33 ];
         %tmp.51 = getm $.Toybox.Timer;
         symbol [ Timer %tmp.52 85 34 39 ];
@@ -382,7 +382,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_end:
         %tmp.49 = newc %tmp.52 ();
         symbol [ _restartTimer ? 85 8 21 ];
         putv self :_restartTimer %tmp.49;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 86 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 86 8 ]
         symbol [ _restartTimer %tmp.54 86 8 21 ];
         %tmp.54 = getv ? :_restartTimer;
         symbol [ start %tmp.55 86 22 27 ];
@@ -397,135 +397,135 @@ D__TestingApplication_source_TestingApplicationApp_mc_70_8_81_8_if_end:
         %tmp.62 = getv ? :SAVE_GAP_MS;
         %tmp.63 = false;
         invoke %tmp.54 %tmp.55(%tmp.60, %tmp.62, %tmp.63);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 87 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 87 8 ]
         symbol [ System %tmp.64 87 8 14 ];
         %tmp.64 = getm $.Toybox.System;
         symbol [ println %tmp.65 87 15 22 ];
         %tmp.65 = getv function %tmp.64 :println;
         %tmp.66 = "[SESSION] Waiting 3s for save to complete...";
         invoke %tmp.64 %tmp.65(%tmp.66);
-D__TestingApplication_source_TestingApplicationApp_mc_67_38_88_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_67_38_88_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 91; @symbol_functiondef = [onRestartSession,91,13,29]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 91; @symbol_functiondef = [onRestartSession,91,13,29]; ]
     function onRestartSession() as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_91_40_96_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 92 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_91_40_96_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 92 8 ]
         %tmp.1 = null;
         symbol [ _restartTimer ? 92 8 21 ];
         putv self :_restartTimer %tmp.1;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 93 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 93 8 ]
         symbol [ System %tmp.2 93 8 14 ];
         %tmp.2 = getm $.Toybox.System;
         symbol [ println %tmp.3 93 15 22 ];
         %tmp.3 = getv function %tmp.2 :println;
         %tmp.4 = "[SESSION] Starting next session";
         invoke %tmp.2 %tmp.3(%tmp.4);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 94 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 94 8 ]
         %tmp.5 = self;
         symbol [ _startSensorLogger %tmp.6 94 8 26 ];
         %tmp.6 = getv function %tmp.5 :_startSensorLogger;
         invoke %tmp.5 %tmp.6();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 95 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 95 8 ]
         %tmp.7 = self;
         symbol [ _startFitSession %tmp.8 95 8 24 ];
         %tmp.8 = getv function %tmp.7 :_startFitSession;
         invoke %tmp.7 %tmp.8();
-D__TestingApplication_source_TestingApplicationApp_mc_91_40_96_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_91_40_96_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 98; @symbol_functiondef = [onStop,98,13,19]; @symbol_param<0> = [state,98,20,25]; @symbol_param<0>_type<0> = [Dictionary,98,29,39]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 98; @symbol_functiondef = [onStop,98,13,19]; @symbol_param<0> = [state,98,20,25]; @symbol_param<0>_type<0> = [Dictionary,98,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_98_50_116_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 99 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_98_50_116_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 99 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_stmt:
         symbol [ _pollTimer %tmp.2 99 12 22 ];
         %tmp.2 = getv ? :_pollTimer;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @D__TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_99_35_99_81_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 99 37 ]
+        bf %tmp.4 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_99_35_99_81_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 99 37 ]
         symbol [ _pollTimer %tmp.6 99 37 47 ];
         %tmp.6 = getv ? :_pollTimer;
         %tmp.7 = as %tmp.6 { (!Null) };
         symbol [ stop %tmp.8 99 48 52 ];
         %tmp.8 = getv function %tmp.7 :stop;
         invoke %tmp.7 %tmp.8();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 99 59 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 99 59 ]
         %tmp.9 = null;
         symbol [ _pollTimer ? 99 59 69 ];
         putv self :_pollTimer %tmp.9;
-D__TestingApplication_source_TestingApplicationApp_mc_99_35_99_81_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 100 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_99_35_99_81_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_99_8_99_81_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 100 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_stmt:
         symbol [ _restartTimer %tmp.11 100 12 25 ];
         %tmp.11 = getv ? :_restartTimer;
         %tmp.12 = null;
         %tmp.13 = ne %tmp.11 %tmp.12;
-        bf %tmp.13 @D__TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_100_35_100_81_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 100 37 ]
+        bf %tmp.13 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_100_35_100_81_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 100 37 ]
         symbol [ _restartTimer %tmp.15 100 37 50 ];
         %tmp.15 = getv ? :_restartTimer;
         %tmp.16 = as %tmp.15 { (!Null) };
         symbol [ stop %tmp.17 100 51 55 ];
         %tmp.17 = getv function %tmp.16 :stop;
         invoke %tmp.16 %tmp.17();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 100 59 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 100 59 ]
         %tmp.18 = null;
         symbol [ _restartTimer ? 100 59 72 ];
         putv self :_restartTimer %tmp.18;
-D__TestingApplication_source_TestingApplicationApp_mc_100_35_100_81_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 102 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_100_35_100_81_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_100_8_100_81_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 102 8 ]
         %tmp.19 = self;
         symbol [ _saveLoggerStats %tmp.20 102 8 24 ];
         %tmp.20 = getv function %tmp.19 :_saveLoggerStats;
         invoke %tmp.19 %tmp.20();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 103 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_stmt:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 103 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_stmt:
         symbol [ _session %tmp.22 103 12 20 ];
         %tmp.22 = getv ? :_session;
         %tmp.23 = null;
         %tmp.24 = ne %tmp.22 %tmp.23;
-        bf %tmp.24 @D__TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_103_30_112_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 104 12 ]
-        try @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_beginTry @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_endTry @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_catch @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
-D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_beginTry:
-D__TestingApplication_source_TestingApplicationApp_mc_104_16_109_12_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 105 16 ]
-D__TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_stmt:
+        bf %tmp.24 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_103_30_112_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 104 12 ]
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_beginTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_endTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_beginTry:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_16_109_12_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 105 16 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_stmt:
         symbol [ _session %tmp.26 105 20 28 ];
         %tmp.26 = getv ? :_session;
         %tmp.27 = as %tmp.26 { (!Null) };
         symbol [ isRecording %tmp.28 105 29 40 ];
         %tmp.28 = getv function %tmp.27 :isRecording;
         %tmp.29 = invoke %tmp.27 %tmp.28();
-        bf %tmp.29 @D__TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_105_44_105_63_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 105 46 ]
+        bf %tmp.29 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_105_44_105_63_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 105 46 ]
         symbol [ _session %tmp.31 105 46 54 ];
         %tmp.31 = getv ? :_session;
         symbol [ stop %tmp.32 105 55 59 ];
         %tmp.32 = getv function %tmp.31 :stop;
         invoke %tmp.31 %tmp.32();
-D__TestingApplication_source_TestingApplicationApp_mc_105_44_105_63_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 106 16 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_105_44_105_63_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 106 16 ]
         symbol [ _session %tmp.34 106 16 24 ];
         %tmp.34 = getv ? :_session;
         symbol [ save %tmp.35 106 25 29 ];
         %tmp.35 = getv function %tmp.34 :save;
         invoke %tmp.34 %tmp.35();
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 107 16 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 107 16 ]
         symbol [ Storage %tmp.36 107 16 23 ];
         %tmp.36 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.37 107 24 32 ];
@@ -533,37 +533,37 @@ D__TestingApplication_source_TestingApplicationApp_mc_105_16_105_63_if_end:
         %tmp.38 = "session_status";
         %tmp.39 = "saved";
         invoke %tmp.36 %tmp.37(%tmp.38, %tmp.39);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 108 16 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 108 16 ]
         symbol [ System %tmp.40 108 16 22 ];
         %tmp.40 = getm $.Toybox.System;
         symbol [ println %tmp.41 108 23 30 ];
         %tmp.41 = getv function %tmp.40 :println;
         %tmp.42 = "[SESSION] Final save on exit";
         invoke %tmp.40 %tmp.41(%tmp.42);
-D__TestingApplication_source_TestingApplicationApp_mc_104_16_109_12_stop:
-D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_endTry:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_end;
-D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_catch:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_16_109_12_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_endTry:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_catch:
         %tmp.43 = exception;
         push %tmp.43;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 109 14 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 109 14 ]
         %tmp.44 = dup %tmp.43;
         symbol [ Lang %tmp.45 109 35 39 ];
         %tmp.45 = getm $.Toybox.Lang;
         symbol [ Exception %tmp.46 109 40 49 ];
         %tmp.46 = getv %tmp.45 :Exception;
         %tmp.47 = isa %tmp.44 %tmp.46;
-        bf %tmp.47 @D__TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next;
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_catch" "D__TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next" ]
+        bf %tmp.47 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next;
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_catch" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next" ]
         %ex.1 = local;
         symbol [ ex %ex.1 109 21 23 ];
         %tmp.48 = dup %tmp.43;
         %tmp.49 = as %tmp.48 Lang.Exception;
         lputv %ex.1 %tmp.49;
         symbol [ ex %ex.1 109 21 23 ];
-D__TestingApplication_source_TestingApplicationApp_mc_109_51_111_12_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 110 16 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_109_51_111_12_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 110 16 ]
         symbol [ System %tmp.50 110 16 22 ];
         %tmp.50 = getm $.Toybox.System;
         symbol [ println %tmp.51 110 23 30 ];
@@ -576,82 +576,82 @@ D__TestingApplication_source_TestingApplicationApp_mc_109_51_111_12_start:
         %tmp.55 = invoke %tmp.53 %tmp.54();
         %tmp.56 = add %tmp.52 %tmp.55;
         invoke %tmp.50 %tmp.51(%tmp.56);
-D__TestingApplication_source_TestingApplicationApp_mc_109_51_111_12_stop:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_109_51_111_12_stop:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
         pop;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_end;
-D__TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next:
-        try @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_catch @D__TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next @D__TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next:
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_109_14_111_12_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally;
         throw %tmp.43;
-D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_finally:
         jsrret;
-D__TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_end:
-D__TestingApplication_source_TestingApplicationApp_mc_103_30_112_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 113 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_104_12_111_12_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_103_30_112_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_103_8_112_8_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 113 8 ]
         %tmp.57 = null;
         symbol [ _session ? 113 8 16 ];
         putv self :_session %tmp.57;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 114 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 114 8 ]
         %tmp.58 = null;
         symbol [ _logger ? 114 8 15 ];
         putv self :_logger %tmp.58;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 115 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 115 8 ]
         symbol [ System %tmp.59 115 8 14 ];
         %tmp.59 = getm $.Toybox.System;
         symbol [ println %tmp.60 115 15 22 ];
         %tmp.60 = getv function %tmp.59 :println;
         %tmp.61 = "[APP] Stopped";
         invoke %tmp.59 %tmp.60(%tmp.61);
-D__TestingApplication_source_TestingApplicationApp_mc_98_50_116_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_98_50_116_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 118; @symbol_functiondef = [saveAndExit,118,13,24]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 118; @symbol_functiondef = [saveAndExit,118,13,24]; ]
     function saveAndExit() as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_118_35_121_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 119 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_118_35_121_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 119 8 ]
         %tmp.1 = self;
         symbol [ onStop %tmp.2 119 8 14 ];
         %tmp.2 = getv function %tmp.1 :onStop;
         %tmp.3 = null;
         invoke %tmp.1 %tmp.2(%tmp.3);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 120 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 120 8 ]
         symbol [ System %tmp.4 120 8 14 ];
         %tmp.4 = getm $.Toybox.System;
         symbol [ exit %tmp.5 120 15 19 ];
         %tmp.5 = getv function %tmp.4 :exit;
         invoke %tmp.4 %tmp.5();
-D__TestingApplication_source_TestingApplicationApp_mc_118_35_121_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_118_35_121_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 123; @symbol_functiondef = [_startFitSession,123,13,29]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 123; @symbol_functiondef = [_startFitSession,123,13,29]; ]
     function _startFitSession() as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_123_40_153_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 124 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_123_40_153_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 124 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_stmt:
         symbol [ Toybox %tmp.2 124 14 20 ];
         %tmp.2 = getv ? :Toybox;
         %tmp.4 = const :ActivityRecording;
         symbol [ ActivityRecording %tmp.4 124 26 43 const ];
         %tmp.5 = canhazplz %tmp.2 %tmp.4;
         %tmp.6 = not %tmp.5;
-        bf %tmp.6 @D__TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_124_46_124_56_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 124 48 ]
+        bf %tmp.6 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_124_46_124_56_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 124 48 ]
         ret ?;
-D__TestingApplication_source_TestingApplicationApp_mc_124_46_124_56_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 125 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_stmt:
-D__TestingApplication_source_TestingApplicationApp_mc_125_12_125_53_begin:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_124_46_124_56_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_124_8_124_56_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 125 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_12_125_53_begin:
         symbol [ _session %tmp.8 125 12 20 ];
         %tmp.8 = getv ? :_session;
         %tmp.9 = null;
         %tmp.10 = ne %tmp.8 %tmp.9;
-        bf %tmp.10 @D__TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_125_32_125_53_true:
+        bf %tmp.10 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_32_125_53_true:
         symbol [ _session %tmp.12 125 32 40 ];
         %tmp.12 = getv ? :_session;
         %tmp.13 = as %tmp.12 { (!Null) };
@@ -659,22 +659,22 @@ D__TestingApplication_source_TestingApplicationApp_mc_125_32_125_53_true:
         %tmp.14 = getv function %tmp.13 :isRecording;
         %tmp.15 = invoke %tmp.13 %tmp.14();
         push %tmp.15;
-D__TestingApplication_source_TestingApplicationApp_mc_125_32_125_53_end:
-        %tmp.16 = phi [%tmp.10 @D__TestingApplication_source_TestingApplicationApp_mc_125_12_125_53_begin] [%tmp.15 @D__TestingApplication_source_TestingApplicationApp_mc_125_32_125_53_true] [%tmp.16 @D__TestingApplication_source_TestingApplicationApp_mc_125_32_125_53_end];
-        bf %tmp.16 @D__TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_125_56_125_66_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 125 58 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_32_125_53_end:
+        %tmp.16 = phi [%tmp.10 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_12_125_53_begin] [%tmp.15 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_32_125_53_true] [%tmp.16 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_32_125_53_end];
+        bf %tmp.16 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_56_125_66_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 125 58 ]
         ret ?;
-D__TestingApplication_source_TestingApplicationApp_mc_125_56_125_66_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 127 8 ]
-        try @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_beginTry @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_endTry @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_catch @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
-D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_beginTry:
-D__TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 128 12 ]
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_start" "D__TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_stop" ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_56_125_66_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_125_8_125_66_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 127 8 ]
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_beginTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_endTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_beginTry:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 128 12 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_stop" ]
         %now.1 = local;
         symbol [ now %now.1 128 16 19 ];
         symbol [ Gregorian %tmp.17 128 23 32 ];
@@ -693,8 +693,8 @@ D__TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_start:
         %tmp.24 = invoke %tmp.17 %tmp.18(%tmp.21, %tmp.23);
         lputv %now.1 %tmp.24;
         symbol [ now %now.1 128 16 19 ];
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 129 12 ]
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_start" "D__TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_stop" ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 129 12 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_stop" ]
         %name.2 = local;
         symbol [ name %name.2 129 16 20 ];
         %tmp.25 = "SensorLog_";
@@ -753,7 +753,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_start:
         %tmp.63 = add %tmp.57 %tmp.62;
         lputv %name.2 %tmp.63;
         symbol [ name %name.2 129 16 20 ];
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 136 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 136 12 ]
         symbol [ ActivityRecording %tmp.64 136 23 40 ];
         %tmp.64 = getm $.Toybox.ActivityRecording;
         symbol [ createSession %tmp.65 136 41 54 ];
@@ -790,27 +790,27 @@ D__TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_start:
         %tmp.90 = invoke %tmp.64 %tmp.65(%tmp.89);
         symbol [ _session ? 136 12 20 ];
         putv self :_session %tmp.90;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 143 12 ]
-D__TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_stmt:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 143 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_stmt:
         symbol [ _session %tmp.92 143 17 25 ];
         %tmp.92 = getv ? :_session;
         symbol [ isRecording %tmp.93 143 26 37 ];
         %tmp.93 = getv function %tmp.92 :isRecording;
         %tmp.94 = invoke %tmp.92 %tmp.93();
         %tmp.95 = not %tmp.94;
-        bf %tmp.95 @D__TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_143_41_143_61_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 143 43 ]
+        bf %tmp.95 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_143_41_143_61_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 143 43 ]
         symbol [ _session %tmp.97 143 43 51 ];
         %tmp.97 = getv ? :_session;
         symbol [ start %tmp.98 143 52 57 ];
         %tmp.98 = getv function %tmp.97 :start;
         invoke %tmp.97 %tmp.98();
-D__TestingApplication_source_TestingApplicationApp_mc_143_41_143_61_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 145 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_143_41_143_61_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 145 12 ]
         symbol [ Time %tmp.99 145 29 33 ];
         %tmp.99 = getm $.Toybox.Time;
         symbol [ now %tmp.100 145 34 37 ];
@@ -821,7 +821,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_end:
         %tmp.103 = invoke %tmp.101 %tmp.102();
         symbol [ _recordStartTs ? 145 12 26 ];
         putv self :_recordStartTs %tmp.103;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 146 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 146 12 ]
         symbol [ Storage %tmp.104 146 12 19 ];
         %tmp.104 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.105 146 20 28 ];
@@ -829,7 +829,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_end:
         %tmp.106 = "session_status";
         %tmp.107 = "recording";
         invoke %tmp.104 %tmp.105(%tmp.106, %tmp.107);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 147 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 147 12 ]
         symbol [ System %tmp.108 147 12 18 ];
         %tmp.108 = getm $.Toybox.System;
         symbol [ println %tmp.109 147 19 26 ];
@@ -839,26 +839,26 @@ D__TestingApplication_source_TestingApplicationApp_mc_143_12_143_61_if_end:
         symbol [ name %tmp.111 147 51 55 ];
         %tmp.112 = add %tmp.110 %tmp.111;
         invoke %tmp.108 %tmp.109(%tmp.112);
-D__TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_stop:
-D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_endTry:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_end;
-D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_catch:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_12_148_8_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_endTry:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_catch:
         %tmp.113 = exception;
         push %tmp.113;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 148 10 ]
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_catch" "D__TestingApplication_source_TestingApplicationApp_mc_148_10_152_8_end" ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 148 10 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_catch" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_148_10_152_8_end" ]
         %ex.3 = local;
         symbol [ ex %ex.3 148 17 19 ];
         %tmp.114 = dup %tmp.113;
         lputv %ex.3 %tmp.114;
         symbol [ ex %ex.3 148 17 19 ];
-D__TestingApplication_source_TestingApplicationApp_mc_148_21_152_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 149 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_148_21_152_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 149 12 ]
         %tmp.115 = null;
         symbol [ _session ? 149 12 20 ];
         putv self :_session %tmp.115;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 150 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 150 12 ]
         symbol [ System %tmp.116 150 12 18 ];
         %tmp.116 = getm $.Toybox.System;
         symbol [ println %tmp.117 150 19 26 ];
@@ -868,7 +868,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_148_21_152_8_start:
         symbol [ ex %tmp.119 150 64 66 ];
         %tmp.120 = add %tmp.118 %tmp.119;
         invoke %tmp.116 %tmp.117(%tmp.120);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 151 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 151 12 ]
         symbol [ Storage %tmp.121 151 12 19 ];
         %tmp.121 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.122 151 20 28 ];
@@ -876,41 +876,41 @@ D__TestingApplication_source_TestingApplicationApp_mc_148_21_152_8_start:
         %tmp.123 = "session_status";
         %tmp.124 = "failed";
         invoke %tmp.121 %tmp.122(%tmp.123, %tmp.124);
-D__TestingApplication_source_TestingApplicationApp_mc_148_21_152_8_stop:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_148_21_152_8_stop:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
         pop;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_end;
-D__TestingApplication_source_TestingApplicationApp_mc_148_10_152_8_end:
-        try @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_catch @D__TestingApplication_source_TestingApplicationApp_mc_148_10_152_8_end @D__TestingApplication_source_TestingApplicationApp_mc_148_10_152_8_end @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_148_10_152_8_end:
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_148_10_152_8_end @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_148_10_152_8_end @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally;
         throw %tmp.113;
-D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_finally:
         jsrret;
-D__TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_end:
-D__TestingApplication_source_TestingApplicationApp_mc_123_40_153_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_127_8_152_8_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_123_40_153_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 155; @symbol_functiondef = [_startSensorLogger,155,13,31]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 155; @symbol_functiondef = [_startSensorLogger,155,13,31]; ]
     function _startSensorLogger() as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_155_42_169_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 156 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_155_42_169_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 156 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_stmt:
         symbol [ _logger %tmp.2 156 12 19 ];
         %tmp.2 = getv ? :_logger;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @D__TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_156_29_156_39_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 156 31 ]
+        bf %tmp.4 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_156_29_156_39_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 156 31 ]
         ret ?;
-D__TestingApplication_source_TestingApplicationApp_mc_156_29_156_39_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 157 8 ]
-        try @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_beginTry @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_endTry @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_catch @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
-D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_beginTry:
-D__TestingApplication_source_TestingApplicationApp_mc_157_12_164_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 158 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_156_29_156_39_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_156_8_156_39_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 157 8 ]
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_beginTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_endTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_beginTry:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_12_164_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 158 12 ]
         symbol [ SensorLogging %tmp.7 158 26 39 ];
         %tmp.7 = getm $.Toybox.SensorLogging;
         symbol [ SensorLogger %tmp.8 158 40 52 ];
@@ -939,7 +939,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_157_12_164_8_start:
         %tmp.5 = newc %tmp.8 (%tmp.29);
         symbol [ _logger ? 158 12 19 ];
         putv self :_logger %tmp.5;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 162 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 162 12 ]
         symbol [ Storage %tmp.30 162 12 19 ];
         %tmp.30 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.31 162 20 28 ];
@@ -947,41 +947,41 @@ D__TestingApplication_source_TestingApplicationApp_mc_157_12_164_8_start:
         %tmp.32 = "logger_status";
         %tmp.33 = "running";
         invoke %tmp.30 %tmp.31(%tmp.32, %tmp.33);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 163 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 163 12 ]
         symbol [ System %tmp.34 163 12 18 ];
         %tmp.34 = getm $.Toybox.System;
         symbol [ println %tmp.35 163 19 26 ];
         %tmp.35 = getv function %tmp.34 :println;
         %tmp.36 = "[LOGGER] Started";
         invoke %tmp.34 %tmp.35(%tmp.36);
-D__TestingApplication_source_TestingApplicationApp_mc_157_12_164_8_stop:
-D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_endTry:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_end;
-D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_catch:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_12_164_8_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_endTry:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_catch:
         %tmp.37 = exception;
         push %tmp.37;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 164 10 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 164 10 ]
         %tmp.38 = dup %tmp.37;
         symbol [ Lang %tmp.39 164 31 35 ];
         %tmp.39 = getm $.Toybox.Lang;
         symbol [ Exception %tmp.40 164 36 45 ];
         %tmp.40 = getv %tmp.39 :Exception;
         %tmp.41 = isa %tmp.38 %tmp.40;
-        bf %tmp.41 @D__TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next;
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_catch" "D__TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next" ]
+        bf %tmp.41 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next;
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_catch" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next" ]
         %ex.1 = local;
         symbol [ ex %ex.1 164 17 19 ];
         %tmp.42 = dup %tmp.37;
         %tmp.43 = as %tmp.42 Lang.Exception;
         lputv %ex.1 %tmp.43;
         symbol [ ex %ex.1 164 17 19 ];
-D__TestingApplication_source_TestingApplicationApp_mc_164_47_168_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 165 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_164_47_168_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 165 12 ]
         %tmp.44 = null;
         symbol [ _logger ? 165 12 19 ];
         putv self :_logger %tmp.44;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 166 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 166 12 ]
         symbol [ Storage %tmp.45 166 12 19 ];
         %tmp.45 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.46 166 20 28 ];
@@ -989,7 +989,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_164_47_168_8_start:
         %tmp.47 = "logger_status";
         %tmp.48 = "failed";
         invoke %tmp.45 %tmp.46(%tmp.47, %tmp.48);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 167 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 167 12 ]
         symbol [ System %tmp.49 167 12 18 ];
         %tmp.49 = getm $.Toybox.System;
         symbol [ println %tmp.50 167 19 26 ];
@@ -1002,42 +1002,42 @@ D__TestingApplication_source_TestingApplicationApp_mc_164_47_168_8_start:
         %tmp.54 = invoke %tmp.52 %tmp.53();
         %tmp.55 = add %tmp.51 %tmp.54;
         invoke %tmp.49 %tmp.50(%tmp.55);
-D__TestingApplication_source_TestingApplicationApp_mc_164_47_168_8_stop:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_164_47_168_8_stop:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
         pop;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_end;
-D__TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next:
-        try @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_catch @D__TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next @D__TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next:
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_164_10_168_8_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally;
         throw %tmp.37;
-D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_finally:
         jsrret;
-D__TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_end:
-D__TestingApplication_source_TestingApplicationApp_mc_155_42_169_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_157_8_168_8_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_155_42_169_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 171; @symbol_functiondef = [_saveLoggerStats,171,13,29]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 171; @symbol_functiondef = [_saveLoggerStats,171,13,29]; ]
     function _saveLoggerStats() as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_171_40_188_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 172 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_171_40_188_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 172 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_stmt:
         symbol [ _logger %tmp.2 172 12 19 ];
         %tmp.2 = getv ? :_logger;
         %tmp.3 = null;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @D__TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_172_29_172_39_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 172 31 ]
+        bf %tmp.4 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_172_29_172_39_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 172 31 ]
         ret ?;
-D__TestingApplication_source_TestingApplicationApp_mc_172_29_172_39_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 173 8 ]
-        try @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_beginTry @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_endTry @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_catch @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
-D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_beginTry:
-D__TestingApplication_source_TestingApplicationApp_mc_173_12_185_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 174 12 ]
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_173_12_185_8_start" "D__TestingApplication_source_TestingApplicationApp_mc_173_12_185_8_stop" ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_172_29_172_39_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_172_8_172_39_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 173 8 ]
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_beginTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_endTry @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_beginTry:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_12_185_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 174 12 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_12_185_8_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_12_185_8_stop" ]
         %stats.1 = local;
         symbol [ stats %stats.1 174 16 21 ];
         symbol [ _logger %tmp.6 174 24 31 ];
@@ -1048,26 +1048,26 @@ D__TestingApplication_source_TestingApplicationApp_mc_173_12_185_8_start:
         %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
         lputv %stats.1 %tmp.9;
         symbol [ stats %stats.1 174 16 21 ];
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 175 12 ]
-D__TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_stmt:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 175 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_stmt:
         %tmp.10 = lgetv %stats.1;
         symbol [ stats %tmp.10 175 16 21 ];
         %tmp.11 = null;
         %tmp.12 = ne %tmp.10 %tmp.11;
-        bf %tmp.12 @D__TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_175_31_184_12_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 176 16 ]
-D__TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_stmt:
-D__TestingApplication_source_TestingApplicationApp_mc_176_20_176_73_begin:
+        bf %tmp.12 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_175_31_184_12_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 176 16 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_20_176_73_begin:
         %tmp.13 = lgetv %stats.1;
         symbol [ stats %tmp.13 176 20 25 ];
         %tmp.14 = as %tmp.13 { (!Null) };
         %tmp.16 = const :accelerometer;
         symbol [ accelerometer %tmp.16 176 31 44 const ];
         %tmp.17 = canhazplz %tmp.14 %tmp.16;
-        bf %tmp.17 @D__TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_176_48_176_73_true:
+        bf %tmp.17 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_48_176_73_true:
         %tmp.18 = lgetv %stats.1;
         symbol [ stats %tmp.18 176 48 53 ];
         %tmp.19 = as %tmp.18 { (interface { var accelerometer; }) && (!Null) };
@@ -1077,12 +1077,12 @@ D__TestingApplication_source_TestingApplicationApp_mc_176_48_176_73_true:
         %tmp.23 = null;
         %tmp.24 = ne %tmp.22 %tmp.23;
         push %tmp.24;
-D__TestingApplication_source_TestingApplicationApp_mc_176_48_176_73_end:
-        %tmp.25 = phi [%tmp.17 @D__TestingApplication_source_TestingApplicationApp_mc_176_20_176_73_begin] [%tmp.24 @D__TestingApplication_source_TestingApplicationApp_mc_176_48_176_73_true] [%tmp.25 @D__TestingApplication_source_TestingApplicationApp_mc_176_48_176_73_end];
-        bf %tmp.25 @D__TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_176_79_179_16_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 177 20 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_48_176_73_end:
+        %tmp.25 = phi [%tmp.17 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_20_176_73_begin] [%tmp.24 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_48_176_73_true] [%tmp.25 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_48_176_73_end];
+        bf %tmp.25 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_79_179_16_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 177 20 ]
         symbol [ Storage %tmp.26 177 20 27 ];
         %tmp.26 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.27 177 28 36 ];
@@ -1097,7 +1097,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_176_79_179_16_start:
         symbol [ sampleCount %tmp.34 177 76 87 ];
         %tmp.34 = getv %tmp.33 :sampleCount;
         invoke %tmp.26 %tmp.27(%tmp.28, %tmp.34);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 178 20 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 178 20 ]
         symbol [ System %tmp.35 178 20 26 ];
         %tmp.35 = getm $.Toybox.System;
         symbol [ println %tmp.36 178 27 34 ];
@@ -1113,20 +1113,20 @@ D__TestingApplication_source_TestingApplicationApp_mc_176_79_179_16_start:
         %tmp.43 = getv %tmp.42 :sampleCount;
         %tmp.44 = add %tmp.37 %tmp.43;
         invoke %tmp.35 %tmp.36(%tmp.44);
-D__TestingApplication_source_TestingApplicationApp_mc_176_79_179_16_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 180 16 ]
-D__TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_stmt:
-D__TestingApplication_source_TestingApplicationApp_mc_180_20_180_65_begin:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_79_179_16_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_176_16_179_16_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 180 16 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_20_180_65_begin:
         %tmp.45 = lgetv %stats.1;
         symbol [ stats %tmp.45 180 20 25 ];
         %tmp.46 = as %tmp.45 { (!Null) };
         %tmp.48 = const :gyroscope;
         symbol [ gyroscope %tmp.48 180 31 40 const ];
         %tmp.49 = canhazplz %tmp.46 %tmp.48;
-        bf %tmp.49 @D__TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_180_44_180_65_true:
+        bf %tmp.49 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_44_180_65_true:
         %tmp.50 = lgetv %stats.1;
         symbol [ stats %tmp.50 180 44 49 ];
         %tmp.51 = as %tmp.50 { (interface { var gyroscope; }) && (!Null) };
@@ -1136,12 +1136,12 @@ D__TestingApplication_source_TestingApplicationApp_mc_180_44_180_65_true:
         %tmp.55 = null;
         %tmp.56 = ne %tmp.54 %tmp.55;
         push %tmp.56;
-D__TestingApplication_source_TestingApplicationApp_mc_180_44_180_65_end:
-        %tmp.57 = phi [%tmp.49 @D__TestingApplication_source_TestingApplicationApp_mc_180_20_180_65_begin] [%tmp.56 @D__TestingApplication_source_TestingApplicationApp_mc_180_44_180_65_true] [%tmp.57 @D__TestingApplication_source_TestingApplicationApp_mc_180_44_180_65_end];
-        bf %tmp.57 @D__TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_180_71_183_16_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 181 20 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_44_180_65_end:
+        %tmp.57 = phi [%tmp.49 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_20_180_65_begin] [%tmp.56 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_44_180_65_true] [%tmp.57 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_44_180_65_end];
+        bf %tmp.57 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_71_183_16_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 181 20 ]
         symbol [ Storage %tmp.58 181 20 27 ];
         %tmp.58 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.59 181 28 36 ];
@@ -1156,7 +1156,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_180_71_183_16_start:
         symbol [ sampleCount %tmp.66 181 71 82 ];
         %tmp.66 = getv %tmp.65 :sampleCount;
         invoke %tmp.58 %tmp.59(%tmp.60, %tmp.66);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 182 20 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 182 20 ]
         symbol [ System %tmp.67 182 20 26 ];
         %tmp.67 = getm $.Toybox.System;
         symbol [ println %tmp.68 182 27 34 ];
@@ -1172,36 +1172,36 @@ D__TestingApplication_source_TestingApplicationApp_mc_180_71_183_16_start:
         %tmp.75 = getv %tmp.74 :sampleCount;
         %tmp.76 = add %tmp.69 %tmp.75;
         invoke %tmp.67 %tmp.68(%tmp.76);
-D__TestingApplication_source_TestingApplicationApp_mc_180_71_183_16_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_end:
-D__TestingApplication_source_TestingApplicationApp_mc_175_31_184_12_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_end:
-D__TestingApplication_source_TestingApplicationApp_mc_173_12_185_8_stop:
-D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_endTry:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_end;
-D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_catch:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_71_183_16_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_180_16_183_16_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_175_31_184_12_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_175_12_184_12_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_12_185_8_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_endTry:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_catch:
         %tmp.77 = exception;
         push %tmp.77;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 185 10 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 185 10 ]
         %tmp.78 = dup %tmp.77;
         symbol [ Lang %tmp.79 185 31 35 ];
         %tmp.79 = getm $.Toybox.Lang;
         symbol [ Exception %tmp.80 185 36 45 ];
         %tmp.80 = getv %tmp.79 :Exception;
         %tmp.81 = isa %tmp.78 %tmp.80;
-        bf %tmp.81 @D__TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next;
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_catch" "D__TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next" ]
+        bf %tmp.81 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next;
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_catch" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next" ]
         %ex.2 = local;
         symbol [ ex %ex.2 185 17 19 ];
         %tmp.82 = dup %tmp.77;
         %tmp.83 = as %tmp.82 Lang.Exception;
         lputv %ex.2 %tmp.83;
         symbol [ ex %ex.2 185 17 19 ];
-D__TestingApplication_source_TestingApplicationApp_mc_185_47_187_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 186 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_185_47_187_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 186 12 ]
         symbol [ System %tmp.84 186 12 18 ];
         %tmp.84 = getm $.Toybox.System;
         symbol [ println %tmp.85 186 19 26 ];
@@ -1214,40 +1214,40 @@ D__TestingApplication_source_TestingApplicationApp_mc_185_47_187_8_start:
         %tmp.89 = invoke %tmp.87 %tmp.88();
         %tmp.90 = add %tmp.86 %tmp.89;
         invoke %tmp.84 %tmp.85(%tmp.90);
-D__TestingApplication_source_TestingApplicationApp_mc_185_47_187_8_stop:
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_185_47_187_8_stop:
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
         pop;
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_end;
-D__TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next:
-        try @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_catch @D__TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next @D__TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
-        jsr @D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next:
+        try @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_catch @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_185_10_187_8_next @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
+        jsr @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally;
         throw %tmp.77;
-D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_finally:
         jsrret;
-D__TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_end:
-D__TestingApplication_source_TestingApplicationApp_mc_171_40_188_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_173_8_187_8_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_171_40_188_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 190; @symbol_functiondef = [_sendHeartbeat,190,13,27]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 190; @symbol_functiondef = [_sendHeartbeat,190,13,27]; ]
     function _sendHeartbeat() as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 191 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 191 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_stmt:
         symbol [ Communications %tmp.1 191 14 28 ];
         %tmp.1 = getm $.Toybox.Communications;
         %tmp.3 = const :makeWebRequest;
         symbol [ makeWebRequest %tmp.3 191 34 48 const ];
         %tmp.4 = canhazplz %tmp.1 %tmp.3;
         %tmp.5 = not %tmp.4;
-        bf %tmp.5 @D__TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_191_51_191_61_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 191 53 ]
+        bf %tmp.5 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_191_51_191_61_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 191 53 ]
         ret ?;
-D__TestingApplication_source_TestingApplicationApp_mc_191_51_191_61_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 192 8 ]
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_start" "D__TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_stop" ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_191_51_191_61_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 192 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_stop" ]
         %options.1 = local;
         symbol [ options %options.1 192 12 19 ];
         %tmp.6 = newd 2;
@@ -1269,8 +1269,8 @@ D__TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end:
         %tmp.18 = aputv %tmp.17 %tmp.14 %tmp.16;
         lputv %options.1 %tmp.18;
         symbol [ options %options.1 192 12 19 ];
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 196 8 ]
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_start" "D__TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_stop" ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 196 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_stop" ]
         %params.2 = local;
         symbol [ params %params.2 196 12 18 ];
         %tmp.19 = newd 2;
@@ -1285,7 +1285,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end:
         %tmp.28 = aputv %tmp.27 %tmp.24 %tmp.26;
         lputv %params.2 %tmp.28;
         symbol [ params %params.2 196 12 18 ];
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 197 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 197 8 ]
         symbol [ System %tmp.29 197 8 14 ];
         %tmp.29 = getm $.Toybox.System;
         symbol [ println %tmp.30 197 15 22 ];
@@ -1295,7 +1295,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end:
         %tmp.33 = getv ? :_heartbeatCount;
         %tmp.34 = add %tmp.31 %tmp.33;
         invoke %tmp.29 %tmp.30(%tmp.34);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 198 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 198 8 ]
         symbol [ Communications %tmp.35 198 8 22 ];
         %tmp.35 = getm $.Toybox.Communications;
         symbol [ makeWebRequest %tmp.36 198 23 37 ];
@@ -1313,18 +1313,18 @@ D__TestingApplication_source_TestingApplicationApp_mc_191_8_191_61_if_end:
         symbol [ onHeartbeatResponse %tmp.44 199 20 39 const ];
         %tmp.45 = invoke %tmp.41 %tmp.42(%tmp.44);
         invoke %tmp.35 %tmp.36(%tmp.38, %tmp.39, %tmp.40, %tmp.45);
-D__TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_190_38_200_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 202; @symbol_functiondef = [onHeartbeatResponse,202,13,32]; @symbol_param<0> = [responseCode,203,8,20]; @symbol_param<0>_type<0> = [Number,203,24,30]; @symbol_param<1> = [data,204,8,12]; @symbol_param<1>_type<0> = [Dictionary,204,16,26]; @symbol_param<1>_type<1> = [String,204,30,36]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 202; @symbol_functiondef = [onHeartbeatResponse,202,13,32]; @symbol_param<0> = [responseCode,203,8,20]; @symbol_param<0>_type<0> = [Number,203,24,30]; @symbol_param<1> = [data,204,8,12]; @symbol_param<1>_type<0> = [Dictionary,204,16,26]; @symbol_param<1>_type<1> = [String,204,30,36]; ]
     function onHeartbeatResponse(responseCode as Number, data as Dictionary or String or Null) as Void {
-D__TestingApplication_source_TestingApplicationApp_mc_205_14_219_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 206 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_205_14_219_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 206 8 ]
         symbol [ _heartbeatCount %tmp.3 206 8 23 ];
         %tmp.3 = getv ? :_heartbeatCount;
         %tmp.4 = add %tmp.3 1;
         symbol [ _heartbeatCount ? 206 8 23 ];
         putv self :_heartbeatCount dup %tmp.4;
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 207 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 207 8 ]
         symbol [ Storage %tmp.5 207 8 15 ];
         %tmp.5 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.6 207 16 24 ];
@@ -1333,7 +1333,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_205_14_219_4_start:
         symbol [ _heartbeatCount %tmp.9 207 39 54 ];
         %tmp.9 = getv ? :_heartbeatCount;
         invoke %tmp.5 %tmp.6(%tmp.7, %tmp.9);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 208 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 208 8 ]
         symbol [ Storage %tmp.10 208 8 15 ];
         %tmp.10 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.11 208 16 24 ];
@@ -1342,16 +1342,16 @@ D__TestingApplication_source_TestingApplicationApp_mc_205_14_219_4_start:
         %tmp.13 = lgetv %responseCode;
         symbol [ responseCode %tmp.13 208 43 55 ];
         invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 209 8 ]
-D__TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_stmt:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 209 8 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_stmt:
         %tmp.14 = lgetv %responseCode;
         symbol [ responseCode %tmp.14 209 12 24 ];
         %tmp.15 = 200;
         %tmp.16 = eq %tmp.14 %tmp.15;
-        bf %tmp.16 @D__TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_false;
-D__TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_209_33_212_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 210 12 ]
+        bf %tmp.16 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_false;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_209_33_212_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 210 12 ]
         symbol [ Storage %tmp.17 210 12 19 ];
         %tmp.17 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.18 210 20 28 ];
@@ -1359,26 +1359,26 @@ D__TestingApplication_source_TestingApplicationApp_mc_209_33_212_8_start:
         %tmp.19 = "connection_ok";
         %tmp.20 = true;
         invoke %tmp.17 %tmp.18(%tmp.19, %tmp.20);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 211 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 211 12 ]
         symbol [ System %tmp.21 211 12 18 ];
         %tmp.21 = getm $.Toybox.System;
         symbol [ println %tmp.22 211 19 26 ];
         %tmp.22 = getv function %tmp.21 :println;
         %tmp.23 = "[PING] OK";
         invoke %tmp.21 %tmp.22(%tmp.23);
-D__TestingApplication_source_TestingApplicationApp_mc_209_33_212_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_false:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 212 15 ]
-D__TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_stmt:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_209_33_212_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_false:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 212 15 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_stmt:
         %tmp.24 = lgetv %responseCode;
         symbol [ responseCode %tmp.24 212 19 31 ];
         %tmp.25 = -104;
         %tmp.26 = eq %tmp.24 %tmp.25;
-        bf %tmp.26 @D__TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_else_false;
-D__TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_true:
-D__TestingApplication_source_TestingApplicationApp_mc_212_41_215_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 213 12 ]
+        bf %tmp.26 @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_else_false;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_true:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_212_41_215_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 213 12 ]
         symbol [ Storage %tmp.27 213 12 19 ];
         %tmp.27 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.28 213 20 28 ];
@@ -1386,18 +1386,18 @@ D__TestingApplication_source_TestingApplicationApp_mc_212_41_215_8_start:
         %tmp.29 = "connection_ok";
         %tmp.30 = false;
         invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 214 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 214 12 ]
         symbol [ System %tmp.31 214 12 18 ];
         %tmp.31 = getm $.Toybox.System;
         symbol [ println %tmp.32 214 19 26 ];
         %tmp.32 = getv function %tmp.31 :println;
         %tmp.33 = "[PING] -104 no BLE";
         invoke %tmp.31 %tmp.32(%tmp.33);
-D__TestingApplication_source_TestingApplicationApp_mc_212_41_215_8_stop:
-        goto @D__TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_end;
-D__TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_else_false:
-D__TestingApplication_source_TestingApplicationApp_mc_215_15_218_8_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 216 12 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_212_41_215_8_stop:
+        goto @D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_end;
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_else_false:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_215_15_218_8_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 216 12 ]
         symbol [ Storage %tmp.34 216 12 19 ];
         %tmp.34 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.35 216 20 28 ];
@@ -1405,7 +1405,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_215_15_218_8_start:
         %tmp.36 = "connection_ok";
         %tmp.37 = false;
         invoke %tmp.34 %tmp.35(%tmp.36, %tmp.37);
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 217 12 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 217 12 ]
         symbol [ System %tmp.38 217 12 18 ];
         %tmp.38 = getm $.Toybox.System;
         symbol [ println %tmp.39 217 19 26 ];
@@ -1415,16 +1415,16 @@ D__TestingApplication_source_TestingApplicationApp_mc_215_15_218_8_start:
         symbol [ responseCode %tmp.41 217 47 59 ];
         %tmp.42 = add %tmp.40 %tmp.41;
         invoke %tmp.38 %tmp.39(%tmp.42);
-D__TestingApplication_source_TestingApplicationApp_mc_215_15_218_8_stop:
-D__TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_end:
-D__TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_end:
-D__TestingApplication_source_TestingApplicationApp_mc_205_14_219_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_215_15_218_8_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_212_15_218_8_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_209_8_218_8_if_end:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_205_14_219_4_stop:
     }
-    [ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 221; @symbol_functiondef = [getInitialView,221,13,27]; @symbol_return<0> = [Views,221,34,39]; @symbol_return<1> = [Views,221,45,50]; @symbol_return<2> = [InputDelegates,221,52,66]; ]
+    [ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 221; @symbol_functiondef = [getInitialView,221,13,27]; @symbol_return<0> = [Views,221,34,39]; @symbol_return<1> = [Views,221,45,50]; @symbol_return<2> = [InputDelegates,221,52,66]; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-D__TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 222 8 ]
-        [ "D__TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_start" "D__TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_stop" ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 222 8 ]
+        [ "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_start" "D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_stop" ]
         %view.1 = local;
         symbol [ view %view.1 222 12 16 ];
         symbol [ TestingApplicationView %tmp.4 222 23 45 ];
@@ -1432,7 +1432,7 @@ D__TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_start:
         %tmp.1 = newc %tmp.4 ();
         lputv %view.1 %tmp.1;
         symbol [ view %view.1 222 12 16 ];
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 223 8 ]
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 223 8 ]
         %tmp.5 = newa 2;
         %tmp.6 = lgetv %view.1;
         symbol [ view %tmp.6 223 17 21 ];
@@ -1446,13 +1446,13 @@ D__TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_start:
         %tmp.14 = dup %tmp.8;
         %tmp.15 = aputv %tmp.14 1 %tmp.9;
         ret %tmp.15;
-D__TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_221_68_224_4_stop:
     }
 }
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 228; @symbol_functiondef = [getApp,228,9,15]; @symbol_return<0> = [TestingApplicationApp,228,21,42]; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 228; @symbol_functiondef = [getApp,228,9,15]; @symbol_return<0> = [TestingApplicationApp,228,21,42]; ]
 function getApp() as TestingApplicationApp {
-D__TestingApplication_source_TestingApplicationApp_mc_228_43_230_0_start:
-[ "D:\TestingApplication\source\TestingApplicationApp.mc" 229 4 ]
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_228_43_230_0_start:
+[ "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc" 229 4 ]
     symbol [ Application %tmp.1 229 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
     symbol [ getApp %tmp.2 229 23 29 ];
@@ -1461,8 +1461,8 @@ D__TestingApplication_source_TestingApplicationApp_mc_228_43_230_0_start:
     %tmp.4 = as %tmp.3 TestingApplicationApp;
     symbol [ TestingApplicationApp %tmp.4 229 35 56 ];
     ret %tmp.4;
-D__TestingApplication_source_TestingApplicationApp_mc_228_43_230_0_stop:
+D__GarminWatchConnect_TestingApplication_source_TestingApplicationApp_mc_228_43_230_0_stop:
 }
-[ @file = "D:\TestingApplication\source\TestingApplicationApp.mc"; @line = 6; ]
+[ @file = "D:\GarminWatchConnect\TestingApplication\source\TestingApplicationApp.mc"; @line = 6; ]
 <init> {
 }
